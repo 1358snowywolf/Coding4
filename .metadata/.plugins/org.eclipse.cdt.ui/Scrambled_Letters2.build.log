@@ -1,0 +1,15 @@
+19:53:43 **** Incremental Build of configuration Debug for project Scrambled_Letters2 ****
+make all 
+Building file: ../src/Scrambled_Letters2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Scrambled_Letters2.d" -MT"src/Scrambled_Letters2.o" -o "src/Scrambled_Letters2.o" "../src/Scrambled_Letters2.cpp"
+Finished building: ../src/Scrambled_Letters2.cpp
+ 
+Building target: Scrambled_Letters2
+Invoking: GCC C++ Linker
+g++  -o "Scrambled_Letters2"  ./src/Scrambled_Letters2.o   
+Finished building target: Scrambled_Letters2
+ 
+
+19:53:44 Build Finished. 0 errors, 0 warnings. (took 1s.570ms)
+

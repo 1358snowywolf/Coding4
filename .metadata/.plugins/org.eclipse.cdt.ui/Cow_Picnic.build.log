@@ -1,0 +1,15 @@
+17:41:26 **** Incremental Build of configuration Debug for project Cow_Picnic ****
+make all 
+Building file: ../src/Cow_Picnic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cow_Picnic.d" -MT"src/Cow_Picnic.o" -o "src/Cow_Picnic.o" "../src/Cow_Picnic.cpp"
+Finished building: ../src/Cow_Picnic.cpp
+ 
+Building target: Cow_Picnic
+Invoking: GCC C++ Linker
+g++  -o "Cow_Picnic"  ./src/Cow_Picnic.o   
+Finished building target: Cow_Picnic
+ 
+
+17:41:28 Build Finished. 0 errors, 0 warnings. (took 2s.278ms)
+

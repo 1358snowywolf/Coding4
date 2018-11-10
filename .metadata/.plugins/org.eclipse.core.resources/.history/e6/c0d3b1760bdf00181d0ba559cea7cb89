@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<vector<char>> board;
+
+int main() {
+	for(int i = 0; i < 3; i++){
+		vector<char> line;
+
+		for(int j = 0; j < 3; j++){
+			char input;
+			cin >> input;
+			line.push_back(input);
+		}
+
+		board.push_back(line);
+	}
+
+	individual();
+	duo();
+	return 0;
+}

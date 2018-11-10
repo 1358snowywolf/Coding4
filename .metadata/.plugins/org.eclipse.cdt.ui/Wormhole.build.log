@@ -1,0 +1,15 @@
+17:03:40 **** Build of configuration Debug for project Wormhole ****
+make all 
+Building file: ../src/Wormhole.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Wormhole.d" -MT"src/Wormhole.o" -o "src/Wormhole.o" "../src/Wormhole.cpp"
+Finished building: ../src/Wormhole.cpp
+ 
+Building target: Wormhole
+Invoking: GCC C++ Linker
+g++  -o "Wormhole"  ./src/Wormhole.o   
+Finished building target: Wormhole
+ 
+
+17:03:41 Build Finished. 0 errors, 0 warnings. (took 1s.367ms)
+

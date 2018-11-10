@@ -1,0 +1,1411 @@
+10:58:07 **** Incremental Build of configuration Debug for project Skyline_Problem ****
+make all 
+Building file: ../src/Skyline_Problem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Skyline_Problem.d" -MT"src/Skyline_Problem.o" -o "src/Skyline_Problem.o" "../src/Skyline_Problem.cpp"
+../src/Skyline_Problem.cpp: In function ‘int main()’:
+../src/Skyline_Problem.cpp:39:12: error: no match for ‘operator!=’ (operand types are ‘std::istream {aka std::basic_istream<char>}’ and ‘int’)
+  while(cin != EOF){
+            ^
+../src/Skyline_Problem.cpp:39:12: note: candidate: operator!=(int, int) <built-in>
+../src/Skyline_Problem.cpp:39:12: note:   no known conversion for argument 1 from ‘std::istream {aka std::basic_istream<char>}’ to ‘int’
+In file included from /usr/include/c++/7/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:110,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/regex.h:993:5: note: candidate: template<class _BiIter> bool std::__cxx11::operator!=(const std::__cxx11::sub_match<_BiIter>&, const std::__cxx11::sub_match<_BiIter>&)
+     operator!=(const sub_match<_BiIter>& __lhs, const sub_match<_BiIter>& __rhs)
+     ^~~~~~~~
+/usr/include/c++/7/bits/regex.h:993:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:110,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/regex.h:1071:5: note: candidate: template<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator!=(std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&, const std::__cxx11::sub_match<_BiIter>&)
+     operator!=(const __sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/regex.h:1071:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:110,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/regex.h:1151:5: note: candidate: template<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator!=(const std::__cxx11::sub_match<_BiIter>&, std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&)
+     operator!=(const sub_match<_Bi_iter>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/regex.h:1151:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:110,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/regex.h:1228:5: note: candidate: template<class _Bi_iter> bool std::__cxx11::operator!=(const typename std::iterator_traits<_Iter>::value_type*, const std::__cxx11::sub_match<_BiIter>&)
+     operator!=(typename iterator_traits<_Bi_iter>::value_type const* __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/regex.h:1228:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const std::__cxx11::sub_match<_BiIter>’ and ‘int’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:110,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/regex.h:1302:5: note: candidate: template<class _Bi_iter> bool std::__cxx11::operator!=(const std::__cxx11::sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type*)
+     operator!=(const sub_match<_Bi_iter>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/regex.h:1302:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:110,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/regex.h:1379:5: note: candidate: template<class _Bi_iter> bool std::__cxx11::operator!=(const typename std::iterator_traits<_Iter>::value_type&, const std::__cxx11::sub_match<_BiIter>&)
+     operator!=(typename iterator_traits<_Bi_iter>::value_type const& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/regex.h:1379:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const std::__cxx11::sub_match<_BiIter>’ and ‘int’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:110,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/regex.h:1459:5: note: candidate: template<class _Bi_iter> bool std::__cxx11::operator!=(const std::__cxx11::sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type&)
+     operator!=(const sub_match<_Bi_iter>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/regex.h:1459:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::__cxx11::sub_match<_BiIter>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/regex:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:110,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/regex.h:1986:5: note: candidate: template<class _Bi_iter, class _Alloc> bool std::__cxx11::operator!=(const std::__cxx11::match_results<_BiIter, _Alloc>&, const std::__cxx11::match_results<_BiIter, _Alloc>&)
+     operator!=(const match_results<_Bi_iter, _Alloc>& __m1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/regex.h:1986:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::__cxx11::match_results<_BiIter, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/iosfwd:40:0,
+                 from /usr/include/c++/7/ios:38,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/postypes.h:221:5: note: candidate: template<class _StateT> bool std::operator!=(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator!=(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^~~~~~~~
+/usr/include/c++/7/bits/postypes.h:221:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::fpos<_StateT>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/stl_algobase.h:64:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_pair.h:456:5: note: candidate: template<class _T1, class _T2> constexpr bool std::operator!=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator!=(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_pair.h:456:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::pair<_T1, _T2>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:311:5: note: candidate: template<class _Iterator> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator!=(const reverse_iterator<_Iterator>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:311:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:349:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator!=(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:349:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:1130:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     operator!=(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:1130:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::move_iterator<_IteratorL>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:1136:5: note: candidate: template<class _Iterator> bool std::operator!=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)
+     operator!=(const move_iterator<_Iterator>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:1136:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::move_iterator<_IteratorL>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/string:41:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/allocator.h:158:5: note: candidate: template<class _T1, class _T2> bool std::operator!=(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator!=(const allocator<_T1>&, const allocator<_T2>&)
+     ^~~~~~~~
+/usr/include/c++/7/bits/allocator.h:158:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::allocator<_CharT>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/string:41:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/allocator.h:164:5: note: candidate: template<class _Tp> bool std::operator!=(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator!=(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^~~~~~~~
+/usr/include/c++/7/bits/allocator.h:164:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::allocator<_CharT>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/string:52:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/basic_string.h:6047:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:6047:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/string:52:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/basic_string.h:6060:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator!=(const _CharT* __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:6060:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const _CharT*’ and ‘std::basic_istream<char>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/string:52:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/basic_string.h:6072:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/basic_string.h:6072:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/ios_base.h:46:0,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/system_error:319:3: note: candidate: bool std::operator!=(const std::error_code&, const std::error_code&)
+   operator!=(const error_code& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+/usr/include/c++/7/system_error:319:3: note:   no known conversion for argument 1 from ‘std::istream {aka std::basic_istream<char>}’ to ‘const std::error_code&’
+/usr/include/c++/7/system_error:323:3: note: candidate: bool std::operator!=(const std::error_code&, const std::error_condition&)
+   operator!=(const error_code& __lhs, const error_condition& __rhs) noexcept
+   ^~~~~~~~
+/usr/include/c++/7/system_error:323:3: note:   no known conversion for argument 1 from ‘std::istream {aka std::basic_istream<char>}’ to ‘const std::error_code&’
+/usr/include/c++/7/system_error:327:3: note: candidate: bool std::operator!=(const std::error_condition&, const std::error_code&)
+   operator!=(const error_condition& __lhs, const error_code& __rhs) noexcept
+   ^~~~~~~~
+/usr/include/c++/7/system_error:327:3: note:   no known conversion for argument 1 from ‘std::istream {aka std::basic_istream<char>}’ to ‘const std::error_condition&’
+/usr/include/c++/7/system_error:331:3: note: candidate: bool std::operator!=(const std::error_condition&, const std::error_condition&)
+   operator!=(const error_condition& __lhs,
+   ^~~~~~~~
+/usr/include/c++/7/system_error:331:3: note:   no known conversion for argument 1 from ‘std::istream {aka std::basic_istream<char>}’ to ‘const std::error_condition&’
+In file included from /usr/include/c++/7/bits/locale_facets.h:48:0,
+                 from /usr/include/c++/7/bits/basic_ios.h:37,
+                 from /usr/include/c++/7/ios:44,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/streambuf_iterator.h:210:5: note: candidate: template<class _CharT, class _Traits> bool std::operator!=(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator!=(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^~~~~~~~
+/usr/include/c++/7/bits/streambuf_iterator.h:210:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::istreambuf_iterator<_CharT, _Traits>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/complex:476:5: note: candidate: template<class _Tp> constexpr bool std::operator!=(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator!=(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:476:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::complex<_Tp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/complex:481:5: note: candidate: template<class _Tp> constexpr bool std::operator!=(const std::complex<_Tp>&, const _Tp&)
+     operator!=(const complex<_Tp>& __x, const _Tp& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:481:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::complex<_Tp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/complex:486:5: note: candidate: template<class _Tp> constexpr bool std::operator!=(const _Tp&, const std::complex<_Tp>&)
+     operator!=(const _Tp& __x, const complex<_Tp>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:486:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const std::complex<_Tp>’ and ‘int’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/deque:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:68,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_deque.h:280:5: note: candidate: template<class _Tp, class _Ref, class _Ptr> bool std::operator!=(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     operator!=(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_deque.h:280:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/deque:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:68,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_deque.h:287:5: note: candidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator!=(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     operator!=(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_deque.h:287:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/deque:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:68,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_deque.h:2284:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator!=(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+     operator!=(const deque<_Tp, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_deque.h:2284:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::deque<_Tp, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/tuple:39:0,
+                 from /usr/include/c++/7/functional:54,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:71,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/array:257:5: note: candidate: template<class _Tp, long unsigned int _Nm> bool std::operator!=(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)
+     operator!=(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+     ^~~~~~~~
+/usr/include/c++/7/array:257:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::array<_Tp, _Nm>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/functional:54:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:71,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/tuple:1423:5: note: candidate: template<class ... _TElements, class ... _UElements> constexpr bool std::operator!=(const std::tuple<_Tps ...>&, const std::tuple<_Elements ...>&)
+     operator!=(const tuple<_TElements...>& __t,
+     ^~~~~~~~
+/usr/include/c++/7/tuple:1423:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::tuple<_Tps ...>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/functional:58:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:71,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/std_function.h:782:5: note: candidate: template<class _Res, class ... _Args> bool std::operator!=(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)
+     operator!=(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/std_function.h:782:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::function<_Res(_ArgTypes ...)>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/functional:58:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:71,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/std_function.h:788:5: note: candidate: template<class _Res, class ... _Args> bool std::operator!=(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)
+     operator!=(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/std_function.h:788:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const std::function<_Res(_ArgTypes ...)>’ and ‘int’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:72,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:700:5: note: candidate: template<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator!=(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)
+     operator!=(const unique_ptr<_Tp, _Dp>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/unique_ptr.h:700:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:72,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:706:5: note: candidate: template<class _Tp, class _Dp> bool std::operator!=(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)
+     operator!=(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/unique_ptr.h:706:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::unique_ptr<_Tp, _Dp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:72,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:711:5: note: candidate: template<class _Tp, class _Dp> bool std::operator!=(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)
+     operator!=(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/unique_ptr.h:711:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const std::unique_ptr<_Tp, _Dp>’ and ‘int’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/iterator:66:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:77,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stream_iterator.h:137:5: note: candidate: template<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator!=(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)
+     operator!=(const istream_iterator<_Tp, _CharT, _Traits, _Dist>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stream_iterator.h:137:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/list:63:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:79,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_list.h:293:5: note: candidate: template<class _Val> bool std::operator!=(const std::_List_iterator<_Tp>&, const std::_List_const_iterator<_Tp>&)
+     operator!=(const _List_iterator<_Val>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_list.h:293:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::_List_iterator<_Tp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/list:63:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:79,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_list.h:1925:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator!=(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)
+     operator!=(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_list.h:1925:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::__cxx11::list<_Tp, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/map:60:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_tree.h:412:5: note: candidate: template<class _Val> bool std::operator!=(const std::_Rb_tree_iterator<_Tp>&, const std::_Rb_tree_const_iterator<_Val>&)
+     operator!=(const _Rb_tree_iterator<_Val>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_tree.h:412:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::_Rb_tree_iterator<_Tp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/map:60:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_tree.h:1553:5: note: candidate: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator!=(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+     operator!=(const _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_tree.h:1553:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_map.h:1419:5: note: candidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+     operator!=(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_map.h:1419:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::map<_Key, _Tp, _Compare, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/map:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_multimap.h:1085:5: note: candidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+     operator!=(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_multimap.h:1085:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::multimap<_Key, _Tp, _Compare, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/shared_ptr.h:52:0,
+                 from /usr/include/c++/7/memory:81,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:82,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/shared_ptr_base.h:1425:5: note: candidate: template<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator!=(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)
+     operator!=(const __shared_ptr<_Tp1, _Lp>& __a,
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr_base.h:1425:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::__shared_ptr<_Tp1, _Lp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/shared_ptr.h:52:0,
+                 from /usr/include/c++/7/memory:81,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:82,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/shared_ptr_base.h:1431:5: note: candidate: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator!=(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)
+     operator!=(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr_base.h:1431:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::__shared_ptr<_Tp, _Lp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/bits/shared_ptr.h:52:0,
+                 from /usr/include/c++/7/memory:81,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:82,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/shared_ptr_base.h:1436:5: note: candidate: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator!=(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)
+     operator!=(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr_base.h:1436:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const std::__shared_ptr<_Tp, _Lp>’ and ‘int’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/memory:81:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:82,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/shared_ptr.h:383:5: note: candidate: template<class _Tp, class _Up> bool std::operator!=(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Up>&)
+     operator!=(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr.h:383:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::shared_ptr<_Tp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/memory:81:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:82,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/shared_ptr.h:388:5: note: candidate: template<class _Tp> bool std::operator!=(const std::shared_ptr<_Tp>&, std::nullptr_t)
+     operator!=(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr.h:388:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::shared_ptr<_Tp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/memory:81:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:82,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/shared_ptr.h:393:5: note: candidate: template<class _Tp> bool std::operator!=(std::nullptr_t, const std::shared_ptr<_Tp>&)
+     operator!=(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+     ^~~~~~~~
+/usr/include/c++/7/bits/shared_ptr.h:393:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const std::shared_ptr<_Tp>’ and ‘int’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:1620:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator!=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+     operator!=(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_vector.h:1620:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::vector<_Tp, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/queue:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_queue.h:342:5: note: candidate: template<class _Tp, class _Seq> bool std::operator!=(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)
+     operator!=(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_queue.h:342:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::queue<_Tp, _Seq>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/set:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:87,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_set.h:937:5: note: candidate: template<class _Key, class _Compare, class _Alloc> bool std::operator!=(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+     operator!=(const set<_Key, _Compare, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_set.h:937:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::set<_Key, _Compare, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/set:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:87,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_multiset.h:920:5: note: candidate: template<class _Key, class _Compare, class _Alloc> bool std::operator!=(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+     operator!=(const multiset<_Key, _Compare, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_multiset.h:920:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::multiset<_Key, _Compare, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/stack:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:89,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/stl_stack.h:317:5: note: candidate: template<class _Tp, class _Seq> bool std::operator!=(const std::stack<_Tp, _Seq>&, const std::stack<_Tp, _Seq>&)
+     operator!=(const stack<_Tp, _Seq>& __x, const stack<_Tp, _Seq>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_stack.h:317:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::stack<_Tp, _Seq>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:415:5: note: candidate: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__not_equal_to, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__not_equal_to, typename _Dom1::value_type>::result_type> std::operator!=(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(!=, __not_equal_to)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:415:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:415:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__not_equal_to, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__not_equal_to, typename _Dom1::value_type>::result_type> std::operator!=(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(!=, __not_equal_to)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:415:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:415:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__not_equal_to, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__not_equal_to, typename _Dom1::value_type>::result_type> std::operator!=(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(!=, __not_equal_to)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:415:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘int’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:415:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__not_equal_to, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__not_equal_to, typename _Dom1::value_type>::result_type> std::operator!=(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(!=, __not_equal_to)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:415:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:415:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__not_equal_to, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__not_equal_to, typename _Dom1::value_type>::result_type> std::operator!=(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(!=, __not_equal_to)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:415:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘int’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/valarray:1185:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__not_equal_to, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__not_equal_to, _Tp>::result_type> std::operator!=(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(!=, __not_equal_to)
+ ^
+/usr/include/c++/7/valarray:1185:1: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::valarray<_Tp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/valarray:1185:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__not_equal_to, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__not_equal_to, _Tp>::result_type> std::operator!=(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(!=, __not_equal_to)
+ ^
+/usr/include/c++/7/valarray:1185:1: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::valarray<_Tp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/valarray:1185:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__not_equal_to, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__not_equal_to, _Tp>::result_type> std::operator!=(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(!=, __not_equal_to)
+ ^
+/usr/include/c++/7/valarray:1185:1: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   mismatched types ‘const std::valarray<_Tp>’ and ‘int’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/forward_list:38:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:104,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/forward_list.h:266:5: note: candidate: template<class _Tp> bool std::operator!=(const std::_Fwd_list_iterator<_Tp>&, const std::_Fwd_list_const_iterator<_Tp>&)
+     operator!=(const _Fwd_list_iterator<_Tp>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/forward_list.h:266:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::_Fwd_list_iterator<_Tp>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/forward_list:38:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:104,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/forward_list.h:1396:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator!=(const std::forward_list<_Tp, _Alloc>&, const std::forward_list<_Tp, _Alloc>&)
+     operator!=(const forward_list<_Tp, _Alloc>& __lx,
+     ^~~~~~~~
+/usr/include/c++/7/bits/forward_list.h:1396:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::forward_list<_Tp, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/future:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:105,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/thread:277:3: note: candidate: bool std::operator!=(std::thread::id, std::thread::id)
+   operator!=(thread::id __x, thread::id __y) noexcept
+   ^~~~~~~~
+/usr/include/c++/7/thread:277:3: note:   no known conversion for argument 1 from ‘std::istream {aka std::basic_istream<char>}’ to ‘std::thread::id’
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:404:5: note: candidate: template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m> bool std::operator!=(const std::linear_congruential_engine<_UIntType, __a, __c, __m>&, const std::linear_congruential_engine<_UIntType, __a, __c, __m>&)
+     operator!=(const std::linear_congruential_engine<_UIntType, __a,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:404:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::linear_congruential_engine<_UIntType, __a, __c, __m>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:636:5: note: candidate: template<class _UIntType, long unsigned int __w, long unsigned int __n, long unsigned int __m, long unsigned int __r, _UIntType __a, long unsigned int __u, _UIntType __d, long unsigned int __s, _UIntType __b, long unsigned int __t, _UIntType __c, long unsigned int __l, _UIntType __f> bool std::operator!=(const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&, const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)
+     operator!=(const std::mersenne_twister_engine<_UIntType, __w, __n, __m,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:636:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:832:5: note: candidate: template<class _UIntType, long unsigned int __w, long unsigned int __s, long unsigned int __r> bool std::operator!=(const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&, const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)
+     operator!=(const std::subtract_with_carry_engine<_UIntType, __w,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:832:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:1054:5: note: candidate: template<class _RandomNumberEngine, long unsigned int __p, long unsigned int __r> bool std::operator!=(const std::discard_block_engine<_RandomNumberEngine, __p, __r>&, const std::discard_block_engine<_RandomNumberEngine, __p, __r>&)
+     operator!=(const std::discard_block_engine<_RandomNumberEngine, __p,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:1054:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::discard_block_engine<_RandomNumberEngine, __p, __r>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:1250:5: note: candidate: template<class _RandomNumberEngine, long unsigned int __w, class _UIntType> bool std::operator!=(const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&, const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&)
+     operator!=(const std::independent_bits_engine<_RandomNumberEngine, __w,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:1250:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:1502:5: note: candidate: template<class _RandomNumberEngine, long unsigned int __k> bool std::operator!=(const std::shuffle_order_engine<_RandomNumberEngine, __k>&, const std::shuffle_order_engine<_RandomNumberEngine, __k>&)
+     operator!=(const std::shuffle_order_engine<_RandomNumberEngine,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:1502:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::shuffle_order_engine<_RandomNumberEngine, __k>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:1660:5: note: candidate: template<class _IntType> bool std::operator!=(const std::uniform_int_distribution<_IntType>&, const std::uniform_int_distribution<_IntType>&)
+     operator!=(const std::uniform_int_distribution<_IntType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:1660:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::uniform_int_distribution<_IntType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:1874:5: note: candidate: template<class _IntType> bool std::operator!=(const std::uniform_real_distribution<_IntType>&, const std::uniform_real_distribution<_IntType>&)
+     operator!=(const std::uniform_real_distribution<_IntType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:1874:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::uniform_real_distribution<_IntType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:2128:5: note: candidate: template<class _RealType> bool std::operator!=(const std::normal_distribution<_RealType>&, const std::normal_distribution<_RealType>&)
+     operator!=(const std::normal_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:2128:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::normal_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:2337:5: note: candidate: template<class _RealType> bool std::operator!=(const std::lognormal_distribution<_RealType>&, const std::lognormal_distribution<_RealType>&)
+     operator!=(const std::lognormal_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:2337:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::lognormal_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:2562:6: note: candidate: template<class _RealType> bool std::operator!=(const std::gamma_distribution<_RealType>&, const std::gamma_distribution<_RealType>&)
+      operator!=(const std::gamma_distribution<_RealType>& __d1,
+      ^~~~~~~~
+/usr/include/c++/7/bits/random.h:2562:6: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::gamma_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:2782:5: note: candidate: template<class _RealType> bool std::operator!=(const std::chi_squared_distribution<_RealType>&, const std::chi_squared_distribution<_RealType>&)
+     operator!=(const std::chi_squared_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:2782:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::chi_squared_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:2954:5: note: candidate: template<class _RealType> bool std::operator!=(const std::cauchy_distribution<_RealType>&, const std::cauchy_distribution<_RealType>&)
+     operator!=(const std::cauchy_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:2954:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::cauchy_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:3215:5: note: candidate: template<class _RealType> bool std::operator!=(const std::fisher_f_distribution<_RealType>&, const std::fisher_f_distribution<_RealType>&)
+     operator!=(const std::fisher_f_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:3215:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::fisher_f_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:3433:5: note: candidate: template<class _RealType> bool std::operator!=(const std::student_t_distribution<_RealType>&, const std::student_t_distribution<_RealType>&)
+     operator!=(const std::student_t_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:3433:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::student_t_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:3614:3: note: candidate: bool std::operator!=(const std::bernoulli_distribution&, const std::bernoulli_distribution&)
+   operator!=(const std::bernoulli_distribution& __d1,
+   ^~~~~~~~
+/usr/include/c++/7/bits/random.h:3614:3: note:   no known conversion for argument 1 from ‘std::istream {aka std::basic_istream<char>}’ to ‘const std::bernoulli_distribution&’
+/usr/include/c++/7/bits/random.h:3885:5: note: candidate: template<class _IntType> bool std::operator!=(const std::binomial_distribution<_IntType>&, const std::binomial_distribution<_IntType>&)
+     operator!=(const std::binomial_distribution<_IntType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:3885:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::binomial_distribution<_IntType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:4059:5: note: candidate: template<class _IntType> bool std::operator!=(const std::geometric_distribution<_IntType>&, const std::geometric_distribution<_IntType>&)
+     operator!=(const std::geometric_distribution<_IntType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:4059:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::geometric_distribution<_IntType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:4309:5: note: candidate: template<class _IntType> bool std::operator!=(const std::negative_binomial_distribution<_IntType>&, const std::negative_binomial_distribution<_IntType>&)
+     operator!=(const std::negative_binomial_distribution<_IntType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:4309:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::negative_binomial_distribution<_IntType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:4530:5: note: candidate: template<class _IntType> bool std::operator!=(const std::poisson_distribution<_IntType>&, const std::poisson_distribution<_IntType>&)
+     operator!=(const std::poisson_distribution<_IntType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:4530:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::poisson_distribution<_IntType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:4713:5: note: candidate: template<class _RealType> bool std::operator!=(const std::exponential_distribution<_RealType>&, const std::exponential_distribution<_RealType>&)
+     operator!=(const std::exponential_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:4713:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::exponential_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:4921:5: note: candidate: template<class _RealType> bool std::operator!=(const std::weibull_distribution<_RealType>&, const std::weibull_distribution<_RealType>&)
+     operator!=(const std::weibull_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:4921:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::weibull_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:5129:5: note: candidate: template<class _RealType> bool std::operator!=(const std::extreme_value_distribution<_RealType>&, const std::extreme_value_distribution<_RealType>&)
+     operator!=(const std::extreme_value_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:5129:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::extreme_value_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:5394:5: note: candidate: template<class _IntType> bool std::operator!=(const std::discrete_distribution<_IntType>&, const std::discrete_distribution<_IntType>&)
+     operator!=(const std::discrete_distribution<_IntType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:5394:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::discrete_distribution<_IntType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:5666:5: note: candidate: template<class _RealType> bool std::operator!=(const std::piecewise_constant_distribution<_RealType>&, const std::piecewise_constant_distribution<_RealType>&)
+     operator!=(const std::piecewise_constant_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:5666:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::piecewise_constant_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/random:49:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:108,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/random.h:5940:5: note: candidate: template<class _RealType> bool std::operator!=(const std::piecewise_linear_distribution<_RealType>&, const std::piecewise_linear_distribution<_RealType>&)
+     operator!=(const std::piecewise_linear_distribution<_RealType>& __d1,
+     ^~~~~~~~
+/usr/include/c++/7/bits/random.h:5940:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::piecewise_linear_distribution<_RealType>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:111:0,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/scoped_allocator:468:5: note: candidate: template<class _OutA1, class _OutA2, class ... _InA> bool std::operator!=(const std::scoped_allocator_adaptor<_OutA1, _InA ...>&, const std::scoped_allocator_adaptor<_InnerHead, _InnerTail ...>&)
+     operator!=(const scoped_allocator_adaptor<_OutA1, _InA...>& __a,
+     ^~~~~~~~
+/usr/include/c++/7/scoped_allocator:468:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::scoped_allocator_adaptor<_OutA1, _InA ...>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/unordered_map:48:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:117,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/unordered_map.h:1917:5: note: candidate: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> bool std::operator!=(const std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>&, const std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>&)
+     operator!=(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/unordered_map.h:1917:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/unordered_map:48:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:117,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/unordered_map.h:1929:5: note: candidate: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> bool std::operator!=(const std::unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>&, const std::unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>&)
+     operator!=(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/unordered_map.h:1929:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/unordered_set:48:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:118,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/unordered_set.h:1541:5: note: candidate: template<class _Value, class _Hash, class _Pred, class _Alloc> bool std::operator!=(const std::unordered_set<_Value, _Hash, _Pred, _Alloc>&, const std::unordered_set<_Value, _Hash, _Pred, _Alloc>&)
+     operator!=(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/unordered_set.h:1541:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::unordered_set<_Value, _Hash, _Pred, _Alloc>’
+  while(cin != EOF){
+               ^
+In file included from /usr/include/c++/7/unordered_set:48:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:118,
+                 from ../src/Skyline_Problem.cpp:1:
+/usr/include/c++/7/bits/unordered_set.h:1553:5: note: candidate: template<class _Value, class _Hash, class _Pred, class _Alloc> bool std::operator!=(const std::unordered_multiset<_Value, _Hash, _Pred, _Alloc>&, const std::unordered_multiset<_Value, _Hash, _Pred, _Alloc>&)
+     operator!=(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/unordered_set.h:1553:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/stdio.h:41:0,
+                 from /usr/include/c++/7/cstdio:42,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:46,
+                 from ../src/Skyline_Problem.cpp:1:
+../src/Skyline_Problem.cpp:39:15: note:   ‘std::istream {aka std::basic_istream<char>}’ is not derived from ‘const std::unordered_multiset<_Value, _Hash, _Pred, _Alloc>’
+  while(cin != EOF){
+               ^
+../src/Skyline_Problem.cpp:31:15: warning: unused variable ‘J’ [-Wunused-variable]
+  int N, M, K, J;
+               ^
+make: *** [src/Skyline_Problem.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Skyline_Problem.o' failed
+
+10:58:10 Build Failed. 3 errors, 1 warnings. (took 2s.471ms)
+

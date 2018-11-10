@@ -1,0 +1,83 @@
+//============================================================================
+// Name        : Traffic.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <bits/stdc++.h>
+
+using namespace std;
+map<int, vector<pair<int, int>>> graph;
+bool question = false;
+
+vector<int> bellmanFord(int N){
+	vector<int> distance (N, 2000000);
+	distance[0] = 0;
+	int i;
+
+	for(i = 0; i < N; i++){
+		bool changed = false;
+
+		for(auto u : graph){
+			for(auto neighbors : u.second){
+				if(distance[neighbors.first] < distance[u.first] + neighbors.second){
+					distance[neighbors.first] = distance[u.first] + neighbors.second;
+				}
+			}
+		}
+	}
+
+	return distance;
+}
+
+int find(vector<int> junctions, int u, int v){
+	return (junctions[v] - junctions[u]) * (junctions[v] - junctions[u]) * (junctions[v] - junctions[u]);
+}
+
+int main() {
+	int N;
+	int index = 1;
+
+	while(cin >> N){
+		graph.clear();
+		vector<int> junctions (N, 0);
+		int M, P;
+
+		for(int i = 0; i < N; i++){
+			int cost;
+			cin >> cost;
+			junctions[i] = cost;
+			graph.insert(make_pair(i, vector<pair<int, int>> ()));
+		}
+
+		cin >> M;
+
+		for(int i = 0; i < M; i++){
+			int u, v;
+			cin >> u >> v;
+			graph[u - 1].push_back(make_pair(v - 1, find(junctions, u - 1, v - 1)));
+		}
+
+		auto distance = bellmanFord(N);
+		cout << "Set #" << index << endl;
+
+		cin >> P;
+
+		for(int i = 0; i < P; i++){
+			int end;
+			cin >> end;
+
+			if(distance[end - 1] < 3){
+				cout << "?" << endl;
+			}
+			else{
+				cout << distance[end - 1] << endl;
+			}
+		}
+
+		index++;
+	}
+	return 0;
+}

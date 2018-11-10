@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<int> parents;
+map<int, vector<tuple<int, int, int>>> graph;
+
+int main() {
+	int start, end, N;
+	cin >> start >> end >> N;
+
+	for(int i = 0; i < N; i++){
+		int cost, trips;
+		cin >> cost >> trips;
+		int previous;
+		cin >> previous;
+
+		for(int j = 1; j < trips; j++){
+			int current;
+			cin >> current;
+
+			if(graph.find(previous) != graph.end()){
+				graph[previous].push_back(make_tuple(current - 1, cost, i));
+			}
+			else{
+				graph.insert(make_pair(previous, vector<tuple<int, int, int>> ()));
+				graph[previous].push_back(make_tuple(current - 1, cost, i));
+			}
+
+			previous = current;
+		}
+	}
+
+	return 0;
+}

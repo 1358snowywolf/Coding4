@@ -1,0 +1,15 @@
+18:08:32 **** Incremental Build of configuration Debug for project Prim ****
+make all 
+Building file: ../src/Prim.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Prim.d" -MT"src/Prim.o" -o "src/Prim.o" "../src/Prim.cpp"
+Finished building: ../src/Prim.cpp
+ 
+Building target: Prim
+Invoking: GCC C++ Linker
+g++  -o "Prim"  ./src/Prim.o   
+Finished building target: Prim
+ 
+
+18:08:34 Build Finished. 0 errors, 0 warnings. (took 1s.573ms)
+

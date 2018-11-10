@@ -1,0 +1,64 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<tuple<int, int, int>> skylines;
+set<pair<int, int>> right, height;
+vector<pair<int, int>> answers;
+int currentHeight = 0;
+
+void helper(int l){
+	while(!right.empty() && right.begin()->first < l){
+		height.erase(height.find(make_pair(right.begin()->second, right.begin()->first)));
+		int X = right.begin()->first;
+		right.erase(right.begin());
+		int newHeight;
+
+		if(height.empty()){
+			newHeight = 0;
+		}
+		else{
+			newHeight = height.rbegin()->first;
+		}
+
+		if(newHeight != currentHeight){
+			answers.push_back(make_pair(X, newHeight));
+			currentHeight = newHeight;
+		}
+	}
+}
+
+int main() {
+	int N, M, K;
+
+	while(cin >> N){
+		cin >> M >> K;
+		skylines.push_back(make_tuple(N, M, K));
+	}
+
+	sort(skylines.begin(), skylines.end());
+
+	for(auto S : skylines){
+		int l, h, r;
+		tie(l, h, r) = S;
+		helper(l);
+
+		height.insert(make_pair(h, r));
+		right.insert(make_pair(r, h));
+		int newHeight = height.rbegin()->first;
+
+		if(newHeight != currentHeight){
+			answers.push_back(make_pair(l, newHeight));
+			currentHeight = newHeight;
+		}
+	}
+
+	helper(INT_MAX);
+
+	for(int i = 0; i < (int) answers.size() - 1; i++){
+		cout << answers[i].first << " " << answers[i].second << " ";
+	}
+
+	cout << answers[answers.size() - 1].first << " " << answers[i].second << endl;
+
+	return 0;
+}

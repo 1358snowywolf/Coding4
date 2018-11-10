@@ -1,0 +1,98 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<int> parents;
+int maximum = 0;
+int total;
+int S, P;
+
+int distance(vector<pair<int, int>> coordinates, int i, int j){
+	int X = (coordinates[i].first - coordinates[j].first) * (coordinates[i].first - coordinates[j].first);
+	int Y = (coordinates[i].second - coordinates[j].second) * (coordinates[i].second - coordinates[j].second);
+	int distance = X + Y;
+
+	return distance;
+}
+
+int findParents(int u){
+	while(parents[u] != u){
+		u = parents[u];
+	}
+
+	return u;
+}
+
+void connect(int u, int v){
+	int x = findParents(u);
+	int y = findParents(v);
+
+	parents[y] = x;
+}
+
+void KrushalAlgorithm(vector<tuple<int, int, int>> edges){
+	for(auto edge : edges){
+		int weight, u, v;
+		tie(weight, u, v) = edge;
+
+		if(findParents(u) != findParents(v)){
+			connect(u, v);
+
+			maximum = max(maximum, weight);
+			total--;
+
+			if(total == 0){
+				return;
+			}
+		}
+	}
+}
+
+int main() {
+	int C;
+	cin >> C;
+
+	for(int times = 0; times < C; times++){
+		cin >> S >> P;
+		total = P - S;
+		maximum = 0;
+		parents.clear();
+		vector<pair<int, int>> coordinates;
+		vector<tuple<int, int, int>> edges;
+
+		for(int i = 0; i < P; i++){
+			int X, Y;
+			cin >> X >> Y;
+			parents.push_back(i);
+			coordinates.push_back(make_pair(X, Y));
+		}
+
+		for(int i = 0; i < (int) coordinates.size(); i++){
+			for(int j = 0; j < (int) coordinates.size(); j++){
+				if(i == j){
+					continue;
+				}
+				edges.push_back(make_tuple(distance(coordinates, i, j), i, j));
+			}
+		}
+
+		sort(edges.begin(), edges.end());
+		KrushalAlgorithm(edges);
+
+//		cout << sqrt(maximum) << endl;
+
+		string number = to_string(sqrt(maximum));
+
+		for(int i = 0; i < (int) number.size(); i++){
+			cout << number[i];
+
+			if(number[i] == '.'){
+				cout << number[i + 1] << number[i + 2] << endl;
+				break;
+			}
+		}
+	}
+
+	cout << endl;
+
+	return 0;
+}

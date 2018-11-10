@@ -1,0 +1,79 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+set<int> starting;
+vector<int> pastures (1001, 0);
+
+void DFS(map<int, vector<int>> graph, set<int>& visited, int u, int count){
+	if(visited.find(u) != visited.end()){
+		return;
+	}
+
+	visited.insert(u);
+
+	if(starting.find(u) != starting.end()){
+		count++;
+	}
+
+	pastures[u] += count;
+
+	for(auto i : graph[u]){
+		DFS(graph, visited, i, count);
+	}
+}
+
+void adding(set<int> visited, vector<int>& pastures){
+	for(int i : visited){
+		pastures[i]++;
+	}
+}
+
+int findMax(vector<int> pastures, int K){
+	int amount = 0;
+
+	for(int i : pastures){
+		if(i == K){
+			amount++;
+		}
+	}
+
+	return amount;
+}
+
+int main() {
+	int K, N, M;
+	cin >> K >> N >> M;
+
+	for(int i = 0; i < K; i++){
+		int position;
+		cin >> position;
+		starting.insert(position);
+	}
+
+	map<int, vector<int>> graph;
+
+	for(int i = 1; i <= N; i++){
+		graph.insert(make_pair(i, vector<int> (0, 0)));
+	}
+
+	for(int i = 1; i <= M; i++){
+		int start, end;
+		cin >> start >> end;
+		graph[start].push_back(end);
+	}
+
+	for(int i : starting){
+		set<int> visited;
+		 DFS(graph, visited, i, 1);
+		 adding(visited, pastures);
+
+//		 for(int i = 0; i < (int) pastures.size(); i++){
+//			 cout << pastures[i] << " ";
+//		 }
+//		 cout << endl;
+	}
+
+	cout << findMax(pastures, K) << endl;
+
+	return 0;
+}

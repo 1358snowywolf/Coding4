@@ -1,0 +1,11 @@
+18:01:59 **** Build of configuration Debug for project Mother_Vertex ****
+make all 
+Building file: ../src/Mother_Vertex.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Mother_Vertex.d" -MT"src/Mother_Vertex.o" -o "src/Mother_Vertex.o" "../src/Mother_Vertex.cpp"
+src/subdir.mk:18: recipe for target 'src/Mother_Vertex.o' failed
+make: *** [src/Mother_Vertex.o] Terminated
+Command canceled
+
+18:02:00 Build Cancelled. (took 824ms)
+

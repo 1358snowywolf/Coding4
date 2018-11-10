@@ -1,0 +1,15 @@
+17:14:38 **** Incremental Build of configuration Debug for project Elevator ****
+make all 
+Building file: ../src/Elevator.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Elevator.d" -MT"src/Elevator.o" -o "src/Elevator.o" "../src/Elevator.cpp"
+Finished building: ../src/Elevator.cpp
+ 
+Building target: Elevator
+Invoking: GCC C++ Linker
+g++  -o "Elevator"  ./src/Elevator.o   
+Finished building target: Elevator
+ 
+
+17:14:40 Build Finished. 0 errors, 0 warnings. (took 1s.942ms)
+

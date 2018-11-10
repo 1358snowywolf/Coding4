@@ -1,0 +1,15 @@
+20:06:55 **** Incremental Build of configuration Debug for project Traffic ****
+make all 
+Building file: ../src/Traffic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traffic.d" -MT"src/Traffic.o" -o "src/Traffic.o" "../src/Traffic.cpp"
+Finished building: ../src/Traffic.cpp
+ 
+Building target: Traffic
+Invoking: GCC C++ Linker
+g++  -o "Traffic"  ./src/Traffic.o   
+Finished building target: Traffic
+ 
+
+20:06:57 Build Finished. 0 errors, 0 warnings. (took 1s.694ms)
+

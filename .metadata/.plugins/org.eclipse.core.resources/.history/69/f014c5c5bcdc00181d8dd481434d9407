@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+int S, P;
+
+int main() {
+	int C;
+	cin >> C;
+
+	for(int times = 0; times < C; times++){
+		cin >> S >> P;
+		vector<pair<int, int>> coordinates;
+		vector<tuple<int, int, int>> edges;
+
+		for(int i = 0; i < P; i++){
+			int X, Y;
+			cin >> X >> Y;
+			coordinates.push_back(make_pair(X, Y));
+		}
+
+		for(int i = 0; i < (int) coordinates.size(); i++){
+			for(int j = 0; j < (int) coordinates.size(); j++){
+
+			}
+		}
+	}
+
+	return 0;
+}

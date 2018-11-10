@@ -1,0 +1,15 @@
+10:07:53 **** Incremental Build of configuration Debug for project Heatwave2 ****
+make all 
+Building file: ../src/Heatwave2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Heatwave2.d" -MT"src/Heatwave2.o" -o "src/Heatwave2.o" "../src/Heatwave2.cpp"
+Finished building: ../src/Heatwave2.cpp
+ 
+Building target: Heatwave2
+Invoking: GCC C++ Linker
+g++  -o "Heatwave2"  ./src/Heatwave2.o   
+Finished building target: Heatwave2
+ 
+
+10:07:55 Build Finished. 0 errors, 0 warnings. (took 1s.668ms)
+

@@ -1,0 +1,15 @@
+20:05:35 **** Incremental Build of configuration Debug for project FrameUp ****
+make all 
+Building file: ../src/FrameUp.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FrameUp.d" -MT"src/FrameUp.o" -o "src/FrameUp.o" "../src/FrameUp.cpp"
+Finished building: ../src/FrameUp.cpp
+ 
+Building target: FrameUp
+Invoking: GCC C++ Linker
+g++  -o "FrameUp"  ./src/FrameUp.o   
+Finished building target: FrameUp
+ 
+
+20:05:37 Build Finished. 0 errors, 0 warnings. (took 1s.829ms)
+

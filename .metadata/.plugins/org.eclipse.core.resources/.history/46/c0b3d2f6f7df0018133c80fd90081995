@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+map<int, vector<pair<int, int>>> graph;
+
+vector<int> bellmanFord(int N, int start){
+	vector<int> distance (N, INT_MAX);
+	distance[start] = 0;
+
+	for(int i = 0; i < N; i++){
+		for(auto u : graph){
+			for(auto neighbors : u.second){
+				distance[neighbors.first] = min(distance[neighbors.first], distance[u.first] + neighbors.second);
+			}
+		}
+	}
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+	int N;
+	cin >> N;
+	vector<pair<string, int>> ascending;
+	vector<pair<string, int>> descending;
+
+	for(int i = 0; i < N; i++){
+		string str;
+		cin >> str;
+		auto str2 = str;
+		sort(str.begin(), str.end());
+		sort(str2.rbegin(), str2.rend());
+
+		ascending.push_back(make_pair(str, i));
+		descending.push_back(make_pair(str2, i));
+	}
+
+	sort(ascending.begin(), ascending.end());
+	sort(descending.rbegin(), descending.rend());
+	vector<pair<int, int>> answers (N, 0);
+
+	return 0;
+}

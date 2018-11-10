@@ -1,0 +1,98 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+map<string, vector<tuple<string, char, int>>> graph;
+
+map<string, int> Dijkstra(set<string> words, string start){
+	priority_queue<tuple<int, string, char>> pq;
+	map<string, set<int, char>> distance;
+
+	for(string i : words){
+		distance.insert(make_pair(i, 1076000));
+	}
+
+	pq.push(make_tuple(0, start, start[0]));
+	distance[start] = 0;
+
+	while(!pq.empty()){
+		tuple<int, string, char> front = pq.top();
+		pq.pop();
+		int first;
+		string second;
+		char third;
+		tie(first, second, third) = front;
+
+//		if(first * -1 > distance[second]){
+//			continue;
+//		}
+
+		for(auto n : graph[second]){
+			string s;
+			char c;
+			int i;
+			tie(s, c, i) = n;
+
+            if(distance[second] + i < distance[s] && third != c){
+                distance[s] = distance[second] + i;
+                pq.push({distance[s] * -1, s, c});
+            }
+		}
+
+		for (auto it : distance) {
+			cout << it.first << "  :  " << it.second << endl;
+		}
+		cout << " ================= " << endl;
+	}
+
+	return distance;
+}
+
+int main() {
+	int N;
+	while(cin >> N){
+		graph.clear();
+		set<string> words;
+		string start, end;
+		cin >> start >> end;
+
+		for(int i = 0; i < N; i++){
+			string u, v, word;
+			cin >> u >> v >> word;
+			words.insert(u);
+			words.insert(v);
+
+			if(graph.find(u) == graph.end()){
+				graph.insert(make_pair(u, vector<tuple<string, char, int>> ()));
+			}
+			if(graph.find(v) == graph.end()){
+				graph.insert(make_pair(v, vector<tuple<string, char, int>> ()));
+			}
+
+			graph[u].push_back(make_tuple(v, word[0], word.size()));
+			graph[v].push_back(make_tuple(u, word[0] , word.size()));
+		}
+
+		for(auto i : graph){
+			cout << i.first << ": ";
+
+			for(auto j : i.second){
+				string s;
+				char c;
+				int i;
+				tie(s, c, i) = j;
+				cout << "(" + s << ", " << c << ", " << i << ") ";
+			}
+
+			cout << endl;
+		}
+
+		auto distance = Dijkstra(words, start);
+		cout << distance[end] << endl;
+	}
+
+	int zero;
+	cin >> zero;
+	cout << endl;
+
+	return 0;
+}

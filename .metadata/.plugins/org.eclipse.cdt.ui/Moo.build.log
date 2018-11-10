@@ -1,0 +1,19 @@
+18:51:06 **** Incremental Build of configuration Debug for project Moo ****
+make all 
+Building file: ../src/Moo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Moo.d" -MT"src/Moo.o" -o "src/Moo.o" "../src/Moo.cpp"
+../src/Moo.cpp: In function ‘int main()’:
+../src/Moo.cpp:22:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  while(actual.size() < N){
+        ~~~~~~~~~~~~~~^~~
+Finished building: ../src/Moo.cpp
+ 
+Building target: Moo
+Invoking: GCC C++ Linker
+g++  -o "Moo"  ./src/Moo.o   
+Finished building target: Moo
+ 
+
+18:51:07 Build Finished. 0 errors, 1 warnings. (took 1s.316ms)
+

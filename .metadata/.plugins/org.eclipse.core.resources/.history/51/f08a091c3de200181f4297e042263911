@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+	int N, K;
+
+	while(cin >> N){
+		cin >> K;
+	}
+
+	return 0;
+}

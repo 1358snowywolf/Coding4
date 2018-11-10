@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+	string parenthesis;
+	cin >> parenthesis;
+
+	int middle = parenthesis.size() / 2;
+
+
+
+
+	return 0;
+}

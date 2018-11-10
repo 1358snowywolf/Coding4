@@ -1,0 +1,15 @@
+16:47:18 **** Incremental Build of configuration Debug for project Typo ****
+make all 
+Building file: ../src/Typo.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Typo.d" -MT"src/Typo.o" -o "src/Typo.o" "../src/Typo.cpp"
+Finished building: ../src/Typo.cpp
+ 
+Building target: Typo
+Invoking: GCC C++ Linker
+g++  -o "Typo"  ./src/Typo.o   
+Finished building target: Typo
+ 
+
+16:47:19 Build Finished. 0 errors, 0 warnings. (took 1s.337ms)
+

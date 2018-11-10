@@ -1,0 +1,15 @@
+20:14:10 **** Incremental Build of configuration Debug for project RopeFolding ****
+make all 
+Building file: ../src/RopeFolding.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RopeFolding.d" -MT"src/RopeFolding.o" -o "src/RopeFolding.o" "../src/RopeFolding.cpp"
+Finished building: ../src/RopeFolding.cpp
+ 
+Building target: RopeFolding
+Invoking: GCC C++ Linker
+g++  -o "RopeFolding"  ./src/RopeFolding.o   
+Finished building target: RopeFolding
+ 
+
+20:14:11 Build Finished. 0 errors, 0 warnings. (took 1s.425ms)
+

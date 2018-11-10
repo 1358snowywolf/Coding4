@@ -1,0 +1,15 @@
+18:35:43 **** Incremental Build of configuration Debug for project Network ****
+make all 
+Building file: ../src/Network.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Network.d" -MT"src/Network.o" -o "src/Network.o" "../src/Network.cpp"
+Finished building: ../src/Network.cpp
+ 
+Building target: Network
+Invoking: GCC C++ Linker
+g++  -o "Network"  ./src/Network.o   
+Finished building target: Network
+ 
+
+18:35:45 Build Finished. 0 errors, 0 warnings. (took 1s.623ms)
+

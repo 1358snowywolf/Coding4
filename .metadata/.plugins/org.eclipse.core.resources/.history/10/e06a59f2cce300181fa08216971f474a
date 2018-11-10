@@ -1,0 +1,51 @@
+//============================================================================
+// Name        : Traffic.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <bits/stdc++.h>
+
+using namespace std;
+map<int, vector<pair<int, int>>> graph;
+
+vector<int> bellmanFord(int N){
+	vector<int> distance (N, 2000000);
+	distance[0] = 0;
+
+	for(int i = 0; i < N; i++){
+		for(auto u : graph){
+			for(auto neighbors : u.second){
+				distance[neighbors.first] = min(distance[neighbors.first], distance[u.first] + neighbors.second);
+			}
+		}
+	}
+
+	return distance;
+}
+
+int main() {
+	int N;
+
+	while(cin >> N){
+		graph.clear();
+		vector<int> junctions (N, 0);
+		int M, P;
+
+		for(int i = 0; i < N; i++){
+			int cost;
+			cin >> cost;
+			junctions[i] = cost;
+		}
+
+		cin >> M;
+
+		for(int i = 0; i < M; i++){
+			int u, v;
+			cin >> u >> v;
+		}
+	}
+	return 0;
+}

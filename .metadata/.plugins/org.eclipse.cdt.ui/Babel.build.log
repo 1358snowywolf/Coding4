@@ -1,0 +1,15 @@
+18:38:58 **** Incremental Build of configuration Debug for project Babel ****
+make all 
+Building file: ../src/Babel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Babel.d" -MT"src/Babel.o" -o "src/Babel.o" "../src/Babel.cpp"
+Finished building: ../src/Babel.cpp
+ 
+Building target: Babel
+Invoking: GCC C++ Linker
+g++  -o "Babel"  ./src/Babel.o   
+Finished building target: Babel
+ 
+
+18:39:01 Build Finished. 0 errors, 0 warnings. (took 2s.255ms)
+

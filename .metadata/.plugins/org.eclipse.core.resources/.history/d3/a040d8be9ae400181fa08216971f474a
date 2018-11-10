@@ -1,0 +1,103 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+//
+//int findMin(vector<pair<string, int>> descending, string str){
+//	for(int i = 0; i < (int) descending.size(); i++){
+//		if(str[0] < descending[i].first[0]){
+//			return i;
+//		}
+//		else if(str[0] == descending[i].first[0]){
+//			int index = 0;
+//
+//			while(str[index] == descending[i].first[index]){
+//				index++;
+//			}
+//
+//			if(str[index] < descending[i].first[index]){
+//				return i;
+//			}
+//		}
+//	}
+//
+//	return (int) descending.size() - 1;
+//}
+//
+//int findMax(vector<pair<string, int>> ascending, string str){
+//	for(int i = 0; i < (int) ascending.size(); i++){
+//		if(str[0] > ascending[i].first[0]){
+//			return i;
+//		}
+//		else if(str[0] == ascending[i].first[0]){
+//			int index = 0;
+//
+//			while(str[index] == ascending[i].first[index]){
+//				index++;
+//			}
+//
+//			if(str[index] > ascending[i].first[index]){
+//				return i;
+//			}
+//		}
+//	}
+//
+//	return (int) ascending.size() - 1;
+//}
+
+int main() {
+	int N;
+	cin >> N;
+	vector<string> original;
+	vector<string> ascending;
+	vector<string> descending;
+
+	for(int i = 0; i < N; i++){
+		string str;
+		cin >> str;
+		auto str2 = str;
+		original.push_back(str);
+		sort(str.begin(), str.end());
+		sort(str2.rbegin(), str2.rend());
+
+		ascending.push_back(str);
+		descending.push_back(str2);
+	}
+
+//
+//	sort(ascending.begin(), ascending.end());
+//	sort(descending. begin(), descending.end());
+
+	vector<pair<int, int>> answers (N, make_pair(0, 0));
+
+//
+//	for(int i = 0; i < N; i++){
+//		cout << ascending[i].first << " ";
+//	}
+//
+//	cout << endl;
+//
+//	for(int i = 0; i < N; i++){
+//		cout << descending[i].first << " ";
+//	}
+//
+//	cout << endl;
+//
+//	for(int i = 0; i < N; i++){
+//		int index = findMin(descending, ascending[i].first);
+//		answers[ascending[i].second].first = index;
+//
+//		index = findMax(ascending, descending[i].first);
+//		answers[descending[i].second].second = index;
+//	}
+//
+//	for(int i = 0; i < (int) answers.size(); i++){
+//		cout << answers[i].first + 1 << " " << answers[i].second + 1 << endl;
+//	}
+
+	for(int i = 0; i < N; i++){
+		int lower = lower_bound()
+		int upper = upper_bound(ascending.begin(), ascending.end(), descending[i]);
+	}
+
+	return 0;
+}

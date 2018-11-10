@@ -1,0 +1,15 @@
+21:02:35 **** Incremental Build of configuration Debug for project MilkingTime ****
+make all 
+Building file: ../src/MilkingTime.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MilkingTime.d" -MT"src/MilkingTime.o" -o "src/MilkingTime.o" "../src/MilkingTime.cpp"
+Finished building: ../src/MilkingTime.cpp
+ 
+Building target: MilkingTime
+Invoking: GCC C++ Linker
+g++  -o "MilkingTime"  ./src/MilkingTime.o   
+Finished building target: MilkingTime
+ 
+
+21:02:37 Build Finished. 0 errors, 0 warnings. (took 1s.582ms)
+

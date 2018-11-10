@@ -1,0 +1,15 @@
+20:40:33 **** Incremental Build of configuration Debug for project SuperBUll2 ****
+make all 
+Building file: ../src/SuperBUll2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SuperBUll2.d" -MT"src/SuperBUll2.o" -o "src/SuperBUll2.o" "../src/SuperBUll2.cpp"
+Finished building: ../src/SuperBUll2.cpp
+ 
+Building target: SuperBUll2
+Invoking: GCC C++ Linker
+g++  -o "SuperBUll2"  ./src/SuperBUll2.o   
+Finished building target: SuperBUll2
+ 
+
+20:40:35 Build Finished. 0 errors, 0 warnings. (took 1s.886ms)
+

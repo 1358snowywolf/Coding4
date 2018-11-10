@@ -1,0 +1,10 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<int> parents;
+map<int, vector<tuple<int, int, int>>> graph;
+
+int main() {
+
+	return 0;
+}

@@ -1,0 +1,15 @@
+16:17:52 **** Incremental Build of configuration Debug for project Islands ****
+make all 
+Building file: ../src/Islands.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Islands.d" -MT"src/Islands.o" -o "src/Islands.o" "../src/Islands.cpp"
+Finished building: ../src/Islands.cpp
+ 
+Building target: Islands
+Invoking: GCC C++ Linker
+g++  -o "Islands"  ./src/Islands.o   
+Finished building target: Islands
+ 
+
+16:17:54 Build Finished. 0 errors, 0 warnings. (took 1s.417ms)
+

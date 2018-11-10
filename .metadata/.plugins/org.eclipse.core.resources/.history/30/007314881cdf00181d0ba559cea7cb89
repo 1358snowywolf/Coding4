@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<tuple<int, int, int>> skylines;
+
+int main() {
+	int N, M, K;
+
+	while(cin >> N){
+		cin >> M >> K;
+		skylines.push_back(make_tuple(N, M, K));
+	}
+
+	return 0;
+}

@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<int> parent;
+
+vector<int> Dijkstra(int T, int start){
+	priority_queue<pair<int, int>> pq;
+	vector<int> distance (T + 1, 1076000);
+
+	for(int i = 0; i < T; i++){
+		parent.push_back(i);
+	}
+
+	pq.push(make_pair(0, start));
+	distance[start] = 0;
+
+	while(!pq.empty()){
+		pair<int, int> front = pq.top();
+		pq.pop();
+	}
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

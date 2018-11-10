@@ -1,0 +1,15 @@
+20:05:28 **** Incremental Build of configuration Debug for project Top-Logical_Sort ****
+make all 
+Building file: ../src/Top-Logical_Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Top-Logical_Sort.d" -MT"src/Top-Logical_Sort.o" -o "src/Top-Logical_Sort.o" "../src/Top-Logical_Sort.cpp"
+Finished building: ../src/Top-Logical_Sort.cpp
+ 
+Building target: Top-Logical_Sort
+Invoking: GCC C++ Linker
+g++  -o "Top-Logical_Sort"  ./src/Top-Logical_Sort.o   
+Finished building target: Top-Logical_Sort
+ 
+
+20:05:29 Build Finished. 0 errors, 0 warnings. (took 1s.469ms)
+

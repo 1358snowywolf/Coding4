@@ -1,0 +1,95 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<int> parents;
+map<int, vector<tuple<int, long long, int>>> graph;
+
+vector<int> Dijkstra(int start){
+	priority_queue<tuple<long long, int, int>> pq;
+	vector<int> distance (graph.size() + 1, 2000000);
+	pq.push(make_tuple(0, start, -1));
+	distance[start] = 0;
+
+	while(!pq.empty()){
+		long long weight;
+		int u, airline;
+		auto front = pq.top();
+		pq.pop();
+		tie(weight, u, airline) = front;
+
+		if(weight * -1 > distance[u]) continue;
+
+		for(auto n : graph[u]){
+			int v, w, a;
+			tie(v, w, a) = n;
+
+			if(distance[u] + w < distance[v]){  // never goes through
+				if(a != airline){
+					distance[v] = distance[u] + w;
+					pq.push(make_tuple(distance[v] * -1, v, a));
+				}
+				else{
+					pq.push(make_tuple(distance[v] * -1, v, -1));
+				}
+
+				parents[v] = u;
+
+				for(int i = 0; i < (int) distance.size(); i++){
+					cout << distance[i] << " ";
+				}
+
+				cout << endl;
+
+				for(int i = 0; i < (int) parents.size(); i++){
+					cout << parents[i] << " ";
+				}
+
+				cout << endl << "............................." << endl;
+			}
+		}
+	}
+
+	return distance;
+}
+
+//int transfer(int start, int end){
+//
+//}
+
+int main() {
+	int start, end, N;
+	cin >> start >> end >> N;
+
+	for(int i = 0; i < N; i++){
+		int cost, trips;
+		cin >> cost >> trips;
+		int previous;
+		cin >> previous;
+
+		for(int j = 1; j < trips; j++){
+			int current;
+			cin >> current;
+
+			if(graph.find(previous - 1) != graph.end()){
+				graph[previous - 1].push_back(make_tuple(current - 1, cost, i));
+			}
+			else{
+				graph.insert(make_pair(previous - 1, vector<tuple<int, long long, int>> ()));
+				graph[previous - 1].push_back(make_tuple(current - 1, cost, i));
+			}
+
+			previous = current;
+		}
+	}
+
+	for(int i = 0; i < (int) graph.size(); i++){
+		parents.push_back(i);
+	}
+
+	auto distance = Dijkstra(start - 1);
+	cout << distance[end - 1] << " ";
+
+//	int transfering = transfer(start - 1, end - 1);
+
+	return 0;
+}

@@ -1,0 +1,15 @@
+14:29:34 **** Incremental Build of configuration Debug for project SplittingRod ****
+make all 
+Building file: ../src/SplittingRod.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SplittingRod.d" -MT"src/SplittingRod.o" -o "src/SplittingRod.o" "../src/SplittingRod.cpp"
+Finished building: ../src/SplittingRod.cpp
+ 
+Building target: SplittingRod
+Invoking: GCC C++ Linker
+g++  -o "SplittingRod"  ./src/SplittingRod.o   
+Finished building target: SplittingRod
+ 
+
+14:29:35 Build Finished. 0 errors, 0 warnings. (took 1s.318ms)
+

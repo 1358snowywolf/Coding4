@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<vector<int>> maze;
+int dx[] = {0, -1, 1, 0};
+int dy[] = {1, 0, 0, -1};
+
+vector<vector<int>> Dijkstra(int N){
+	priority_queue<pair<int, pair<int, int>>> pq;
+	vector<vector<int>> distance (N, vector<int> (N, 1076000));
+	pq.push(make_pair(maze[0][0], make_pair(0, 0)));
+	distance[0][0] = maze[0][0];
+
+	while(!pq.empty()){
+		pair<int, pair<int, int>> front = pq.top();
+		pq.pop();
+
+		if(front.first * -1 > distance[front.second]){
+			continue;
+		}
+
+		int X = front.second.first;
+		int Y = front.second.second;
+
+		if(distance[X][Y] > maze[X][Y] + front.first){
+			distance[X][Y] = maze[X][Y] + front.first;
+
+			for(int i = 0; i < 4; i++){
+
+			}
+		}
+	}
+
+	return distance;
+}
+
+int main() {
+
+	return 0;
+}

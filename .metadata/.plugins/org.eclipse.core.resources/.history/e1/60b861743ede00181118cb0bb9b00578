@@ -1,0 +1,45 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<bool> visited;
+vector<int> distance (4, INT_MAX);
+map<int, vector<pair<int, int>>> graph;
+
+void Dijkstra(){
+	priority_queue<pair<int, int>> pq;
+	pq.push(make_pair(0, 0));
+
+	while(!pq.empty()){
+		pair<int, int> front = pq.top();
+		pq.pop();
+
+		if(front.first > distance[front.second]){
+			continue;
+		}
+
+		for(pair<int, int> n : graph[front.second]){
+			if(distance[front.second] + distance[n.second] < distance[n.first]){
+				distance[n.first] = distance[front.second] + distance[n.second];
+			}
+
+			pq.push(make_pair(distance[n.first] * -1, n.first));
+		}
+	}
+}
+
+int main() {
+	visited.assign(4, false);
+//	distance.assign(4, INT_MAX);
+	vector<pair<int, int>> zero = {{3, 100}, {1, 2}};
+	vector<pair<int, int>> one = {{3, 2}, {2, 100}};
+	vector<pair<int, int>> two = {};
+	vector<pair<int, int>> three = {{2, 1}};
+
+	graph.insert(make_pair(0, zero));
+	graph.insert(make_pair(1, one));
+	graph.insert(make_pair(2, two));
+	graph.insert(make_pair(3, three));
+
+
+	return 0;
+}

@@ -1,0 +1,15 @@
+16:49:58 **** Build of configuration Debug for project Conference_Rooms ****
+make all 
+Building file: ../src/Conference_Rooms.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Conference_Rooms.d" -MT"src/Conference_Rooms.o" -o "src/Conference_Rooms.o" "../src/Conference_Rooms.cpp"
+Finished building: ../src/Conference_Rooms.cpp
+ 
+Building target: Conference_Rooms
+Invoking: GCC C++ Linker
+g++  -o "Conference_Rooms"  ./src/Conference_Rooms.o   
+Finished building target: Conference_Rooms
+ 
+
+16:50:00 Build Finished. 0 errors, 0 warnings. (took 1s.698ms)
+

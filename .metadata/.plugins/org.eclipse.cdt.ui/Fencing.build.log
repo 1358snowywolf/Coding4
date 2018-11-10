@@ -1,0 +1,15 @@
+10:46:17 **** Build of configuration Debug for project Fencing ****
+make all 
+Building file: ../src/Fencing.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Fencing.d" -MT"src/Fencing.o" -o "src/Fencing.o" "../src/Fencing.cpp"
+Finished building: ../src/Fencing.cpp
+ 
+Building target: Fencing
+Invoking: GCC C++ Linker
+g++  -o "Fencing"  ./src/Fencing.o   
+Finished building target: Fencing
+ 
+
+10:46:18 Build Finished. 0 errors, 0 warnings. (took 1s.240ms)
+

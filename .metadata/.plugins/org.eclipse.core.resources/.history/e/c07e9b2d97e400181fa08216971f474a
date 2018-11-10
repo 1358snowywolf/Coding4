@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+	int N;
+	cin >> N;
+	vector<string> ascending;
+	vector<string> descending;
+
+	for(int i = 0; i < N; i++){
+		string str;
+		cin >> str;
+		auto str2 = str;
+		sort(str.begin(), str.end());
+		sort(str2.rbegin(), str2.rend());
+
+		ascending.push_back(str);
+		descending.push_back(str2);
+	}
+
+	sort(ascending.begin(), ascending.end());
+	sort(descending.rbegin(), descending.rend());
+
+	return 0;
+}

@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : Wormhole.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <bits/stdc++.h>
+using namespace std;
+
+bool bellmanFord(int N, int start){
+	vector<int> distance (N, 200000);
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+vector<int> Dijkstra(int T, int start){
+	priority_queue<pair<int, int>> pq;
+	vector<int> distance (T + 1, 1076000);
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

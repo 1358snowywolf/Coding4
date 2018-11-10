@@ -1,0 +1,15 @@
+10:56:50 **** Incremental Build of configuration Debug for project Tiling_Problem ****
+make all 
+Building file: ../src/Tiling_Problem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tiling_Problem.d" -MT"src/Tiling_Problem.o" -o "src/Tiling_Problem.o" "../src/Tiling_Problem.cpp"
+Finished building: ../src/Tiling_Problem.cpp
+ 
+Building target: Tiling_Problem
+Invoking: GCC C++ Linker
+g++  -o "Tiling_Problem"  ./src/Tiling_Problem.o   
+Finished building target: Tiling_Problem
+ 
+
+10:56:50 Build Finished. 0 errors, 0 warnings. (took 367ms)
+

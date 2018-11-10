@@ -1,0 +1,15 @@
+11:46:50 **** Incremental Build of configuration Debug for project UVA11060 ****
+make all 
+Building file: ../src/UVA11060.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UVA11060.d" -MT"src/UVA11060.o" -o "src/UVA11060.o" "../src/UVA11060.cpp"
+Finished building: ../src/UVA11060.cpp
+ 
+Building target: UVA11060
+Invoking: GCC C++ Linker
+g++  -o "UVA11060"  ./src/UVA11060.o   
+Finished building target: UVA11060
+ 
+
+11:46:52 Build Finished. 0 errors, 0 warnings. (took 1s.774ms)
+

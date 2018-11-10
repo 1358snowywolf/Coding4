@@ -1,0 +1,15 @@
+18:01:58 **** Build of configuration Debug for project Grazing_Patterns ****
+make all 
+Building file: ../src/Grazing_Patterns.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Grazing_Patterns.d" -MT"src/Grazing_Patterns.o" -o "src/Grazing_Patterns.o" "../src/Grazing_Patterns.cpp"
+Finished building: ../src/Grazing_Patterns.cpp
+ 
+Building target: Grazing_Patterns
+Invoking: GCC C++ Linker
+g++  -o "Grazing_Patterns"  ./src/Grazing_Patterns.o   
+Finished building target: Grazing_Patterns
+ 
+
+18:01:58 Build Finished. 0 errors, 0 warnings. (took 367ms)
+

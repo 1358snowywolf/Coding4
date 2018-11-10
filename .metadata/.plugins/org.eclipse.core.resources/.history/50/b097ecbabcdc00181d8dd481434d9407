@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+	int C;
+	cin >> C;
+
+	for(int times = 0; times < C; times++){
+		int S, P;
+		cin >> S >> P;
+		vector<pair<int, int>> corrdinates;
+
+		for(int i = 0; i < P; i++){
+			int X, Y;
+			cin >> X >> Y;
+			coordinates.push_back(make_pair(X, Y));
+		}
+	}
+
+	return 0;
+}

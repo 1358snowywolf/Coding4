@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+	int N;
+	cin >> N;
+	map<int, vector<pair<int, int>>> vertical;
+	map<int, vector<pair<int, int>>> horizontal;
+	return 0;
+}

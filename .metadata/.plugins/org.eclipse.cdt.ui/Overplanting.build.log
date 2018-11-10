@@ -1,0 +1,15 @@
+18:56:24 **** Incremental Build of configuration Debug for project Overplanting ****
+make all 
+Building file: ../src/Overplanting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Overplanting.d" -MT"src/Overplanting.o" -o "src/Overplanting.o" "../src/Overplanting.cpp"
+Finished building: ../src/Overplanting.cpp
+ 
+Building target: Overplanting
+Invoking: GCC C++ Linker
+g++  -o "Overplanting"  ./src/Overplanting.o   
+Finished building target: Overplanting
+ 
+
+18:56:25 Build Finished. 0 errors, 0 warnings. (took 1s.416ms)
+

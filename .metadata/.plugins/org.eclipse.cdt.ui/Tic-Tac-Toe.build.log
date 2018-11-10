@@ -1,0 +1,15 @@
+19:09:15 **** Incremental Build of configuration Debug for project Tic-Tac-Toe ****
+make all 
+Building file: ../src/Tic-Tac-Toe.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tic-Tac-Toe.d" -MT"src/Tic-Tac-Toe.o" -o "src/Tic-Tac-Toe.o" "../src/Tic-Tac-Toe.cpp"
+Finished building: ../src/Tic-Tac-Toe.cpp
+ 
+Building target: Tic-Tac-Toe
+Invoking: GCC C++ Linker
+g++  -o "Tic-Tac-Toe"  ./src/Tic-Tac-Toe.o   
+Finished building target: Tic-Tac-Toe
+ 
+
+19:09:16 Build Finished. 0 errors, 0 warnings. (took 1s.529ms)
+

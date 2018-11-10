@@ -1,0 +1,15 @@
+20:58:52 **** Incremental Build of configuration Debug for project WateringFields2 ****
+make all 
+Building file: ../src/WateringFields2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/WateringFields2.d" -MT"src/WateringFields2.o" -o "src/WateringFields2.o" "../src/WateringFields2.cpp"
+Finished building: ../src/WateringFields2.cpp
+ 
+Building target: WateringFields2
+Invoking: GCC C++ Linker
+g++  -o "WateringFields2"  ./src/WateringFields2.o   
+Finished building target: WateringFields2
+ 
+
+20:58:53 Build Finished. 0 errors, 0 warnings. (took 1s.368ms)
+

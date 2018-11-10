@@ -1,0 +1,15 @@
+20:52:24 **** Incremental Build of configuration Debug for project Knapsack ****
+make all 
+Building file: ../src/Knapsack.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Knapsack.d" -MT"src/Knapsack.o" -o "src/Knapsack.o" "../src/Knapsack.cpp"
+Finished building: ../src/Knapsack.cpp
+ 
+Building target: Knapsack
+Invoking: GCC C++ Linker
+g++  -o "Knapsack"  ./src/Knapsack.o   
+Finished building target: Knapsack
+ 
+
+20:52:26 Build Finished. 0 errors, 0 warnings. (took 1s.472ms)
+

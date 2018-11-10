@@ -1,0 +1,6 @@
+20:36:48 **** Incremental Build of configuration Debug for project SuperBull ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:36:48 Build Finished. 0 errors, 0 warnings. (took 79ms)
+

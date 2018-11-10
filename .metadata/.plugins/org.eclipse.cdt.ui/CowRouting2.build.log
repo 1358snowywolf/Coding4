@@ -1,0 +1,6 @@
+20:04:49 **** Incremental Build of configuration Debug for project CowRouting2 ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:04:49 Build Finished. 0 errors, 0 warnings. (took 61ms)
+

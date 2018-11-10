@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+	int N;
+	cin >> N;
+	map<int, vector<pair<int, int>>> vertical;
+	map<int, vector<pair<int, int>>> horizontal;
+
+	for(int i = 0; i < N; i++){
+		int X, Y;
+		cin >> X >> Y;
+		if(horizontal.find(Y) != horizontal.end()){
+			horizontal[Y].push_back(make_pair(X, Y));
+		}
+		else{
+			horizontal.insert(make_pair(Y, make_pair(X, Y)));
+		}
+	}
+
+	return 0;
+}

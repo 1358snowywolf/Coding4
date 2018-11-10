@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+	int N;
+	cin >> N;
+	vector<int> heights;
+
+	for(int i = 0; i < N; i++){
+		int input;
+		cin >> input;
+		heights.push_back(input);
+	}
+
+	int maximum = 0;
+
+	for(int i = 0; i < N; i++){
+		maximum = max(maximum, count(heights, i));
+	}
+
+	return 0;
+}

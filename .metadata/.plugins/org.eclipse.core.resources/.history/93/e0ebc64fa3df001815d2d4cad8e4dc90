@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+vector<int> parents;
+
+int findParents(int u){
+	return ((parents[u] == u) ? u : (parents[u] = findParents(u)));
+}
+
+void connect(int u, int v){
+
+}
+
+void Krushal(vector<tuple<int, int, int>> edges){
+	for(tuple<int, int, int> edge : edges){
+		int weight, u, v;
+		tie(weight, u, v) = edge;
+
+		if(findParents(u) != findParents(v)){
+			connect(u, v);
+			total += weight;
+		}
+	}
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

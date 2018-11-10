@@ -1,0 +1,80 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+map<string, vector<pair<string, int>>> graph;
+
+map<string, int> Dijkstra(set<string> words, string start){
+	priority_queue<pair<int, string>> pq;
+	map<string, int> distance;
+
+	for(string i : words){
+		distance.insert(make_pair(i, 1076000));
+	}
+
+	pq.push(make_pair(0, start));
+	distance[start] = 0;
+
+	while(!pq.empty()){
+		pair<int, string> front = pq.top();
+		pq.pop();
+
+		if(front.first * -1 > distance[front.second]){
+			continue;
+		}
+
+		for(auto n : graph[front.second]){
+            if(distance[front.second] + n.second < distance[n.first]){
+                distance[n.first] = distance[front.second] + n.second;
+                pq.push({distance[n.first] * -1, n.first});
+            }
+		}
+	}
+
+	return distance;
+}
+
+int main() {
+	int N;
+	while(cin >> N){
+		graph.clear();
+		set<string> words;
+		string start, end;
+		cin >> start >> end;
+
+		for(int i = 0; i < N; i++){
+			string u, v, word;
+			cin >> u >> v >> word;
+			words.insert(u);
+			words.insert(v);
+
+			if(graph.find(u) == graph.end()){
+				graph.insert(make_pair(u, vector<pair<string, int>> ()));
+			}
+			if(graph.find(v) == graph.end()){
+				graph.insert(make_pair(v, vector<pair<string, int>> ()));
+			}
+
+			graph[u].push_back(make_pair(v, word.size()));
+			graph[v].push_back(make_pair(u, word.size()));
+		}
+
+//		for(auto i : graph){
+//			cout << i.first << ": ";
+//
+//			for(auto j : i.second){
+//				cout << "(" + j.first << ", " << j.second << ") ";
+//			}
+//
+//			cout << endl;
+//		}
+
+		auto distance = Dijkstra(words, start);
+		cout << distance[end] << endl;
+	}
+	int zero;
+	cin >> zero;
+
+	cout << endl;
+
+	return 0;
+}
