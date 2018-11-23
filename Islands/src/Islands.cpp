@@ -7,7 +7,7 @@ int count(vector<int> heights, int current){
 	int total = 0;
 
 	for(int i = 0; i < (int) heights.size(); i++){
-		if(heights[i] >= current){
+		if(heights[i] > current){
 			if(part == false){
 				part = true;
 				total++;

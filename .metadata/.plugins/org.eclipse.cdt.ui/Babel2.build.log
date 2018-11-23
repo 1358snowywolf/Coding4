@@ -1,11 +1,11 @@
-17:26:46 **** Build of configuration Debug for project Babel2 ****
+10:40:05 **** Incremental Build of configuration Debug for project Babel2 ****
 make all 
 Building file: ../src/Babel2.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Babel2.d" -MT"src/Babel2.o" -o "src/Babel2.o" "../src/Babel2.cpp"
 ../src/Babel2.cpp: In function ‘std::map<std::__cxx11::basic_string<char>, int> Dijkstra(std::map<std::__cxx11::basic_string<char>, std::set<std::__cxx11::basic_string<char> > >, std::__cxx11::string, std::__cxx11::string)’:
-../src/Babel2.cpp:24:41: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
-    if(distance[front.second] + n.size() < distance[n]){
+../src/Babel2.cpp:32:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if(distance[front.second] + n.length() < distance[n]){
 Finished building: ../src/Babel2.cpp
  
 Building target: Babel2
@@ -14,5 +14,5 @@ g++  -o "Babel2"  ./src/Babel2.o
 Finished building target: Babel2
  
 
-17:26:48 Build Finished. 0 errors, 1 warnings. (took 1s.935ms)
+10:40:07 Build Finished. 0 errors, 1 warnings. (took 1s.973ms)
 

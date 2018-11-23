@@ -30,6 +30,8 @@ int main() {
 	sort(minimum.begin(), minimum.end());
 	vector<pair<int, int>> answers (N, make_pair(0, 0));
 
+
+
 //	for(int i = 0; i < N; i++){
 //		answers[maximum[i].second].second = maximum[i].second;
 //		answers[minimum[i].second].first = minimum[i].second;
