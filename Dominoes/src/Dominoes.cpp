@@ -15,7 +15,7 @@ void DFS(vector<pair<int, int>> dominoes, pair<int, int> end, vector<bool> visit
 		return;
 	}
 
-	cout << use.first << " " << use.second << endl;
+//	cout << use.first << " " << use.second << endl;
 	visited[current] = true;
 	index++;
 

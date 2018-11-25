@@ -35586,3 +35586,968 @@ Invoking: GCC C++ Linker
 g++  -o "FerryLoading"  ./src/FerryLoading.o   
 Finished building target: FerryLoading
  
+10:41:40 **** Build of configuration Debug for project Conformity ****
+make all 
+Building file: ../src/Conformity.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Conformity.d" -MT"src/Conformity.o" -o "src/Conformity.o" "../src/Conformity.cpp"
+Finished building: ../src/Conformity.cpp
+ 
+Building target: Conformity
+Invoking: GCC C++ Linker
+g++  -o "Conformity"  ./src/Conformity.o   
+Finished building target: Conformity
+ 
+11:11:57 **** Build of configuration Debug for project OrderingTasks ****
+make all 
+Building file: ../src/OrderingTasks.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OrderingTasks.d" -MT"src/OrderingTasks.o" -o "src/OrderingTasks.o" "../src/OrderingTasks.cpp"
+../src/OrderingTasks.cpp: In function ‘int main()’:
+../src/OrderingTasks.cpp:33:18: error: no match for call to ‘(std::vector<int>) (int&, int)’
+   indegrees (N, 0);
+                  ^
+src/subdir.mk:18: recipe for target 'src/OrderingTasks.o' failed
+make: *** [src/OrderingTasks.o] Error 1
+11:12:18 **** Incremental Build of configuration Debug for project OrderingTasks ****
+make all 
+Building file: ../src/OrderingTasks.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OrderingTasks.d" -MT"src/OrderingTasks.o" -o "src/OrderingTasks.o" "../src/OrderingTasks.cpp"
+Finished building: ../src/OrderingTasks.cpp
+ 
+Building target: OrderingTasks
+Invoking: GCC C++ Linker
+g++  -o "OrderingTasks"  ./src/OrderingTasks.o   
+Finished building target: OrderingTasks
+ 
+11:12:35 **** Incremental Build of configuration Debug for project OrderingTasks ****
+make all 
+Building file: ../src/OrderingTasks.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OrderingTasks.d" -MT"src/OrderingTasks.o" -o "src/OrderingTasks.o" "../src/OrderingTasks.cpp"
+Finished building: ../src/OrderingTasks.cpp
+ 
+Building target: OrderingTasks
+Invoking: GCC C++ Linker
+g++  -o "OrderingTasks"  ./src/OrderingTasks.o   
+Finished building target: OrderingTasks
+ 
+11:35:20 **** Incremental Build of configuration Debug for project OrderingTasks ****
+make all 
+Building file: ../src/OrderingTasks.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OrderingTasks.d" -MT"src/OrderingTasks.o" -o "src/OrderingTasks.o" "../src/OrderingTasks.cpp"
+Finished building: ../src/OrderingTasks.cpp
+ 
+Building target: OrderingTasks
+Invoking: GCC C++ Linker
+g++  -o "OrderingTasks"  ./src/OrderingTasks.o   
+Finished building target: OrderingTasks
+ 
+11:36:39 **** Incremental Build of configuration Debug for project OrderingTasks ****
+make all 
+make: Nothing to be done for 'all'.
+11:37:46 **** Incremental Build of configuration Debug for project OrderingTasks ****
+make all 
+Building file: ../src/OrderingTasks.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OrderingTasks.d" -MT"src/OrderingTasks.o" -o "src/OrderingTasks.o" "../src/OrderingTasks.cpp"
+Finished building: ../src/OrderingTasks.cpp
+ 
+Building target: OrderingTasks
+Invoking: GCC C++ Linker
+g++  -o "OrderingTasks"  ./src/OrderingTasks.o   
+Finished building target: OrderingTasks
+ 
+11:39:59 **** Incremental Build of configuration Debug for project OrderingTasks ****
+make all 
+Building file: ../src/OrderingTasks.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OrderingTasks.d" -MT"src/OrderingTasks.o" -o "src/OrderingTasks.o" "../src/OrderingTasks.cpp"
+Finished building: ../src/OrderingTasks.cpp
+ 
+Building target: OrderingTasks
+Invoking: GCC C++ Linker
+g++  -o "OrderingTasks"  ./src/OrderingTasks.o   
+Finished building target: OrderingTasks
+ 
+11:41:00 **** Incremental Build of configuration Debug for project OrderingTasks ****
+make all 
+Building file: ../src/OrderingTasks.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OrderingTasks.d" -MT"src/OrderingTasks.o" -o "src/OrderingTasks.o" "../src/OrderingTasks.cpp"
+Finished building: ../src/OrderingTasks.cpp
+ 
+Building target: OrderingTasks
+Invoking: GCC C++ Linker
+g++  -o "OrderingTasks"  ./src/OrderingTasks.o   
+Finished building target: OrderingTasks
+ 
+11:41:17 **** Incremental Build of configuration Debug for project OrderingTasks ****
+make all 
+make: Nothing to be done for 'all'.
+11:41:45 **** Incremental Build of configuration Debug for project OrderingTasks ****
+make all 
+Building file: ../src/OrderingTasks.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OrderingTasks.d" -MT"src/OrderingTasks.o" -o "src/OrderingTasks.o" "../src/OrderingTasks.cpp"
+Finished building: ../src/OrderingTasks.cpp
+ 
+Building target: OrderingTasks
+Invoking: GCC C++ Linker
+g++  -o "OrderingTasks"  ./src/OrderingTasks.o   
+Finished building target: OrderingTasks
+ 
+15:44:04 **** Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:17:49 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:22:38 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+../src/GraphColoring.cpp: In function ‘void DFS(std::set<int>, std::set<int>, std::__cxx11::string, int)’:
+../src/GraphColoring.cpp:8:11: warning: unused variable ‘i’ [-Wunused-variable]
+  for(auto i : visited){
+           ^
+../src/GraphColoring.cpp:30:10: error: ‘class std::set<int>’ has no member named ‘push_back’
+    black.push_back(i);
+          ^~~~~~~~~
+../src/GraphColoring.cpp: In function ‘int main()’:
+../src/GraphColoring.cpp:64:18: error: no match for ‘operator[]’ (operand types are ‘std::set<int>’ and ‘int’)
+    cout << answer[i];
+                  ^
+../src/GraphColoring.cpp:66:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(i + 1 < answer.size()){
+       ~~~~~~^~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h: In instantiation of ‘void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = std::_Rb_tree_const_iterator<int>; _Compare = __gnu_cxx::__ops::_Iter_less_iter]’:
+/usr/include/c++/7/bits/stl_algo.h:4836:18:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = std::_Rb_tree_const_iterator<int>]’
+../src/GraphColoring.cpp:60:36:   required from here
+/usr/include/c++/7/bits/stl_algo.h:1969:22: error: no match for ‘operator-’ (operand types are ‘std::_Rb_tree_const_iterator<int>’ and ‘std::_Rb_tree_const_iterator<int>’)
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:389:5: note: candidate: template<class _IteratorL, class _IteratorR> decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator-(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:389:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:1191:5: note: candidate: template<class _IteratorL, class _IteratorR> decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     operator-(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:1191:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::move_iterator<_IteratorL>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/complex:356:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator-(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:356:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::complex<_Tp>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/complex:365:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const _Tp&)
+     operator-(const complex<_Tp>& __x, const _Tp& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:365:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::complex<_Tp>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/complex:374:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const _Tp&, const std::complex<_Tp>&)
+     operator-(const _Tp& __x, const complex<_Tp>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:374:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::complex<_Tp>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/complex:451:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&)
+     operator-(const complex<_Tp>& __x)
+     ^~~~~~~~
+/usr/include/c++/7/complex:451:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::complex<_Tp>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/deque:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:68,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_deque.h:351:5: note: candidate: template<class _Tp, class _Ref, class _Ptr> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     operator-(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_deque.h:351:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/deque:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:68,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_deque.h:363:5: note: candidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     operator-(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_deque.h:363:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/vector:65:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_bvector.h:208:3: note: candidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   operator-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+   ^~~~~~~~
+/usr/include/c++/7/bits/stl_bvector.h:208:3: note:   no known conversion for argument 1 from ‘std::_Rb_tree_const_iterator<int>’ to ‘const std::_Bit_iterator_base&’
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:403:5: note: candidate: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__minus, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(-, __minus)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:403:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:403:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__minus, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(-, __minus)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:403:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:403:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__minus, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(-, __minus)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:403:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:403:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__minus, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(-, __minus)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:403:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:403:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__minus, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(-, __minus)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:403:5: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/valarray:1173:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__minus, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__minus, _Tp>::result_type> std::operator-(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(-, __minus)
+ ^
+/usr/include/c++/7/valarray:1173:1: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::valarray<_Tp>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/valarray:1173:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__minus, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__minus, _Tp>::result_type> std::operator-(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(-, __minus)
+ ^
+/usr/include/c++/7/valarray:1173:1: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::valarray<_Tp>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/valarray:1173:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__minus, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__minus, _Tp>::result_type> std::operator-(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(-, __minus)
+ ^
+/usr/include/c++/7/valarray:1173:1: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/7/algorithm:62:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:65,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_algo.h:1969:22: note:   ‘std::_Rb_tree_const_iterator<int>’ is not derived from ‘const std::valarray<_Tp>’
+     std::__lg(__last - __first) * 2,
+               ~~~~~~~^~~~~~~~~
+src/subdir.mk:18: recipe for target 'src/GraphColoring.o' failed
+make: *** [src/GraphColoring.o] Error 1
+16:23:45 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+../src/GraphColoring.cpp: In function ‘void DFS(std::set<int>, std::set<int>, std::__cxx11::string, int)’:
+../src/GraphColoring.cpp:8:11: warning: unused variable ‘i’ [-Wunused-variable]
+  for(auto i : visited){
+           ^
+../src/GraphColoring.cpp:14:17: error: no match for call to ‘(std::vector<int>) (std::set<int>&)’
+    answer (black);
+                 ^
+../src/GraphColoring.cpp: In function ‘int main()’:
+../src/GraphColoring.cpp:66:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if(i + 1 < answer.size()){
+       ~~~~~~^~~~~~~~~~~~~~~
+make: *** [src/GraphColoring.o] Error 1
+src/subdir.mk:18: recipe for target 'src/GraphColoring.o' failed
+16:23:59 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+../src/GraphColoring.cpp: In function ‘void DFS(std::set<int>, std::set<int>, std::__cxx11::string, int)’:
+../src/GraphColoring.cpp:8:11: warning: unused variable ‘i’ [-Wunused-variable]
+  for(auto i : visited){
+           ^
+../src/GraphColoring.cpp:14:38: error: no match for call to ‘(std::vector<int>) (std::set<int>::iterator, std::set<int>::iterator)’
+    answer (black.begin(), black.end());
+                                      ^
+make: *** [src/GraphColoring.o] Error 1
+src/subdir.mk:18: recipe for target 'src/GraphColoring.o' failed
+16:24:21 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+../src/GraphColoring.cpp: In function ‘void DFS(std::set<int>, std::set<int>, std::__cxx11::string, int)’:
+../src/GraphColoring.cpp:15:28: error: no matching function for call to ‘std::vector<int>::vector(std::set<int>&)’
+    vector<int> input (black);
+                            ^
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:411:2: note: candidate: template<class _InputIterator, class> std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&)
+  vector(_InputIterator __first, _InputIterator __last,
+  ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:411:2: note:   template argument deduction/substitution failed:
+../src/GraphColoring.cpp:15:28: note:   candidate expects 3 arguments, 1 provided
+    vector<int> input (black);
+                            ^
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/GraphColoring.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:383:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::initializer_list<_Tp>, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<int>]
+       vector(initializer_list<value_type> __l,
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:383:7: note:   no known conversion for argument 1 from ‘std::set<int>’ to ‘std::initializer_list<int>’
+/usr/include/c++/7/bits/stl_vector.h:358:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<int>]
+       vector(vector&& __rv, const allocator_type& __m)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:358:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/7/bits/stl_vector.h:348:7: note: candidate: std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<int>]
+       vector(const vector& __x, const allocator_type& __a)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:348:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/7/bits/stl_vector.h:344:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&) [with _Tp = int; _Alloc = std::allocator<int>]
+       vector(vector&& __x) noexcept
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:344:7: note:   no known conversion for argument 1 from ‘std::set<int>’ to ‘std::vector<int>&&’
+/usr/include/c++/7/bits/stl_vector.h:326:7: note: candidate: std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]
+       vector(const vector& __x)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:326:7: note:   no known conversion for argument 1 from ‘std::set<int>’ to ‘const std::vector<int>&’
+/usr/include/c++/7/bits/stl_vector.h:295:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = int; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<int>]
+       vector(size_type __n, const value_type& __value,
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:295:7: note:   candidate expects 3 arguments, 1 provided
+/usr/include/c++/7/bits/stl_vector.h:283:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<int>]
+       vector(size_type __n, const allocator_type& __a = allocator_type())
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:283:7: note:   no known conversion for argument 1 from ‘std::set<int>’ to ‘std::vector<int>::size_type {aka long unsigned int}’
+/usr/include/c++/7/bits/stl_vector.h:270:7: note: candidate: std::vector<_Tp, _Alloc>::vector(const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<int>]
+       vector(const allocator_type& __a) _GLIBCXX_NOEXCEPT
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:270:7: note:   no known conversion for argument 1 from ‘std::set<int>’ to ‘const allocator_type& {aka const std::allocator<int>&}’
+/usr/include/c++/7/bits/stl_vector.h:259:7: note: candidate: std::vector<_Tp, _Alloc>::vector() [with _Tp = int; _Alloc = std::allocator<int>]
+       vector()
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:259:7: note:   candidate expects 0 arguments, 1 provided
+src/subdir.mk:18: recipe for target 'src/GraphColoring.o' failed
+make: *** [src/GraphColoring.o] Error 1
+16:24:46 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:32:37 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:33:01 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+16:33:17 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+16:33:20 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+16:33:55 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+16:37:16 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+16:37:21 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+16:51:56 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:52:23 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:52:37 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:53:37 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+../src/GraphColoring.cpp: In function ‘void DFS(std::set<int>, std::set<int>, std::__cxx11::string, int)’:
+../src/GraphColoring.cpp:25:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(visited.size() == N){
+     ~~~~~~~~~~~~~~~^~~~
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:54:11 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:54:26 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:54:51 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:55:53 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:56:04 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+16:57:06 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+16:57:34 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+16:58:26 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:58:41 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+16:59:17 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+16:59:43 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:02:52 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+../src/GraphColoring.cpp: In function ‘void DFS(std::set<int>, std::set<int>, std::__cxx11::string, int)’:
+../src/GraphColoring.cpp:26:29: error: ‘N’ was not declared in this scope
+  if((int) visited.size() == N){
+                             ^
+src/subdir.mk:18: recipe for target 'src/GraphColoring.o' failed
+make: *** [src/GraphColoring.o] Error 1
+17:03:08 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:03:33 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+17:04:35 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+../src/GraphColoring.cpp: In function ‘int main()’:
+../src/GraphColoring.cpp:57:16: warning: ‘N’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout << N << " " << K << endl;
+                ^~~
+../src/GraphColoring.cpp:57:23: warning: ‘K’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout << N << " " << K << endl;
+                       ^
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:04:46 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:04:57 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:05:23 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:05:37 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:57 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+17:06:35 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:08:50 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+../src/GraphColoring.cpp: In function ‘void DFS(std::set<int>, std::set<int>, std::__cxx11::string, int)’:
+../src/GraphColoring.cpp:20:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+src/subdir.mk:18: recipe for target 'src/GraphColoring.o' failed
+make: *** [src/GraphColoring.o] Error 1
+17:09:00 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:09:17 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:12:35 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:12:59 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:13:05 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+17:13:13 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+17:13:41 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+make: Nothing to be done for 'all'.
+17:14:51 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:20:00 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+../src/GraphColoring.cpp: In function ‘int main()’:
+../src/GraphColoring.cpp:89:7: error: cannot bind non-const lvalue reference of type ‘std::set<int>&’ to an rvalue of type ‘std::set<int>’
+   DFS(set<int> (), black, "black", 0);
+       ^~~~~~~~~~~
+../src/GraphColoring.cpp:17:6: note:   initializing argument 1 of ‘void DFS(std::set<int>&, std::set<int>, std::__cxx11::string, int)’
+ void DFS(set<int>& visited, set<int> black, string previous, int index){
+      ^~~
+../src/GraphColoring.cpp:90:7: error: cannot bind non-const lvalue reference of type ‘std::set<int>&’ to an rvalue of type ‘std::set<int>’
+   DFS(set<int> (), set<int> (), "white", 0);
+       ^~~~~~~~~~~
+../src/GraphColoring.cpp:17:6: note:   initializing argument 1 of ‘void DFS(std::set<int>&, std::set<int>, std::__cxx11::string, int)’
+ void DFS(set<int>& visited, set<int> black, string previous, int index){
+      ^~~
+src/subdir.mk:18: recipe for target 'src/GraphColoring.o' failed
+make: *** [src/GraphColoring.o] Error 1
+17:21:17 **** Incremental Build of configuration Debug for project GraphColoring ****
+make all 
+Building file: ../src/GraphColoring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring.d" -MT"src/GraphColoring.o" -o "src/GraphColoring.o" "../src/GraphColoring.cpp"
+Finished building: ../src/GraphColoring.cpp
+ 
+Building target: GraphColoring
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring"  ./src/GraphColoring.o   
+Finished building target: GraphColoring
+ 
+17:41:44 **** Build of configuration Debug for project GraphColoring2 ****
+make all 
+Building file: ../src/GraphColoring2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring2.d" -MT"src/GraphColoring2.o" -o "src/GraphColoring2.o" "../src/GraphColoring2.cpp"
+Finished building: ../src/GraphColoring2.cpp
+ 
+Building target: GraphColoring2
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring2"  ./src/GraphColoring2.o   
+Finished building target: GraphColoring2
+ 
+17:43:15 **** Incremental Build of configuration Debug for project GraphColoring2 ****
+make all 
+Building file: ../src/GraphColoring2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring2.d" -MT"src/GraphColoring2.o" -o "src/GraphColoring2.o" "../src/GraphColoring2.cpp"
+Finished building: ../src/GraphColoring2.cpp
+ 
+Building target: GraphColoring2
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring2"  ./src/GraphColoring2.o   
+Finished building target: GraphColoring2
+ 
+17:43:24 **** Incremental Build of configuration Debug for project GraphColoring2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:57 **** Incremental Build of configuration Debug for project GraphColoring2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:47:42 **** Incremental Build of configuration Debug for project GraphColoring2 ****
+make all 
+Building file: ../src/GraphColoring2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring2.d" -MT"src/GraphColoring2.o" -o "src/GraphColoring2.o" "../src/GraphColoring2.cpp"
+Finished building: ../src/GraphColoring2.cpp
+ 
+Building target: GraphColoring2
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring2"  ./src/GraphColoring2.o   
+Finished building target: GraphColoring2
+ 
+17:48:33 **** Incremental Build of configuration Debug for project GraphColoring2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:53:29 **** Incremental Build of configuration Debug for project GraphColoring2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:55:08 **** Incremental Build of configuration Debug for project GraphColoring2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:56:25 **** Incremental Build of configuration Debug for project GraphColoring2 ****
+make all 
+Building file: ../src/GraphColoring2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring2.d" -MT"src/GraphColoring2.o" -o "src/GraphColoring2.o" "../src/GraphColoring2.cpp"
+Finished building: ../src/GraphColoring2.cpp
+ 
+Building target: GraphColoring2
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring2"  ./src/GraphColoring2.o   
+Finished building target: GraphColoring2
+ 
+17:56:34 **** Incremental Build of configuration Debug for project GraphColoring2 ****
+make all 
+Building file: ../src/GraphColoring2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/GraphColoring2.d" -MT"src/GraphColoring2.o" -o "src/GraphColoring2.o" "../src/GraphColoring2.cpp"
+Finished building: ../src/GraphColoring2.cpp
+ 
+Building target: GraphColoring2
+Invoking: GCC C++ Linker
+g++  -o "GraphColoring2"  ./src/GraphColoring2.o   
+Finished building target: GraphColoring2
+ 
+17:56:46 **** Incremental Build of configuration Debug for project GraphColoring2 ****
+make all 
+make: Nothing to be done for 'all'.
