@@ -36551,3 +36551,758 @@ Finished building target: GraphColoring2
 17:56:46 **** Incremental Build of configuration Debug for project GraphColoring2 ****
 make all 
 make: Nothing to be done for 'all'.
+11:19:46 **** Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:20:49 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:22:17 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:40:22 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:40:29 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+make: Nothing to be done for 'all'.
+11:41:21 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+make: Nothing to be done for 'all'.
+11:42:24 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:43:37 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+make: Nothing to be done for 'all'.
+11:45:18 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:50:22 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+../src/Bicoloring.cpp: In function ‘bool check(std::vector<int>, int)’:
+../src/Bicoloring.cpp:37:14: error: cannot convert ‘std::pair<const int, std::vector<int> >’ to ‘int’ in initialization
+  for(int v : allNeighbors){
+              ^~~~~~~~~~~~
+make: *** [src/Bicoloring.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Bicoloring.o' failed
+11:50:32 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:50:45 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:51:16 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:51:45 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+make: Nothing to be done for 'all'.
+11:52:11 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+make: Nothing to be done for 'all'.
+11:53:14 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:53:26 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:57:57 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+11:59:30 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+make: Nothing to be done for 'all'.
+12:00:41 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+make: Nothing to be done for 'all'.
+12:02:29 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+make: Nothing to be done for 'all'.
+12:03:12 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+12:03:46 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+12:04:17 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+12:04:47 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+12:05:04 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+make: Nothing to be done for 'all'.
+12:05:47 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+12:06:02 **** Incremental Build of configuration Debug for project Bicoloring ****
+make all 
+Building file: ../src/Bicoloring.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bicoloring.d" -MT"src/Bicoloring.o" -o "src/Bicoloring.o" "../src/Bicoloring.cpp"
+Finished building: ../src/Bicoloring.cpp
+ 
+Building target: Bicoloring
+Invoking: GCC C++ Linker
+g++  -o "Bicoloring"  ./src/Bicoloring.o   
+Finished building target: Bicoloring
+ 
+13:07:36 **** Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:08:07 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:09:37 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:10:09 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:11:27 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:11:50 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:13:40 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:14:14 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:15:48 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:15:59 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+make: Nothing to be done for 'all'.
+13:17:48 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:29:47 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:30:08 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:30:30 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:30:53 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:31:00 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:31:38 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+13:35:49 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+../src/NumericalMaze.cpp: In function ‘void DFS(std::pair<int, int>, int, int, std::__cxx11::string, std::set<std::pair<int, int> >)’:
+../src/NumericalMaze.cpp:22:101: error: no matching function for call to ‘std::set<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >::insert(std::pair<int, std::pair<std::pair<int, int>, std::pair<int, int> > >)’
+   answer.insert(make_pair(str[0] + str[(int) str.size() - 1], make_pair(beginning, make_pair(i, j))));
+                                                                                                     ^
+In file included from /usr/include/c++/7/set:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:87,
+                 from ../src/NumericalMaze.cpp:1:
+/usr/include/c++/7/bits/stl_set.h:499:7: note: candidate: std::pair<typename std::_Rb_tree<_Key, _Key, std::_Identity<_Key>, _Compare, typename __gnu_cxx::__alloc_traits<_Alloc>::rebind<_Key>::other>::const_iterator, bool> std::set<_Key, _Compare, _Alloc>::insert(const value_type&) [with _Key = std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >; _Compare = std::less<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; _Alloc = std::allocator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; typename std::_Rb_tree<_Key, _Key, std::_Identity<_Key>, _Compare, typename __gnu_cxx::__alloc_traits<_Alloc>::rebind<_Key>::other>::const_iterator = std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; std::set<_Key, _Compare, _Alloc>::value_type = std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >]
+       insert(const value_type& __x)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_set.h:499:7: note:   no known conversion for argument 1 from ‘std::pair<int, std::pair<std::pair<int, int>, std::pair<int, int> > >’ to ‘const value_type& {aka const std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >&}’
+/usr/include/c++/7/bits/stl_set.h:508:7: note: candidate: std::pair<typename std::_Rb_tree<_Key, _Key, std::_Identity<_Key>, _Compare, typename __gnu_cxx::__alloc_traits<_Alloc>::rebind<_Key>::other>::const_iterator, bool> std::set<_Key, _Compare, _Alloc>::insert(std::set<_Key, _Compare, _Alloc>::value_type&&) [with _Key = std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >; _Compare = std::less<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; _Alloc = std::allocator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; typename std::_Rb_tree<_Key, _Key, std::_Identity<_Key>, _Compare, typename __gnu_cxx::__alloc_traits<_Alloc>::rebind<_Key>::other>::const_iterator = std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; std::set<_Key, _Compare, _Alloc>::value_type = std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >]
+       insert(value_type&& __x)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_set.h:508:7: note:   no known conversion for argument 1 from ‘std::pair<int, std::pair<std::pair<int, int>, std::pair<int, int> > >’ to ‘std::set<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >::value_type&& {aka std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >&&}’
+/usr/include/c++/7/bits/stl_set.h:536:7: note: candidate: std::set<_Key, _Compare, _Alloc>::iterator std::set<_Key, _Compare, _Alloc>::insert(std::set<_Key, _Compare, _Alloc>::const_iterator, const value_type&) [with _Key = std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >; _Compare = std::less<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; _Alloc = std::allocator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; std::set<_Key, _Compare, _Alloc>::iterator = std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; std::set<_Key, _Compare, _Alloc>::const_iterator = std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; std::set<_Key, _Compare, _Alloc>::value_type = std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >]
+       insert(const_iterator __position, const value_type& __x)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_set.h:536:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/7/bits/stl_set.h:541:7: note: candidate: std::set<_Key, _Compare, _Alloc>::iterator std::set<_Key, _Compare, _Alloc>::insert(std::set<_Key, _Compare, _Alloc>::const_iterator, std::set<_Key, _Compare, _Alloc>::value_type&&) [with _Key = std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >; _Compare = std::less<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; _Alloc = std::allocator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; std::set<_Key, _Compare, _Alloc>::iterator = std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; std::set<_Key, _Compare, _Alloc>::const_iterator = std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; std::set<_Key, _Compare, _Alloc>::value_type = std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >]
+       insert(const_iterator __position, value_type&& __x)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_set.h:541:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/7/bits/stl_set.h:556:2: note: candidate: template<class _InputIterator> void std::set<_Key, _Compare, _Alloc>::insert(_InputIterator, _InputIterator) [with _InputIterator = _InputIterator; _Key = std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >; _Compare = std::less<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; _Alloc = std::allocator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >]
+  insert(_InputIterator __first, _InputIterator __last)
+  ^~~~~~
+/usr/include/c++/7/bits/stl_set.h:556:2: note:   template argument deduction/substitution failed:
+../src/NumericalMaze.cpp:22:101: note:   candidate expects 2 arguments, 1 provided
+   answer.insert(make_pair(str[0] + str[(int) str.size() - 1], make_pair(beginning, make_pair(i, j))));
+                                                                                                     ^
+In file included from /usr/include/c++/7/set:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:87,
+                 from ../src/NumericalMaze.cpp:1:
+/usr/include/c++/7/bits/stl_set.h:568:7: note: candidate: void std::set<_Key, _Compare, _Alloc>::insert(std::initializer_list<_Tp>) [with _Key = std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > >; _Compare = std::less<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >; _Alloc = std::allocator<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >]
+       insert(initializer_list<value_type> __l)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_set.h:568:7: note:   no known conversion for argument 1 from ‘std::pair<int, std::pair<std::pair<int, int>, std::pair<int, int> > >’ to ‘std::initializer_list<std::pair<std::__cxx11::basic_string<char>, std::pair<std::pair<int, int>, std::pair<int, int> > > >’
+make: *** [src/NumericalMaze.o] Error 1
+src/subdir.mk:18: recipe for target 'src/NumericalMaze.o' failed
+13:36:47 **** Incremental Build of configuration Debug for project NumericalMaze ****
+make all 
+Building file: ../src/NumericalMaze.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumericalMaze.d" -MT"src/NumericalMaze.o" -o "src/NumericalMaze.o" "../src/NumericalMaze.cpp"
+Finished building: ../src/NumericalMaze.cpp
+ 
+Building target: NumericalMaze
+Invoking: GCC C++ Linker
+g++  -o "NumericalMaze"  ./src/NumericalMaze.o   
+Finished building target: NumericalMaze
+ 
+15:20:34 **** Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+../src/Passwords.cpp: In function ‘void DFS(std::vector<std::vector<char> >, std::vector<std::set<char> >, std::__cxx11::string, int, int)’:
+../src/Passwords.cpp:12:34: error: invalid use of non-static member function ‘std::set<_Key, _Compare, _Alloc>::iterator std::set<_Key, _Compare, _Alloc>::end() const [with _Key = char; _Compare = std::less<char>; _Alloc = std::allocator<char>; std::set<_Key, _Compare, _Alloc>::iterator = std::_Rb_tree_const_iterator<char>]’
+   if(columns[j].find(grid[i][j]) == columns[j].end){
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7/set:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:87,
+                 from ../src/Passwords.cpp:1:
+/usr/include/c++/7/bits/stl_set.h:343:7: note: declared here
+       end() const _GLIBCXX_NOEXCEPT
+       ^~~
+src/subdir.mk:18: recipe for target 'src/Passwords.o' failed
+make: *** [src/Passwords.o] Error 1
+15:22:19 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+../src/Passwords.cpp: In function ‘void DFS(std::vector<std::vector<char> >, std::vector<std::set<char> >, std::__cxx11::string, int, int)’:
+../src/Passwords.cpp:12:34: error: invalid use of non-static member function ‘std::set<_Key, _Compare, _Alloc>::iterator std::set<_Key, _Compare, _Alloc>::end() const [with _Key = char; _Compare = std::less<char>; _Alloc = std::allocator<char>; std::set<_Key, _Compare, _Alloc>::iterator = std::_Rb_tree_const_iterator<char>]’
+   if(columns[j].find(grid[i][j]) != columns[j].end){
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/7/set:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:87,
+                 from ../src/Passwords.cpp:1:
+/usr/include/c++/7/bits/stl_set.h:343:7: note: declared here
+       end() const _GLIBCXX_NOEXCEPT
+       ^~~
+../src/Passwords.cpp:13:4: error: continue statement not within a loop
+    continue;
+    ^~~~~~~~
+src/subdir.mk:18: recipe for target 'src/Passwords.o' failed
+make: *** [src/Passwords.o] Error 1
+15:35:08 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:38:41 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:40:46 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:41:12 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:41:51 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:20 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:42:59 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:43:28 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:44:17 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:44:29 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:44:39 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:48 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+make: Nothing to be done for 'all'.
+15:46:37 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+make: Nothing to be done for 'all'.
+15:46:40 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+make: Nothing to be done for 'all'.
+15:48:13 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:48:45 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:49:35 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:44 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+make: Nothing to be done for 'all'.
+15:55:25 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:55:52 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+15:56:05 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+16:01:44 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
+16:10:18 **** Incremental Build of configuration Debug for project Passwords ****
+make all 
+Building file: ../src/Passwords.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Passwords.d" -MT"src/Passwords.o" -o "src/Passwords.o" "../src/Passwords.cpp"
+Finished building: ../src/Passwords.cpp
+ 
+Building target: Passwords
+Invoking: GCC C++ Linker
+g++  -o "Passwords"  ./src/Passwords.o   
+Finished building target: Passwords
+ 
