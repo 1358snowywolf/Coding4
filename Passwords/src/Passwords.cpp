@@ -66,7 +66,6 @@ int main() {
 
 		if((int) answers.size() < K){
 			cout << "NO" << endl;
-//			cout << answers.size() << endl;
 		}
 		else{
 			int index = 1;
@@ -79,8 +78,6 @@ int main() {
 
 				index++;
 			}
-
-//			cout << answers[K - 1] << endl;
 		}
 	}
 
