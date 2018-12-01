@@ -1,18 +1,11 @@
-//============================================================================
-// Name        : Wormhole.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
 #include <bits/stdc++.h>
+
 using namespace std;
 
 map<int, vector<pair<int, int>>> graph;
 
 bool bellmanFord(int N){
-	vector<int> distance (N, 200000);
+	vector<int> distance (N, 20000000);
 	distance[0] = 0;
 	int i = 0;
 
@@ -56,9 +49,9 @@ int main() {
 			graph[u].push_back(make_pair(v, weight));
 		}
 
-		bool goBack = bellmanFord(N);
+		bool works = bellmanFord(N);
 
-		if(goBack){
+		if(works){
 			cout << "possible" << endl;
 		}
 		else{

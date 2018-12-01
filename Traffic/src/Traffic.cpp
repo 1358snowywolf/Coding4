@@ -26,8 +26,6 @@ vector<int> bellmanFord(int N){
 		if(!changed) break;
 	}
 
-//	cout << distance[i] << " : " << previous[i] << endl;
-
 	if(i == N){
 		for(auto u : graph){
 			for(auto neighbors : u.second){

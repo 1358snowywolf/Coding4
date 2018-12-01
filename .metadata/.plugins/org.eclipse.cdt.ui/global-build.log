@@ -44501,3 +44501,573 @@ Invoking: GCC C++ Linker
 g++  -o "HeavyCycle"  ./src/HeavyCycle.o   
 Finished building target: HeavyCycle
  
+17:05:57 **** Build of configuration Debug for project Freckles ****
+make all 
+Building file: ../src/Freckles.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Freckles.d" -MT"src/Freckles.o" -o "src/Freckles.o" "../src/Freckles.cpp"
+../src/Freckles.cpp: In function ‘int main()’:
+../src/Freckles.cpp:45:73: error: no matching function for call to ‘std::vector<std::vector<std::pair<int, float> > >::vector(int&, std::vector<std::pair<float, int>, std::allocator<std::pair<float, int> > >)’
+   vector<vector<pair<int, float>>> input (N, vector<pair<float, int>> ());
+                                                                         ^
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/Freckles.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:411:2: note: candidate: template<class _InputIterator, class> std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&)
+  vector(_InputIterator __first, _InputIterator __last,
+  ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:411:2: note:   template argument deduction/substitution failed:
+../src/Freckles.cpp:45:73: note:   deduced conflicting types for parameter ‘_InputIterator’ (‘int’ and ‘std::vector<std::pair<float, int>, std::allocator<std::pair<float, int> > >’)
+   vector<vector<pair<int, float>>> input (N, vector<pair<float, int>> ());
+                                                                         ^
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/Freckles.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:383:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::initializer_list<_Tp>, const allocator_type&) [with _Tp = std::vector<std::pair<int, float> >; _Alloc = std::allocator<std::vector<std::pair<int, float> > >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::vector<std::pair<int, float> > >]
+       vector(initializer_list<value_type> __l,
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:383:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::initializer_list<std::vector<std::pair<int, float> > >’
+/usr/include/c++/7/bits/stl_vector.h:358:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&, const allocator_type&) [with _Tp = std::vector<std::pair<int, float> >; _Alloc = std::allocator<std::vector<std::pair<int, float> > >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::vector<std::pair<int, float> > >]
+       vector(vector&& __rv, const allocator_type& __m)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:358:7: note:   no known conversion for argument 1 from ‘int’ to ‘std::vector<std::vector<std::pair<int, float> > >&&’
+/usr/include/c++/7/bits/stl_vector.h:348:7: note: candidate: std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&, const allocator_type&) [with _Tp = std::vector<std::pair<int, float> >; _Alloc = std::allocator<std::vector<std::pair<int, float> > >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::vector<std::pair<int, float> > >]
+       vector(const vector& __x, const allocator_type& __a)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:348:7: note:   no known conversion for argument 1 from ‘int’ to ‘const std::vector<std::vector<std::pair<int, float> > >&’
+/usr/include/c++/7/bits/stl_vector.h:344:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>&&) [with _Tp = std::vector<std::pair<int, float> >; _Alloc = std::allocator<std::vector<std::pair<int, float> > >]
+       vector(vector&& __x) noexcept
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:344:7: note:   candidate expects 1 argument, 2 provided
+/usr/include/c++/7/bits/stl_vector.h:326:7: note: candidate: std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = std::vector<std::pair<int, float> >; _Alloc = std::allocator<std::vector<std::pair<int, float> > >]
+       vector(const vector& __x)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:326:7: note:   candidate expects 1 argument, 2 provided
+/usr/include/c++/7/bits/stl_vector.h:295:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = std::vector<std::pair<int, float> >; _Alloc = std::allocator<std::vector<std::pair<int, float> > >; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = std::vector<std::pair<int, float> >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::vector<std::pair<int, float> > >]
+       vector(size_type __n, const value_type& __value,
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:295:7: note:   no known conversion for argument 2 from ‘std::vector<std::pair<float, int>, std::allocator<std::pair<float, int> > >’ to ‘const value_type& {aka const std::vector<std::pair<int, float> >&}’
+/usr/include/c++/7/bits/stl_vector.h:283:7: note: candidate: std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = std::vector<std::pair<int, float> >; _Alloc = std::allocator<std::vector<std::pair<int, float> > >; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::vector<std::pair<int, float> > >]
+       vector(size_type __n, const allocator_type& __a = allocator_type())
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:283:7: note:   no known conversion for argument 2 from ‘std::vector<std::pair<float, int>, std::allocator<std::pair<float, int> > >’ to ‘const allocator_type& {aka const std::allocator<std::vector<std::pair<int, float> > >&}’
+/usr/include/c++/7/bits/stl_vector.h:270:7: note: candidate: std::vector<_Tp, _Alloc>::vector(const allocator_type&) [with _Tp = std::vector<std::pair<int, float> >; _Alloc = std::allocator<std::vector<std::pair<int, float> > >; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<std::vector<std::pair<int, float> > >]
+       vector(const allocator_type& __a) _GLIBCXX_NOEXCEPT
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:270:7: note:   candidate expects 1 argument, 2 provided
+/usr/include/c++/7/bits/stl_vector.h:259:7: note: candidate: std::vector<_Tp, _Alloc>::vector() [with _Tp = std::vector<std::pair<int, float> >; _Alloc = std::allocator<std::vector<std::pair<int, float> > >]
+       vector()
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:259:7: note:   candidate expects 0 arguments, 2 provided
+src/subdir.mk:18: recipe for target 'src/Freckles.o' failed
+make: *** [src/Freckles.o] Error 1
+17:06:12 **** Incremental Build of configuration Debug for project Freckles ****
+make all 
+Building file: ../src/Freckles.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Freckles.d" -MT"src/Freckles.o" -o "src/Freckles.o" "../src/Freckles.cpp"
+Finished building: ../src/Freckles.cpp
+ 
+Building target: Freckles
+Invoking: GCC C++ Linker
+g++  -o "Freckles"  ./src/Freckles.o   
+Finished building target: Freckles
+ 
+17:07:04 **** Incremental Build of configuration Debug for project Freckles ****
+make all 
+make: Nothing to be done for 'all'.
+17:07:16 **** Incremental Build of configuration Debug for project Freckles ****
+make all 
+Building file: ../src/Freckles.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Freckles.d" -MT"src/Freckles.o" -o "src/Freckles.o" "../src/Freckles.cpp"
+Finished building: ../src/Freckles.cpp
+ 
+Building target: Freckles
+Invoking: GCC C++ Linker
+g++  -o "Freckles"  ./src/Freckles.o   
+Finished building target: Freckles
+ 
+11:25:44 **** Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+../src/BudgetTravel.cpp: In function ‘float DFS(float, int, const std::vector<std::pair<float, float> >&)’:
+../src/BudgetTravel.cpp:23:30: error: reference to ‘distance’ is ambiguous
+  if(gasStops[index].first >= distance) return 0;
+                              ^~~~~~~~
+../src/BudgetTravel.cpp:4:7: note: candidates are: float distance
+ float distance, tank, gph, original;
+       ^~~~~~~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:66:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/BudgetTravel.cpp:1:
+/usr/include/c++/7/bits/stl_iterator_base_funcs.h:138:5: note:                 template<class _InputIterator> typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator)
+     distance(_InputIterator __first, _InputIterator __last)
+     ^~~~~~~~
+../src/BudgetTravel.cpp: In function ‘int main()’:
+../src/BudgetTravel.cpp:39:10: error: reference to ‘distance’ is ambiguous
+   cin >> distance;
+          ^~~~~~~~
+../src/BudgetTravel.cpp:4:7: note: candidates are: float distance
+ float distance, tank, gph, original;
+       ^~~~~~~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:66:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/BudgetTravel.cpp:1:
+/usr/include/c++/7/bits/stl_iterator_base_funcs.h:138:5: note:                 template<class _InputIterator> typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator)
+     distance(_InputIterator __first, _InputIterator __last)
+     ^~~~~~~~
+../src/BudgetTravel.cpp:40:6: error: reference to ‘distance’ is ambiguous
+   if(distance == -1) break;
+      ^~~~~~~~
+../src/BudgetTravel.cpp:4:7: note: candidates are: float distance
+ float distance, tank, gph, original;
+       ^~~~~~~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:66:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/BudgetTravel.cpp:1:
+/usr/include/c++/7/bits/stl_iterator_base_funcs.h:138:5: note:                 template<class _InputIterator> typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator)
+     distance(_InputIterator __first, _InputIterator __last)
+     ^~~~~~~~
+make: *** [src/BudgetTravel.o] Error 1
+src/subdir.mk:18: recipe for target 'src/BudgetTravel.o' failed
+11:28:04 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+../src/BudgetTravel.cpp: In function ‘float DFS(float, int, const std::vector<std::pair<float, float> >&)’:
+../src/BudgetTravel.cpp:23:30: error: reference to ‘distance’ is ambiguous
+  if(gasStops[index].first >= distance) return (float) 0;
+                              ^~~~~~~~
+../src/BudgetTravel.cpp:4:7: note: candidates are: float distance
+ float distance, tank, gph, original;
+       ^~~~~~~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:66:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/BudgetTravel.cpp:1:
+/usr/include/c++/7/bits/stl_iterator_base_funcs.h:138:5: note:                 template<class _InputIterator> typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator)
+     distance(_InputIterator __first, _InputIterator __last)
+     ^~~~~~~~
+../src/BudgetTravel.cpp: In function ‘int main()’:
+../src/BudgetTravel.cpp:39:10: error: reference to ‘distance’ is ambiguous
+   cin >> distance;
+          ^~~~~~~~
+../src/BudgetTravel.cpp:4:7: note: candidates are: float distance
+ float distance, tank, gph, original;
+       ^~~~~~~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:66:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/BudgetTravel.cpp:1:
+/usr/include/c++/7/bits/stl_iterator_base_funcs.h:138:5: note:                 template<class _InputIterator> typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator)
+     distance(_InputIterator __first, _InputIterator __last)
+     ^~~~~~~~
+../src/BudgetTravel.cpp:40:6: error: reference to ‘distance’ is ambiguous
+   if(distance == -1) break;
+      ^~~~~~~~
+../src/BudgetTravel.cpp:4:7: note: candidates are: float distance
+ float distance, tank, gph, original;
+       ^~~~~~~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:66:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/BudgetTravel.cpp:1:
+/usr/include/c++/7/bits/stl_iterator_base_funcs.h:138:5: note:                 template<class _InputIterator> typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator)
+     distance(_InputIterator __first, _InputIterator __last)
+     ^~~~~~~~
+make: *** [src/BudgetTravel.o] Error 1
+src/subdir.mk:18: recipe for target 'src/BudgetTravel.o' failed
+11:28:25 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:31:12 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:31:33 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:35:04 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:35:21 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:35:48 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:36:33 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:39:07 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:41:30 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:45:48 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:17 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+make: Nothing to be done for 'all'.
+11:49:59 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:57:45 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:58:26 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:58:53 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+11:59:53 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+make: Nothing to be done for 'all'.
+12:01:01 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+make: Nothing to be done for 'all'.
+12:04:30 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:04:55 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:22:17 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:22:21 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+make: Nothing to be done for 'all'.
+12:25:18 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:27:32 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:29:01 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:33:55 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+make: Nothing to be done for 'all'.
+12:35:31 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:35:59 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:39:03 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+../src/BudgetTravel.cpp: In function ‘float DFS(float, int, const std::vector<std::pair<float, float> >&)’:
+../src/BudgetTravel.cpp:2:13: error: unable to find numeric literal operator ‘operator""f’
+ #define INF 200000000f
+             ^
+../src/BudgetTravel.cpp:33:10: note: in expansion of macro ‘INF’
+   return INF;
+          ^~~
+../src/BudgetTravel.cpp:2:13: error: unable to find numeric literal operator ‘operator""f’
+ #define INF 200000000f
+             ^
+../src/BudgetTravel.cpp:38:29: note: in expansion of macro ‘INF’
+  if(gas < 0) return (float) INF;
+                             ^~~
+make: *** [src/BudgetTravel.o] Error 1
+src/subdir.mk:18: recipe for target 'src/BudgetTravel.o' failed
+12:39:21 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:40:40 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+../src/BudgetTravel.cpp: In function ‘int main()’:
+../src/BudgetTravel.cpp:66:10: error: unable to find numeric literal operator ‘operator""f’
+   res /= 100f;
+          ^~~~
+src/subdir.mk:18: recipe for target 'src/BudgetTravel.o' failed
+make: *** [src/BudgetTravel.o] Error 1
+12:40:54 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:43:31 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:50:43 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+Building file: ../src/BudgetTravel.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BudgetTravel.d" -MT"src/BudgetTravel.o" -o "src/BudgetTravel.o" "../src/BudgetTravel.cpp"
+Finished building: ../src/BudgetTravel.cpp
+ 
+Building target: BudgetTravel
+Invoking: GCC C++ Linker
+g++  -o "BudgetTravel"  ./src/BudgetTravel.o   
+Finished building target: BudgetTravel
+ 
+12:52:07 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+make: Nothing to be done for 'all'.
+12:57:02 **** Incremental Build of configuration Debug for project BudgetTravel ****
+make all 
+make: Nothing to be done for 'all'.
