@@ -21,7 +21,6 @@ float changeGas(vector<pair<float, float>> gasStops, int index, float gas){
 }
 
 float DFS(float gas, int index, const vector<pair<float, float>>& gasStops){
-//	if(gasStops[index].first >= Totaldistance) return (float) 0;
 	if(index == (int) gasStops.size()){
 		float length = Totaldistance - gasStops[index - 1].first;
 		float gallons = length / gph;
@@ -34,7 +33,6 @@ float DFS(float gas, int index, const vector<pair<float, float>>& gasStops){
 	}
 
 	gas = changeGas(gasStops, index, gas);
-//	cout << index << " " << gas << endl;
 	if(gas < 0) return (float) INF;
 	float res1, res2;
 
@@ -69,7 +67,6 @@ int main() {
 		cout << "Data Set #" << times << endl;
 		cout << "minimum cost = $" << fixed << setprecision(2) << res << endl;
 		times ++;
-
 	}
 
 	return 0;

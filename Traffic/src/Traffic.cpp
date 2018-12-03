@@ -42,13 +42,6 @@ vector<int> bellmanFord(int N){
 		}
 	}
 
-
-
-//	for(int i = 0; i < N; i++){
-//		cout << distance[i] << " ";
-//	}
-//
-//	cout << endl;
 	return distance;
 }
 

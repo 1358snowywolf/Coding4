@@ -26,12 +26,11 @@ void DFS(int index, int N, set<int> black){
 	}
 
 	if(index == N - 1){
-		if(check(black)){
-			if(answer.size() < black.size()){
-				vector<int> input (black.begin(), black.end());
-				answer = input;
-			}
+		if(answer.size() < black.size()){
+			vector<int> input (black.begin(), black.end());
+			answer = input;
 		}
+
 		return;
 	}
 

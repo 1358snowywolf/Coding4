@@ -45071,3 +45071,839 @@ make: Nothing to be done for 'all'.
 12:57:02 **** Incremental Build of configuration Debug for project BudgetTravel ****
 make all 
 make: Nothing to be done for 'all'.
+17:06:20 **** Build of configuration Debug for project Traffic ****
+make all 
+Building file: ../src/Traffic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Traffic.d" -MT"src/Traffic.o" -o "src/Traffic.o" "../src/Traffic.cpp"
+Finished building: ../src/Traffic.cpp
+ 
+Building target: Traffic
+Invoking: GCC C++ Linker
+g++  -o "Traffic"  ./src/Traffic.o   
+Finished building target: Traffic
+ 
+17:06:28 **** Incremental Build of configuration Debug for project Traffic ****
+make all 
+make: Nothing to be done for 'all'.
+20:20:11 **** Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:20:39 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+20:21:15 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:21:27 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:22:11 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:26:42 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:27:13 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:28:02 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:29:24 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:30:30 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:48 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:18 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:37 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:48:11 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:49:37 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:50:10 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+../src/XYZZY.cpp: In function ‘bool bellmanFord()’:
+../src/XYZZY.cpp:12:8: warning: variable ‘changed’ set but not used [-Wunused-but-set-variable]
+   bool changed = false;
+        ^~~~~~~
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:51:35 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+../src/XYZZY.cpp: In function ‘bool bellmanFord()’:
+../src/XYZZY.cpp:12:8: warning: variable ‘changed’ set but not used [-Wunused-but-set-variable]
+   bool changed = false;
+        ^~~~~~~
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:51:48 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:37 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+../src/XYZZY.cpp: In function ‘bool bellmanFord()’:
+../src/XYZZY.cpp:12:8: warning: variable ‘changed’ set but not used [-Wunused-but-set-variable]
+   bool changed = false;
+        ^~~~~~~
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:53:59 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:55:51 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:55:55 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+20:56:18 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+20:58:12 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+20:58:50 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:00:00 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:00:17 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:02:43 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:03:21 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:33 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:45 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:04:18 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:04:34 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:04:52 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:05:47 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+../src/XYZZY.cpp: In function ‘bool bellmanFord()’:
+../src/XYZZY.cpp:27:6: error: ‘change’ was not declared in this scope
+      change = false;
+      ^~~~~~
+../src/XYZZY.cpp:27:6: note: suggested alternative: ‘changed’
+      change = false;
+      ^~~~~~
+      changed
+src/subdir.mk:18: recipe for target 'src/XYZZY.o' failed
+make: *** [src/XYZZY.o] Error 1
+21:05:53 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:06:04 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+21:06:14 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:06:57 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:04 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:07:37 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:10:39 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:11:01 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:14:38 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:15:28 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:15:43 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:18:15 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+21:19:18 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+21:19:36 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+13:21:46 **** Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+13:21:58 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+13:25:46 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+13:26:19 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+13:28:14 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+make: Nothing to be done for 'all'.
+13:28:32 **** Incremental Build of configuration Debug for project XYZZY ****
+make all 
+Building file: ../src/XYZZY.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/XYZZY.d" -MT"src/XYZZY.o" -o "src/XYZZY.o" "../src/XYZZY.cpp"
+Finished building: ../src/XYZZY.cpp
+ 
+Building target: XYZZY
+Invoking: GCC C++ Linker
+g++  -o "XYZZY"  ./src/XYZZY.o   
+Finished building target: XYZZY
+ 
+19:30:26 **** Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+../src/Transformations.cpp: In function ‘void DFS(std::multiset<std::pair<int, int> >, int, int, int)’:
+../src/Transformations.cpp:9:11: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  if(index == stations.size()){
+     ~~~~~~^~~~~~~~~~~~~~~~~~
+../src/Transformations.cpp:17:27: error: invalid type argument of unary ‘*’ (have ‘int’)
+   if(*passengers.begin()->first > index) break;
+                           ^~~~~
+../src/Transformations.cpp:19:32: error: invalid type argument of unary ‘*’ (have ‘int’)
+   size -= *passengers.begin()->second;
+                                ^~~~~~
+make: *** [src/Transformations.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Transformations.o' failed
+19:31:13 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:31:40 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:32:52 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:32:57 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:35 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:34:26 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:34:51 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:18 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:35:23 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:35:38 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:36:50 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+../src/Transformations.cpp: In function ‘void DFS(std::multiset<std::pair<int, int> >, int, int, int, int, std::vector<int>)’:
+../src/Transformations.cpp:31:19: error: no matching function for call to ‘std::vector<int>::insert(int&)’
+  used.insert(index);
+                   ^
+In file included from /usr/include/c++/7/vector:69:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/Transformations.cpp:1:
+/usr/include/c++/7/bits/vector.tcc:114:5: note: candidate: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const int*, std::vector<int> >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const int*; std::vector<_Tp, _Alloc>::value_type = int]
+     vector<_Tp, _Alloc>::
+     ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/7/bits/vector.tcc:114:5: note:   candidate expects 2 arguments, 1 provided
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/Transformations.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:1042:7: note: candidate: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const int*, std::vector<int> >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const int*; std::vector<_Tp, _Alloc>::value_type = int]
+       insert(const_iterator __position, value_type&& __x)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:1042:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/7/bits/stl_vector.h:1059:7: note: candidate: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const int*, std::vector<int> >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const int*]
+       insert(const_iterator __position, initializer_list<value_type> __l)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:1059:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/7/bits/stl_vector.h:1084:7: note: candidate: std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, std::vector<_Tp, _Alloc>::size_type, const value_type&) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::iterator = __gnu_cxx::__normal_iterator<int*, std::vector<int> >; typename std::_Vector_base<_Tp, _Alloc>::pointer = int*; std::vector<_Tp, _Alloc>::const_iterator = __gnu_cxx::__normal_iterator<const int*, std::vector<int> >; typename __gnu_cxx::__alloc_traits<typename std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type>::const_pointer = const int*; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::value_type = int]
+       insert(const_iterator __position, size_type __n, const value_type& __x)
+       ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:1084:7: note:   candidate expects 3 arguments, 1 provided
+/usr/include/c++/7/bits/stl_vector.h:1128:2: note: candidate: template<class _InputIterator, class> std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, _InputIterator, _InputIterator) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = int; _Alloc = std::allocator<int>]
+  insert(const_iterator __position, _InputIterator __first,
+  ^~~~~~
+/usr/include/c++/7/bits/stl_vector.h:1128:2: note:   template argument deduction/substitution failed:
+../src/Transformations.cpp:31:19: note:   candidate expects 3 arguments, 1 provided
+  used.insert(index);
+                   ^
+src/subdir.mk:18: recipe for target 'src/Transformations.o' failed
+make: *** [src/Transformations.o] Error 1
+19:37:00 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:37:04 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:37:41 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:38:01 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:43:51 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:43:54 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:44:30 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:45:50 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:32 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:38 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:56:00 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:56:44 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+19:57:27 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+19:59:52 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+20:00:47 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+20:02:22 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
+20:07:17 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+20:07:47 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+Building file: ../src/Transformations.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Transformations.d" -MT"src/Transformations.o" -o "src/Transformations.o" "../src/Transformations.cpp"
+Finished building: ../src/Transformations.cpp
+ 
+Building target: Transformations
+Invoking: GCC C++ Linker
+g++  -o "Transformations"  ./src/Transformations.o   
+Finished building target: Transformations
+ 
+20:08:49 **** Incremental Build of configuration Debug for project Transformations ****
+make all 
+make: Nothing to be done for 'all'.
