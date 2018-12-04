@@ -45907,3 +45907,1153 @@ Finished building target: Transformations
 20:08:49 **** Incremental Build of configuration Debug for project Transformations ****
 make all 
 make: Nothing to be done for 'all'.
+17:09:10 **** Build of configuration Debug for project Reconnecting ****
+make all 
+Building file: ../src/Reconnecting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reconnecting.d" -MT"src/Reconnecting.o" -o "src/Reconnecting.o" "../src/Reconnecting.cpp"
+../src/Reconnecting.cpp: In function ‘void process(std::priority_queue<std::pair<int, int> >&, std::vector<bool>&, std::map<int, std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > > >, int)’:
+../src/Reconnecting.cpp:10:25: error: no match for ‘operator*’ (operand types are ‘int’ and ‘std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >’)
+    pq.push(make_pair(-1 * n.second, n.first));
+                      ~~~^~~~~~~~~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/complex:386:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:386:5: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   mismatched types ‘const std::complex<_Tp>’ and ‘int’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/complex:395:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)
+     operator*(const complex<_Tp>& __x, const _Tp& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:395:5: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   mismatched types ‘const std::complex<_Tp>’ and ‘int’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/complex:404:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)
+     operator*(const _Tp& __x, const complex<_Tp>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:404:5: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   ‘std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >’ is not derived from ‘const std::complex<_Tp>’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:404:5: note: candidate: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__multiplies, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘int’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘int’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   ‘std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘int’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   ‘std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/valarray:1174:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__multiplies, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__multiplies, _Tp>::result_type> std::operator*(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(*, __multiplies)
+ ^
+/usr/include/c++/7/valarray:1174:1: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   mismatched types ‘const std::valarray<_Tp>’ and ‘int’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/valarray:1174:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__multiplies, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__multiplies, _Tp>::result_type> std::operator*(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(*, __multiplies)
+ ^
+/usr/include/c++/7/valarray:1174:1: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   mismatched types ‘const std::valarray<_Tp>’ and ‘int’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/Reconnecting.cpp:1:
+/usr/include/c++/7/valarray:1174:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__multiplies, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__multiplies, _Tp>::result_type> std::operator*(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(*, __multiplies)
+ ^
+/usr/include/c++/7/valarray:1174:1: note:   template argument deduction/substitution failed:
+../src/Reconnecting.cpp:10:29: note:   ‘std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >’ is not derived from ‘const std::valarray<_Tp>’
+    pq.push(make_pair(-1 * n.second, n.first));
+                             ^~~~~~
+make: *** [src/Reconnecting.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Reconnecting.o' failed
+17:09:27 **** Incremental Build of configuration Debug for project Reconnecting ****
+make all 
+Building file: ../src/Reconnecting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reconnecting.d" -MT"src/Reconnecting.o" -o "src/Reconnecting.o" "../src/Reconnecting.cpp"
+Finished building: ../src/Reconnecting.cpp
+ 
+Building target: Reconnecting
+Invoking: GCC C++ Linker
+g++  -o "Reconnecting"  ./src/Reconnecting.o   
+Finished building target: Reconnecting
+ 
+17:10:05 **** Incremental Build of configuration Debug for project Reconnecting ****
+make all 
+make: Nothing to be done for 'all'.
+17:15:40 **** Incremental Build of configuration Debug for project Reconnecting ****
+make all 
+Building file: ../src/Reconnecting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reconnecting.d" -MT"src/Reconnecting.o" -o "src/Reconnecting.o" "../src/Reconnecting.cpp"
+Finished building: ../src/Reconnecting.cpp
+ 
+Building target: Reconnecting
+Invoking: GCC C++ Linker
+g++  -o "Reconnecting"  ./src/Reconnecting.o   
+Finished building target: Reconnecting
+ 
+17:16:30 **** Incremental Build of configuration Debug for project Reconnecting ****
+make all 
+make: Nothing to be done for 'all'.
+17:16:59 **** Incremental Build of configuration Debug for project Reconnecting ****
+make all 
+make: Nothing to be done for 'all'.
+17:17:35 **** Incremental Build of configuration Debug for project Reconnecting ****
+make all 
+Building file: ../src/Reconnecting.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reconnecting.d" -MT"src/Reconnecting.o" -o "src/Reconnecting.o" "../src/Reconnecting.cpp"
+Finished building: ../src/Reconnecting.cpp
+ 
+Building target: Reconnecting
+Invoking: GCC C++ Linker
+g++  -o "Reconnecting"  ./src/Reconnecting.o   
+Finished building target: Reconnecting
+ 
+18:31:42 **** Incremental Build of configuration Debug for project Reconnecting ****
+make all 
+make: Nothing to be done for 'all'.
+18:32:08 **** Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:32:57 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:33:35 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:33:57 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:37:14 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:37:50 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:38:28 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:40:07 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:40:16 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:04 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:41:10 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:41 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:42:26 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:43:11 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:43:15 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:43:42 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:43:47 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:43:50 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:44:00 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:45:02 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:45:27 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:46:14 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:50:43 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:51:38 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:52:16 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+18:54:31 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:55:43 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:57:07 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+../src/NetworkConnections.cpp: In function ‘int main()’:
+../src/NetworkConnections.cpp:29:18: error: no match for ‘operator-’ (operand types are ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ and ‘char’)
+    N = statement - '0';
+        ~~~~~~~~~~^~~~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:389:5: note: candidate: template<class _IteratorL, class _IteratorR> decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator-(const reverse_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:389:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:1191:5: note: candidate: template<class _IteratorL, class _IteratorR> decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+     operator-(const move_iterator<_IteratorL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:1191:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::move_iterator<_IteratorL>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/complex:356:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator-(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:356:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::complex<_Tp>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/complex:365:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const _Tp&)
+     operator-(const complex<_Tp>& __x, const _Tp& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:365:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::complex<_Tp>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/complex:374:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const _Tp&, const std::complex<_Tp>&)
+     operator-(const _Tp& __x, const complex<_Tp>& __y)
+     ^~~~~~~~
+/usr/include/c++/7/complex:374:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   mismatched types ‘const std::complex<_Tp>’ and ‘char’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/ccomplex:39:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/complex:451:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&)
+     operator-(const complex<_Tp>& __x)
+     ^~~~~~~~
+/usr/include/c++/7/complex:451:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::complex<_Tp>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/deque:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:68,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/stl_deque.h:351:5: note: candidate: template<class _Tp, class _Ref, class _Ptr> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     operator-(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_deque.h:351:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/deque:64:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:68,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/stl_deque.h:363:5: note: candidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> typename std::_Deque_iterator<_Tp, _Ref, _Ptr>::difference_type std::operator-(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     operator-(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_deque.h:363:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/vector:65:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/stl_bvector.h:208:3: note: candidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   operator-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+   ^~~~~~~~
+/usr/include/c++/7/bits/stl_bvector.h:208:3: note:   no known conversion for argument 1 from ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ to ‘const std::_Bit_iterator_base&’
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:403:5: note: candidate: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__minus, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(-, __minus)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:403:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:403:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__minus, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(-, __minus)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:403:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:403:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__minus, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(-, __minus)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:403:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘char’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:403:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__minus, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(-, __minus)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:403:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/valarray_after.h:403:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__minus, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__minus, typename _Dom1::value_type>::result_type> std::operator-(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(-, __minus)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:403:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘char’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/valarray:1173:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__minus, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__minus, _Tp>::result_type> std::operator-(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(-, __minus)
+ ^
+/usr/include/c++/7/valarray:1173:1: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::valarray<_Tp>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/valarray:1173:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__minus, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__minus, _Tp>::result_type> std::operator-(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(-, __minus)
+ ^
+/usr/include/c++/7/valarray:1173:1: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::valarray<_Tp>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/valarray:1173:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__minus, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__minus, _Tp>::result_type> std::operator-(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(-, __minus)
+ ^
+/usr/include/c++/7/valarray:1173:1: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   mismatched types ‘const std::valarray<_Tp>’ and ‘char’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:962:5: note: candidate: template<class _Iterator, class _Container> typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator-(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:962:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’
+    N = statement - '0';
+                    ^~~
+In file included from /usr/include/c++/7/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/7/bits/char_traits.h:39,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/NetworkConnections.cpp:1:
+/usr/include/c++/7/bits/stl_iterator.h:950:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> decltype ((__lhs.base() - __rhs.base())) __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator-(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^~~~~~~~
+/usr/include/c++/7/bits/stl_iterator.h:950:5: note:   template argument deduction/substitution failed:
+../src/NetworkConnections.cpp:29:20: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_IteratorL, _Container>’
+    N = statement - '0';
+                    ^~~
+make: *** [src/NetworkConnections.o] Error 1
+src/subdir.mk:18: recipe for target 'src/NetworkConnections.o' failed
+18:57:18 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+18:57:44 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+Building file: ../src/NetworkConnections.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NetworkConnections.d" -MT"src/NetworkConnections.o" -o "src/NetworkConnections.o" "../src/NetworkConnections.cpp"
+Finished building: ../src/NetworkConnections.cpp
+ 
+Building target: NetworkConnections
+Invoking: GCC C++ Linker
+g++  -o "NetworkConnections"  ./src/NetworkConnections.o   
+Finished building target: NetworkConnections
+ 
+19:00:37 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+19:00:53 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+19:01:10 **** Incremental Build of configuration Debug for project NetworkConnections ****
+make all 
+make: Nothing to be done for 'all'.
+19:29:11 **** Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:33:00 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘int main()’:
+../src/FindingNemo2.cpp:40:29: error: no match for ‘operator[]’ (operand types are ‘__gnu_cxx::__alloc_traits<std::allocator<std::pair<int, int> > >::value_type {aka std::pair<int, int>}’ and ‘int’)
+     cout << arr[direction[i][j]];
+                             ^
+src/subdir.mk:18: recipe for target 'src/FindingNemo2.o' failed
+make: *** [src/FindingNemo2.o] Error 1
+19:33:16 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘int main()’:
+../src/FindingNemo2.cpp:40:29: error: no match for ‘operator[]’ (operand types are ‘__gnu_cxx::__alloc_traits<std::allocator<std::pair<int, int> > >::value_type {aka std::pair<int, int>}’ and ‘int’)
+     cout << arr[direction[i][j]];
+                             ^
+src/subdir.mk:18: recipe for target 'src/FindingNemo2.o' failed
+make: *** [src/FindingNemo2.o] Error 1
+19:33:30 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:34:22 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:39:52 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:40:05 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:40:25 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:47:00 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:47:32 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:37 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:50:54 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:51:09 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:51:15 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:56:55 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:00:50 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:01:03 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:02:41 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:02:45 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:30 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:03:34 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:11 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘std::map<int, std::vector<std::pair<int, int> > > makeGraph(std::vector<std::vector<int> >)’:
+../src/FindingNemo2.cpp:9:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:09:28 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘std::map<int, std::vector<std::pair<int, int> > > makeGraph(std::vector<std::vector<int> >)’:
+../src/FindingNemo2.cpp:9:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:10:14 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:04 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:29:23 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:30:09 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:31:45 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:38:02 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:38:41 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘std::map<int, std::vector<std::pair<int, int> > > makeGraph(std::vector<std::vector<int> >, int, int)’:
+../src/FindingNemo2.cpp:37:9: error: could not convert ‘graph’ from ‘std::map<int, std::set<std::pair<int, int> > >’ to ‘std::map<int, std::vector<std::pair<int, int> > >’
+  return graph;
+         ^~~~~
+make: *** [src/FindingNemo2.o] Error 1
+src/subdir.mk:18: recipe for target 'src/FindingNemo2.o' failed
+20:38:47 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:41:26 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:42:53 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:43:21 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:43:44 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:44:09 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:47:44 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:49:51 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:50:04 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:09 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:40 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:53:57 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:54:19 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:54:27 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:55:07 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:55:33 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:56:15 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+20:57:14 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+21:00:48 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+21:03:20 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 

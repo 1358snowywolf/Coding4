@@ -4,7 +4,7 @@ using namespace std;
 int maximum = 0;
 vector<tuple<int, int, int>> stations;
 
-void DFS(multiset<pair<int, int>> passengers, int size, int money, int index, int N, vector<int> used){
+void DFS(multiset<pair<int, int>> passengers, int size, int money, int index, int N){
 //	for(auto i : passengers){
 //		cout << "(" << i.first << ", " << i.second << ") ";
 //	}
@@ -12,7 +12,6 @@ void DFS(multiset<pair<int, int>> passengers, int size, int money, int index, in
 
 	if(index == (int) stations.size()){
 		maximum = max(maximum, money);
-
 //		if(maximum == money){
 //			for(int i : used){
 //				cout << i << " ";
@@ -36,15 +35,14 @@ void DFS(multiset<pair<int, int>> passengers, int size, int money, int index, in
 		passengers.erase(passengers.begin());
 	}
 
-	DFS(passengers, size, money, index + 1, N, used);
+	DFS(passengers, size, money, index + 1, N);
 
 	if(n + size > N) return;
 	passengers.insert(make_pair(d, n));
 	money += ((d - s) * n);
 	size += n;
-	used.push_back(index);
 
-	DFS(passengers, size, money, index + 1, N, used);
+	DFS(passengers, size, money, index + 1, N);
 }
 
 int main() {
@@ -65,7 +63,7 @@ int main() {
 
 		sort(stations.begin(), stations.end());
 
-		DFS(multiset<pair<int, int>> (), 0, 0, 0, N, vector<int> ());
+		DFS(multiset<pair<int, int>> (), 0, 0, 0, N);
 
 		cout << maximum << endl;
 	}
