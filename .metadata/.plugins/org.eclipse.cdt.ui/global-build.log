@@ -47057,3 +47057,2046 @@ Invoking: GCC C++ Linker
 g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
 Finished building target: FindingNemo2
  
+17:20:55 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘std::map<int, int> Dijkstra(std::map<int, std::set<std::pair<int, int> > >)’:
+../src/FindingNemo2.cpp:57:32: error: conversion from ‘void’ to non-scalar type ‘std::pair<int, int>’ requested
+   pair<int, int> front = pq.pop(); pq.pop();
+                          ~~~~~~^~
+../src/FindingNemo2.cpp: In function ‘int main()’:
+../src/FindingNemo2.cpp:156:22: warning: right operand of comma operator has no effect [-Wunused-value]
+   cin >> nemoX, nemoY;
+                      ^
+src/subdir.mk:18: recipe for target 'src/FindingNemo2.o' failed
+make: *** [src/FindingNemo2.o] Error 1
+17:21:20 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+18:05:29 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:05:48 **** Build of configuration Debug for project IP-TV ****
+make all 
+Building file: ../src/IP-TV.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IP-TV.d" -MT"src/IP-TV.o" -o "src/IP-TV.o" "../src/IP-TV.cpp"
+Finished building: ../src/IP-TV.cpp
+ 
+Building target: IP-TV
+Invoking: GCC C++ Linker
+g++  -o "IP-TV"  ./src/IP-TV.o   
+Finished building target: IP-TV
+ 
+18:25:37 **** Incremental Build of configuration Debug for project IP-TV ****
+make all 
+make: Nothing to be done for 'all'.
+18:25:41 **** Incremental Build of configuration Debug for project IP-TV ****
+make all 
+make: Nothing to be done for 'all'.
+18:26:14 **** Incremental Build of configuration Debug for project IP-TV ****
+make all 
+Building file: ../src/IP-TV.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IP-TV.d" -MT"src/IP-TV.o" -o "src/IP-TV.o" "../src/IP-TV.cpp"
+Finished building: ../src/IP-TV.cpp
+ 
+Building target: IP-TV
+Invoking: GCC C++ Linker
+g++  -o "IP-TV"  ./src/IP-TV.o   
+Finished building target: IP-TV
+ 
+18:54:52 **** Incremental Build of configuration Debug for project IP-TV ****
+make all 
+make: Nothing to be done for 'all'.
+18:55:03 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+18:55:59 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+18:56:28 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+18:56:55 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘int main()’:
+../src/FindingNemo2.cpp:159:7: warning: unused variable ‘nX’ [-Wunused-variable]
+   int nX = (int) nemoX;
+       ^~
+../src/FindingNemo2.cpp:160:7: warning: unused variable ‘nY’ [-Wunused-variable]
+   int nY = (int) nemoY;
+       ^~
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:01:22 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘int main()’:
+../src/FindingNemo2.cpp:159:7: warning: unused variable ‘nX’ [-Wunused-variable]
+   int nX = (int) nemoX;
+       ^~
+../src/FindingNemo2.cpp:160:7: warning: unused variable ‘nY’ [-Wunused-variable]
+   int nY = (int) nemoY;
+       ^~
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:02:31 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:04:10 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘std::map<int, int> Dijkstra(std::map<int, std::set<std::pair<int, int> > >, int, int)’:
+../src/FindingNemo2.cpp:73:9: error: could not convert ‘distance’ from ‘std::vector<int>’ to ‘std::map<int, int>’
+  return distance;
+         ^~~~~~~~
+make: *** [src/FindingNemo2.o] Error 1
+src/subdir.mk:18: recipe for target 'src/FindingNemo2.o' failed
+19:04:23 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:04:38 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘int main()’:
+../src/FindingNemo2.cpp:168:14: error: request for member ‘first’ in ‘i’, which is of non-class type ‘int’
+    cout << i.first << ": " << i.second << endl;
+              ^~~~~
+../src/FindingNemo2.cpp:168:33: error: request for member ‘second’ in ‘i’, which is of non-class type ‘int’
+    cout << i.first << ": " << i.second << endl;
+                                 ^~~~~~
+../src/FindingNemo2.cpp:160:7: warning: unused variable ‘nX’ [-Wunused-variable]
+   int nX = (int) nemoX;
+       ^~
+../src/FindingNemo2.cpp:161:7: warning: unused variable ‘nY’ [-Wunused-variable]
+   int nY = (int) nemoY;
+       ^~
+src/subdir.mk:18: recipe for target 'src/FindingNemo2.o' failed
+make: *** [src/FindingNemo2.o] Error 1
+19:04:53 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:06:56 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:09:25 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:10:17 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+../src/FindingNemo2.cpp: In function ‘int main()’:
+../src/FindingNemo2.cpp:168:16: error: expected primary-expression before ‘<’ token
+    cout << i <<< "; " << distance[i] << endl;
+                ^
+../src/FindingNemo2.cpp:168:23: error: invalid operands of types ‘const char [3]’ and ‘__gnu_cxx::__alloc_traits<std::allocator<int> >::value_type {aka int}’ to binary ‘operator<<’
+    cout << i <<< "; " << distance[i] << endl;
+src/subdir.mk:18: recipe for target 'src/FindingNemo2.o' failed
+make: *** [src/FindingNemo2.o] Error 1
+19:10:26 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:11:25 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:13:38 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:14:09 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:15:49 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:16:54 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:17:15 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:18:03 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:18:16 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:18:37 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:18:59 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:20:31 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:21:02 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:22:04 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:22:34 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:27 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:25:29 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:26:06 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:27:18 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:28:16 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:28:42 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+19:32:41 **** Incremental Build of configuration Debug for project FindingNemo2 ****
+make all 
+Building file: ../src/FindingNemo2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FindingNemo2.d" -MT"src/FindingNemo2.o" -o "src/FindingNemo2.o" "../src/FindingNemo2.cpp"
+Finished building: ../src/FindingNemo2.cpp
+ 
+Building target: FindingNemo2
+Invoking: GCC C++ Linker
+g++  -o "FindingNemo2"  ./src/FindingNemo2.o   
+Finished building target: FindingNemo2
+ 
+21:13:26 **** Build of configuration Debug for project LowerBit ****
+make all 
+Building file: ../src/LowerBit.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LowerBit.d" -MT"src/LowerBit.o" -o "src/LowerBit.o" "../src/LowerBit.cpp"
+../src/LowerBit.cpp: In function ‘int main()’:
+../src/LowerBit.cpp:13:12: error: no match for ‘operator&’ (operand types are ‘std::basic_ostream<char>’ and ‘int’)
+  cout << 6 & (-6);
+  ~~~~~~~~~~^~~~~~
+../src/LowerBit.cpp:13:12: note: candidate: operator&(int, int) <built-in>
+../src/LowerBit.cpp:13:12: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘int’
+In file included from /usr/include/c++/7/ios:42:0,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/ios_base.h:83:3: note: candidate: constexpr std::_Ios_Fmtflags std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+   operator&(_Ios_Fmtflags __a, _Ios_Fmtflags __b)
+   ^~~~~~~~
+/usr/include/c++/7/bits/ios_base.h:83:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::_Ios_Fmtflags’
+/usr/include/c++/7/bits/ios_base.h:125:3: note: candidate: constexpr std::_Ios_Openmode std::operator&(std::_Ios_Openmode, std::_Ios_Openmode)
+   operator&(_Ios_Openmode __a, _Ios_Openmode __b)
+   ^~~~~~~~
+/usr/include/c++/7/bits/ios_base.h:125:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::_Ios_Openmode’
+/usr/include/c++/7/bits/ios_base.h:165:3: note: candidate: constexpr std::_Ios_Iostate std::operator&(std::_Ios_Iostate, std::_Ios_Iostate)
+   operator&(_Ios_Iostate __a, _Ios_Iostate __b)
+   ^~~~~~~~
+/usr/include/c++/7/bits/ios_base.h:165:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::_Ios_Iostate’
+src/subdir.mk:18: recipe for target 'src/LowerBit.o' failed
+make: *** [src/LowerBit.o] Error 1
+21:13:49 **** Incremental Build of configuration Debug for project LowerBit ****
+make all 
+Building file: ../src/LowerBit.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LowerBit.d" -MT"src/LowerBit.o" -o "src/LowerBit.o" "../src/LowerBit.cpp"
+../src/LowerBit.cpp: In function ‘int main()’:
+../src/LowerBit.cpp:14:12: error: no match for ‘operator&’ (operand types are ‘std::basic_ostream<char>’ and ‘int’)
+  cout << i & (-i);
+  ~~~~~~~~~~^~~~~~
+../src/LowerBit.cpp:14:12: note: candidate: operator&(int, int) <built-in>
+../src/LowerBit.cpp:14:12: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘int’
+In file included from /usr/include/c++/7/ios:42:0,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/ios_base.h:83:3: note: candidate: constexpr std::_Ios_Fmtflags std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+   operator&(_Ios_Fmtflags __a, _Ios_Fmtflags __b)
+   ^~~~~~~~
+/usr/include/c++/7/bits/ios_base.h:83:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::_Ios_Fmtflags’
+/usr/include/c++/7/bits/ios_base.h:125:3: note: candidate: constexpr std::_Ios_Openmode std::operator&(std::_Ios_Openmode, std::_Ios_Openmode)
+   operator&(_Ios_Openmode __a, _Ios_Openmode __b)
+   ^~~~~~~~
+/usr/include/c++/7/bits/ios_base.h:125:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::_Ios_Openmode’
+/usr/include/c++/7/bits/ios_base.h:165:3: note: candidate: constexpr std::_Ios_Iostate std::operator&(std::_Ios_Iostate, std::_Ios_Iostate)
+   operator&(_Ios_Iostate __a, _Ios_Iostate __b)
+   ^~~~~~~~
+/usr/include/c++/7/bits/ios_base.h:165:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::_Ios_Iostate’
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:66:0,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bitset:1425:5: note: candidate: template<long unsigned int _Nb> std::bitset<_Nb> std::operator&(const std::bitset<_Nb>&, const std::bitset<_Nb>&)
+     operator&(const bitset<_Nb>& __x, const bitset<_Nb>& __y) _GLIBCXX_NOEXCEPT
+     ^~~~~~~~
+/usr/include/c++/7/bitset:1425:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:17: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::bitset<_Nb>’
+  cout << i & (-i);
+                 ^
+In file included from /usr/include/c++/7/bits/shared_ptr_atomic.h:33:0,
+                 from /usr/include/c++/7/memory:82,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:82,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/atomic_base.h:80:3: note: candidate: constexpr std::memory_order std::operator&(std::memory_order, std::__memory_order_modifier)
+   operator&(memory_order __m, __memory_order_modifier __mod)
+   ^~~~~~~~
+/usr/include/c++/7/bits/atomic_base.h:80:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::memory_order’
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/valarray_after.h:408:5: note: candidate: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__bitwise_and, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__bitwise_and, typename _Dom1::value_type>::result_type> std::operator&(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(&, __bitwise_and)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:408:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:17: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+  cout << i & (-i);
+                 ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/valarray_after.h:408:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__bitwise_and, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__bitwise_and, typename _Dom1::value_type>::result_type> std::operator&(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(&, __bitwise_and)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:408:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:17: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+  cout << i & (-i);
+                 ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/valarray_after.h:408:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__bitwise_and, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__bitwise_and, typename _Dom1::value_type>::result_type> std::operator&(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(&, __bitwise_and)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:408:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:17: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘int’
+  cout << i & (-i);
+                 ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/valarray_after.h:408:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__bitwise_and, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__bitwise_and, typename _Dom1::value_type>::result_type> std::operator&(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(&, __bitwise_and)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:408:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:17: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+  cout << i & (-i);
+                 ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/valarray_after.h:408:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__bitwise_and, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__bitwise_and, typename _Dom1::value_type>::result_type> std::operator&(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(&, __bitwise_and)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:408:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:17: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘int’
+  cout << i & (-i);
+                 ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/valarray:1178:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__bitwise_and, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__bitwise_and, _Tp>::result_type> std::operator&(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(&, __bitwise_and)
+ ^
+/usr/include/c++/7/valarray:1178:1: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:17: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::valarray<_Tp>’
+  cout << i & (-i);
+                 ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/valarray:1178:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__bitwise_and, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__bitwise_and, _Tp>::result_type> std::operator&(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(&, __bitwise_and)
+ ^
+/usr/include/c++/7/valarray:1178:1: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:17: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::valarray<_Tp>’
+  cout << i & (-i);
+                 ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/valarray:1178:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__bitwise_and, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__bitwise_and, _Tp>::result_type> std::operator&(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(&, __bitwise_and)
+ ^
+/usr/include/c++/7/valarray:1178:1: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:17: note:   mismatched types ‘const std::valarray<_Tp>’ and ‘int’
+  cout << i & (-i);
+                 ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:105:0,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/future:143:20: note: candidate: constexpr std::launch std::operator&(std::launch, std::launch)
+   constexpr launch operator&(launch __x, launch __y)
+                    ^~~~~~~~
+/usr/include/c++/7/future:143:20: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::launch’
+make: *** [src/LowerBit.o] Error 1
+src/subdir.mk:18: recipe for target 'src/LowerBit.o' failed
+21:14:13 **** Incremental Build of configuration Debug for project LowerBit ****
+make all 
+Building file: ../src/LowerBit.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LowerBit.d" -MT"src/LowerBit.o" -o "src/LowerBit.o" "../src/LowerBit.cpp"
+../src/LowerBit.cpp: In function ‘int main()’:
+../src/LowerBit.cpp:14:12: error: no match for ‘operator&’ (operand types are ‘std::basic_ostream<char>’ and ‘int’)
+  cout << i & (-1 * i);
+  ~~~~~~~~~~^~~~~~~~~~
+../src/LowerBit.cpp:14:12: note: candidate: operator&(int, int) <built-in>
+../src/LowerBit.cpp:14:12: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘int’
+In file included from /usr/include/c++/7/ios:42:0,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/ios_base.h:83:3: note: candidate: constexpr std::_Ios_Fmtflags std::operator&(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
+   operator&(_Ios_Fmtflags __a, _Ios_Fmtflags __b)
+   ^~~~~~~~
+/usr/include/c++/7/bits/ios_base.h:83:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::_Ios_Fmtflags’
+/usr/include/c++/7/bits/ios_base.h:125:3: note: candidate: constexpr std::_Ios_Openmode std::operator&(std::_Ios_Openmode, std::_Ios_Openmode)
+   operator&(_Ios_Openmode __a, _Ios_Openmode __b)
+   ^~~~~~~~
+/usr/include/c++/7/bits/ios_base.h:125:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::_Ios_Openmode’
+/usr/include/c++/7/bits/ios_base.h:165:3: note: candidate: constexpr std::_Ios_Iostate std::operator&(std::_Ios_Iostate, std::_Ios_Iostate)
+   operator&(_Ios_Iostate __a, _Ios_Iostate __b)
+   ^~~~~~~~
+/usr/include/c++/7/bits/ios_base.h:165:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::_Ios_Iostate’
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:66:0,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bitset:1425:5: note: candidate: template<long unsigned int _Nb> std::bitset<_Nb> std::operator&(const std::bitset<_Nb>&, const std::bitset<_Nb>&)
+     operator&(const bitset<_Nb>& __x, const bitset<_Nb>& __y) _GLIBCXX_NOEXCEPT
+     ^~~~~~~~
+/usr/include/c++/7/bitset:1425:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:21: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::bitset<_Nb>’
+  cout << i & (-1 * i);
+                     ^
+In file included from /usr/include/c++/7/bits/shared_ptr_atomic.h:33:0,
+                 from /usr/include/c++/7/memory:82,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:82,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/atomic_base.h:80:3: note: candidate: constexpr std::memory_order std::operator&(std::memory_order, std::__memory_order_modifier)
+   operator&(memory_order __m, __memory_order_modifier __mod)
+   ^~~~~~~~
+/usr/include/c++/7/bits/atomic_base.h:80:3: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::memory_order’
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/valarray_after.h:408:5: note: candidate: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__bitwise_and, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__bitwise_and, typename _Dom1::value_type>::result_type> std::operator&(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(&, __bitwise_and)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:408:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:21: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+  cout << i & (-1 * i);
+                     ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/valarray_after.h:408:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__bitwise_and, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__bitwise_and, typename _Dom1::value_type>::result_type> std::operator&(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(&, __bitwise_and)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:408:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:21: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+  cout << i & (-1 * i);
+                     ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/valarray_after.h:408:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__bitwise_and, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__bitwise_and, typename _Dom1::value_type>::result_type> std::operator&(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(&, __bitwise_and)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:408:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:21: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘int’
+  cout << i & (-1 * i);
+                     ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/valarray_after.h:408:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__bitwise_and, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__bitwise_and, typename _Dom1::value_type>::result_type> std::operator&(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(&, __bitwise_and)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:408:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:21: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+  cout << i & (-1 * i);
+                     ^
+In file included from /usr/include/c++/7/valarray:592:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/bits/valarray_after.h:408:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__bitwise_and, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__bitwise_and, typename _Dom1::value_type>::result_type> std::operator&(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(&, __bitwise_and)
+     ^
+/usr/include/c++/7/bits/valarray_after.h:408:5: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:21: note:   mismatched types ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’ and ‘int’
+  cout << i & (-1 * i);
+                     ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/valarray:1178:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__bitwise_and, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__bitwise_and, _Tp>::result_type> std::operator&(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(&, __bitwise_and)
+ ^
+/usr/include/c++/7/valarray:1178:1: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:21: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::valarray<_Tp>’
+  cout << i & (-1 * i);
+                     ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/valarray:1178:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__bitwise_and, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__bitwise_and, _Tp>::result_type> std::operator&(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(&, __bitwise_and)
+ ^
+/usr/include/c++/7/valarray:1178:1: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:21: note:   ‘std::basic_ostream<char>’ is not derived from ‘const std::valarray<_Tp>’
+  cout << i & (-1 * i);
+                     ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:95:0,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/valarray:1178:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__bitwise_and, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__bitwise_and, _Tp>::result_type> std::operator&(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(&, __bitwise_and)
+ ^
+/usr/include/c++/7/valarray:1178:1: note:   template argument deduction/substitution failed:
+../src/LowerBit.cpp:14:21: note:   mismatched types ‘const std::valarray<_Tp>’ and ‘int’
+  cout << i & (-1 * i);
+                     ^
+In file included from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:105:0,
+                 from ../src/LowerBit.cpp:9:
+/usr/include/c++/7/future:143:20: note: candidate: constexpr std::launch std::operator&(std::launch, std::launch)
+   constexpr launch operator&(launch __x, launch __y)
+                    ^~~~~~~~
+/usr/include/c++/7/future:143:20: note:   no known conversion for argument 1 from ‘std::basic_ostream<char>’ to ‘std::launch’
+src/subdir.mk:18: recipe for target 'src/LowerBit.o' failed
+make: *** [src/LowerBit.o] Error 1
+21:14:35 **** Incremental Build of configuration Debug for project LowerBit ****
+make all 
+Building file: ../src/LowerBit.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LowerBit.d" -MT"src/LowerBit.o" -o "src/LowerBit.o" "../src/LowerBit.cpp"
+Finished building: ../src/LowerBit.cpp
+ 
+Building target: LowerBit
+Invoking: GCC C++ Linker
+g++  -o "LowerBit"  ./src/LowerBit.o   
+Finished building target: LowerBit
+ 
+21:14:51 **** Incremental Build of configuration Debug for project LowerBit ****
+make all 
+Building file: ../src/LowerBit.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LowerBit.d" -MT"src/LowerBit.o" -o "src/LowerBit.o" "../src/LowerBit.cpp"
+Finished building: ../src/LowerBit.cpp
+ 
+Building target: LowerBit
+Invoking: GCC C++ Linker
+g++  -o "LowerBit"  ./src/LowerBit.o   
+Finished building target: LowerBit
+ 
+21:15:03 **** Incremental Build of configuration Debug for project LowerBit ****
+make all 
+Building file: ../src/LowerBit.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LowerBit.d" -MT"src/LowerBit.o" -o "src/LowerBit.o" "../src/LowerBit.cpp"
+Finished building: ../src/LowerBit.cpp
+ 
+Building target: LowerBit
+Invoking: GCC C++ Linker
+g++  -o "LowerBit"  ./src/LowerBit.o   
+Finished building target: LowerBit
+ 
+21:15:13 **** Incremental Build of configuration Debug for project LowerBit ****
+make all 
+Building file: ../src/LowerBit.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LowerBit.d" -MT"src/LowerBit.o" -o "src/LowerBit.o" "../src/LowerBit.cpp"
+Finished building: ../src/LowerBit.cpp
+ 
+Building target: LowerBit
+Invoking: GCC C++ Linker
+g++  -o "LowerBit"  ./src/LowerBit.o   
+Finished building target: LowerBit
+ 
+21:15:24 **** Incremental Build of configuration Debug for project LowerBit ****
+make all 
+Building file: ../src/LowerBit.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LowerBit.d" -MT"src/LowerBit.o" -o "src/LowerBit.o" "../src/LowerBit.cpp"
+Finished building: ../src/LowerBit.cpp
+ 
+Building target: LowerBit
+Invoking: GCC C++ Linker
+g++  -o "LowerBit"  ./src/LowerBit.o   
+Finished building target: LowerBit
+ 
+15:31:32 **** Build of configuration Debug for project RangeSumQuerry ****
+make all 
+Building file: ../src/RangeSumQuerry.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RangeSumQuerry.d" -MT"src/RangeSumQuerry.o" -o "src/RangeSumQuerry.o" "../src/RangeSumQuerry.cpp"
+Finished building: ../src/RangeSumQuerry.cpp
+ 
+Building target: RangeSumQuerry
+Invoking: GCC C++ Linker
+g++  -o "RangeSumQuerry"  ./src/RangeSumQuerry.o   
+Finished building target: RangeSumQuerry
+ 
+15:31:43 **** Incremental Build of configuration Debug for project RangeSumQuerry ****
+make all 
+make: Nothing to be done for 'all'.
+15:34:58 **** Incremental Build of configuration Debug for project RangeSumQuerry ****
+make all 
+Building file: ../src/RangeSumQuerry.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RangeSumQuerry.d" -MT"src/RangeSumQuerry.o" -o "src/RangeSumQuerry.o" "../src/RangeSumQuerry.cpp"
+Finished building: ../src/RangeSumQuerry.cpp
+ 
+Building target: RangeSumQuerry
+Invoking: GCC C++ Linker
+g++  -o "RangeSumQuerry"  ./src/RangeSumQuerry.o   
+Finished building target: RangeSumQuerry
+ 
+15:35:39 **** Incremental Build of configuration Debug for project RangeSumQuerry ****
+make all 
+make: Nothing to be done for 'all'.
+15:36:35 **** Incremental Build of configuration Debug for project RangeSumQuerry ****
+make all 
+Building file: ../src/RangeSumQuerry.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RangeSumQuerry.d" -MT"src/RangeSumQuerry.o" -o "src/RangeSumQuerry.o" "../src/RangeSumQuerry.cpp"
+Finished building: ../src/RangeSumQuerry.cpp
+ 
+Building target: RangeSumQuerry
+Invoking: GCC C++ Linker
+g++  -o "RangeSumQuerry"  ./src/RangeSumQuerry.o   
+Finished building target: RangeSumQuerry
+ 
+15:39:34 **** Incremental Build of configuration Debug for project RangeSumQuerry ****
+make all 
+Building file: ../src/RangeSumQuerry.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RangeSumQuerry.d" -MT"src/RangeSumQuerry.o" -o "src/RangeSumQuerry.o" "../src/RangeSumQuerry.cpp"
+Finished building: ../src/RangeSumQuerry.cpp
+ 
+Building target: RangeSumQuerry
+Invoking: GCC C++ Linker
+g++  -o "RangeSumQuerry"  ./src/RangeSumQuerry.o   
+Finished building target: RangeSumQuerry
+ 
+15:40:27 **** Incremental Build of configuration Debug for project RangeSumQuerry ****
+make all 
+Building file: ../src/RangeSumQuerry.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RangeSumQuerry.d" -MT"src/RangeSumQuerry.o" -o "src/RangeSumQuerry.o" "../src/RangeSumQuerry.cpp"
+Finished building: ../src/RangeSumQuerry.cpp
+ 
+Building target: RangeSumQuerry
+Invoking: GCC C++ Linker
+g++  -o "RangeSumQuerry"  ./src/RangeSumQuerry.o   
+Finished building target: RangeSumQuerry
+ 
+15:40:59 **** Incremental Build of configuration Debug for project RangeSumQuerry ****
+make all 
+Building file: ../src/RangeSumQuerry.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RangeSumQuerry.d" -MT"src/RangeSumQuerry.o" -o "src/RangeSumQuerry.o" "../src/RangeSumQuerry.cpp"
+Finished building: ../src/RangeSumQuerry.cpp
+ 
+Building target: RangeSumQuerry
+Invoking: GCC C++ Linker
+g++  -o "RangeSumQuerry"  ./src/RangeSumQuerry.o   
+Finished building target: RangeSumQuerry
+ 
+15:43:32 **** Incremental Build of configuration Debug for project RangeSumQuerry ****
+make all 
+Building file: ../src/RangeSumQuerry.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/RangeSumQuerry.d" -MT"src/RangeSumQuerry.o" -o "src/RangeSumQuerry.o" "../src/RangeSumQuerry.cpp"
+Finished building: ../src/RangeSumQuerry.cpp
+ 
+Building target: RangeSumQuerry
+Invoking: GCC C++ Linker
+g++  -o "RangeSumQuerry"  ./src/RangeSumQuerry.o   
+Finished building target: RangeSumQuerry
+ 
+16:10:51 **** Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+../src/Frequent_Values.cpp: In function ‘std::map<int, int> querry(int, int, int, int, int, std::vector<std::map<int, int> >)’:
+../src/Frequent_Values.cpp:33:29: error: could not convert ‘-1’ from ‘int’ to ‘std::map<int, int>’
+  if(i > R || j < L) return -1;
+                             ^
+src/subdir.mk:18: recipe for target 'src/Frequent_Values.o' failed
+make: *** [src/Frequent_Values.o] Error 1
+16:11:02 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:19:09 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:22:25 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:22:56 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:26:59 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:27:11 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:27:38 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:27:46 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:28:29 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:28:54 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:30:49 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:32:11 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+../src/Frequent_Values.cpp: In function ‘int main()’:
+../src/Frequent_Values.cpp:69:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i < segment.size(); i++){
+                  ~~^~~~~~~~~~~~~~~~
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:34:47 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:35:10 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:35:58 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:36:08 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:36:22 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:36:32 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:36:40 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:37:32 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+../src/Frequent_Values.cpp: In function ‘int main()’:
+../src/Frequent_Values.cpp:89:9: warning: variable ‘number’ set but not used [-Wunused-but-set-variable]
+    auto number = 0;
+         ^~~~~~
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:37:54 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:38:35 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:38:50 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:38:55 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:41:57 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:42:53 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:44:03 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:44:29 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:44:58 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:45:12 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:46:21 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:47:04 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:47:17 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+16:47:31 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+Building file: ../src/Frequent_Values.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Frequent_Values.d" -MT"src/Frequent_Values.o" -o "src/Frequent_Values.o" "../src/Frequent_Values.cpp"
+Finished building: ../src/Frequent_Values.cpp
+ 
+Building target: Frequent_Values
+Invoking: GCC C++ Linker
+g++  -o "Frequent_Values"  ./src/Frequent_Values.o   
+Finished building target: Frequent_Values
+ 
+16:48:35 **** Incremental Build of configuration Debug for project Frequent_Values ****
+make all 
+make: Nothing to be done for 'all'.
+18:55:04 **** Build of configuration Debug for project LazyPropagation ****
+make all 
+Building file: ../src/LazyPropagation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LazyPropagation.d" -MT"src/LazyPropagation.o" -o "src/LazyPropagation.o" "../src/LazyPropagation.cpp"
+Finished building: ../src/LazyPropagation.cpp
+ 
+Building target: LazyPropagation
+Invoking: GCC C++ Linker
+g++  -o "LazyPropagation"  ./src/LazyPropagation.o   
+Finished building target: LazyPropagation
+ 
+18:56:16 **** Incremental Build of configuration Debug for project LazyPropagation ****
+make all 
+Building file: ../src/LazyPropagation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LazyPropagation.d" -MT"src/LazyPropagation.o" -o "src/LazyPropagation.o" "../src/LazyPropagation.cpp"
+Finished building: ../src/LazyPropagation.cpp
+ 
+Building target: LazyPropagation
+Invoking: GCC C++ Linker
+g++  -o "LazyPropagation"  ./src/LazyPropagation.o   
+Finished building target: LazyPropagation
+ 
+18:56:51 **** Incremental Build of configuration Debug for project LazyPropagation ****
+make all 
+Building file: ../src/LazyPropagation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LazyPropagation.d" -MT"src/LazyPropagation.o" -o "src/LazyPropagation.o" "../src/LazyPropagation.cpp"
+Finished building: ../src/LazyPropagation.cpp
+ 
+Building target: LazyPropagation
+Invoking: GCC C++ Linker
+g++  -o "LazyPropagation"  ./src/LazyPropagation.o   
+Finished building target: LazyPropagation
+ 
+19:00:32 **** Incremental Build of configuration Debug for project LazyPropagation ****
+make all 
+make: Nothing to be done for 'all'.
+19:01:39 **** Incremental Build of configuration Debug for project LazyPropagation ****
+make all 
+Building file: ../src/LazyPropagation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LazyPropagation.d" -MT"src/LazyPropagation.o" -o "src/LazyPropagation.o" "../src/LazyPropagation.cpp"
+Finished building: ../src/LazyPropagation.cpp
+ 
+Building target: LazyPropagation
+Invoking: GCC C++ Linker
+g++  -o "LazyPropagation"  ./src/LazyPropagation.o   
+Finished building target: LazyPropagation
+ 
+19:02:08 **** Incremental Build of configuration Debug for project LazyPropagation ****
+make all 
+Building file: ../src/LazyPropagation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LazyPropagation.d" -MT"src/LazyPropagation.o" -o "src/LazyPropagation.o" "../src/LazyPropagation.cpp"
+Finished building: ../src/LazyPropagation.cpp
+ 
+Building target: LazyPropagation
+Invoking: GCC C++ Linker
+g++  -o "LazyPropagation"  ./src/LazyPropagation.o   
+Finished building target: LazyPropagation
+ 
+19:03:14 **** Incremental Build of configuration Debug for project LazyPropagation ****
+make all 
+Building file: ../src/LazyPropagation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LazyPropagation.d" -MT"src/LazyPropagation.o" -o "src/LazyPropagation.o" "../src/LazyPropagation.cpp"
+Finished building: ../src/LazyPropagation.cpp
+ 
+Building target: LazyPropagation
+Invoking: GCC C++ Linker
+g++  -o "LazyPropagation"  ./src/LazyPropagation.o   
+Finished building target: LazyPropagation
+ 
+19:03:23 **** Incremental Build of configuration Debug for project LazyPropagation ****
+make all 
+Building file: ../src/LazyPropagation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LazyPropagation.d" -MT"src/LazyPropagation.o" -o "src/LazyPropagation.o" "../src/LazyPropagation.cpp"
+Finished building: ../src/LazyPropagation.cpp
+ 
+Building target: LazyPropagation
+Invoking: GCC C++ Linker
+g++  -o "LazyPropagation"  ./src/LazyPropagation.o   
+Finished building target: LazyPropagation
+ 
+17:31:17 **** Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:31:55 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+17:32:32 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:33:02 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+../src/Pirates.cpp: In function ‘int main()’:
+../src/Pirates.cpp:141:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i < A.size(); i++){
+                  ~~^~~~~~~~~~
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:33:36 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:34:41 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:34:45 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:57 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:36:14 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:52:04 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+../src/Pirates.cpp: In function ‘int main()’:
+../src/Pirates.cpp:148:35: warning: value computed is not used [-Wunused-value]
+   vector<int> segment = (A.size() * 4, 0);
+                          ~~~~~~~~~^~~
+../src/Pirates.cpp:148:38: error: conversion from ‘int’ to non-scalar type ‘std::vector<int>’ requested
+   vector<int> segment = (A.size() * 4, 0);
+                         ~~~~~~~~~~~~~^~~~
+make: *** [src/Pirates.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Pirates.o' failed
+17:52:14 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:52:31 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:52:43 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+17:53:22 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:54:49 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:55:31 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:55:35 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+17:58:08 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+17:59:59 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+18:06:10 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+18:14:31 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+18:20:29 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+18:20:38 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+18:38:38 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+18:39:40 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+18:41:29 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:04:36 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+19:05:30 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+19:14:36 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+19:17:05 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:18:00 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+19:18:42 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:19:22 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:19:35 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+19:21:00 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:21:44 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:28:28 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:28:38 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+19:29:17 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:39:46 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+../src/Pirates.cpp: In function ‘int main()’:
+../src/Pirates.cpp:212:54: error: invalid initialization of non-const reference of type ‘std::vector<int>&’ from an rvalue of type ‘int’
+     update(1, 0, A.size() - 1, a, b, 2, lazy, segment);
+                                                      ^
+../src/Pirates.cpp:122:6: note: in passing argument 1 of ‘void update(std::vector<int>&, std::vector<int>&, int, int, int, int, int, int)’
+ void update(vector<int>& segment, vector<int>& lazy, int p, int L, int R, int i, int j, int diff){
+      ^~~~~~
+../src/Pirates.cpp:215:54: error: invalid initialization of non-const reference of type ‘std::vector<int>&’ from an rvalue of type ‘int’
+     update(1, 0, A.size() - 1, a, b, 1, lazy, segment);
+                                                      ^
+../src/Pirates.cpp:122:6: note: in passing argument 1 of ‘void update(std::vector<int>&, std::vector<int>&, int, int, int, int, int, int)’
+ void update(vector<int>& segment, vector<int>& lazy, int p, int L, int R, int i, int j, int diff){
+      ^~~~~~
+../src/Pirates.cpp:219:55: error: invalid initialization of non-const reference of type ‘std::vector<int>&’ from an rvalue of type ‘int’
+     update(1, 0, A.size() - 1, a, b, -1, lazy, segment);
+                                                       ^
+../src/Pirates.cpp:122:6: note: in passing argument 1 of ‘void update(std::vector<int>&, std::vector<int>&, int, int, int, int, int, int)’
+ void update(vector<int>& segment, vector<int>& lazy, int p, int L, int R, int i, int j, int diff){
+      ^~~~~~
+../src/Pirates.cpp:222:37: error: ‘querry’ was not declared in this scope
+     cout << "Q" << cases << ": " << querry(segment, lazy, 1, 0, A.size() - 1, a, b) << endl;
+                                     ^~~~~~
+src/subdir.mk:18: recipe for target 'src/Pirates.o' failed
+make: *** [src/Pirates.o] Error 1
+19:40:19 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+../src/Pirates.cpp: In function ‘int main()’:
+../src/Pirates.cpp:222:37: error: ‘querry’ was not declared in this scope
+     cout << "Q" << cases << ": " << querry(segment, lazy, 1, 0, A.size() - 1, a, b) << endl;
+                                     ^~~~~~
+src/subdir.mk:18: recipe for target 'src/Pirates.o' failed
+make: *** [src/Pirates.o] Error 1
+19:40:43 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:42:57 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:46:45 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:58:09 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:58:18 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+19:58:59 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+19:59:47 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:00:15 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+20:00:42 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+20:01:48 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+20:02:11 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:02:47 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:05:03 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:05:56 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:06:39 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:07:10 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:08:09 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+20:08:52 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:11:48 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+../src/Pirates.cpp: In function ‘void update(std::vector<int>&, std::vector<int>&, int, int, int, int, int, int)’:
+../src/Pirates.cpp:160:10: error: no match for ‘operator[]’ (operand types are ‘std::vector<int>’ and ‘<unresolved overloaded function type>’)
+      lazy[right] = -1;
+          ^
+In file included from /usr/include/c++/7/vector:64:0,
+                 from /usr/include/c++/7/queue:61,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:86,
+                 from ../src/Pirates.cpp:1:
+/usr/include/c++/7/bits/stl_vector.h:795:7: note: candidate: std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::reference = int&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       operator[](size_type __n) _GLIBCXX_NOEXCEPT
+       ^~~~~~~~
+/usr/include/c++/7/bits/stl_vector.h:795:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘std::vector<int>::size_type {aka long unsigned int}’
+/usr/include/c++/7/bits/stl_vector.h:813:7: note: candidate: std::vector<_Tp, _Alloc>::const_reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) const [with _Tp = int; _Alloc = std::allocator<int>; std::vector<_Tp, _Alloc>::const_reference = const int&; std::vector<_Tp, _Alloc>::size_type = long unsigned int]
+       operator[](size_type __n) const _GLIBCXX_NOEXCEPT
+       ^~~~~~~~
+/usr/include/c++/7/bits/stl_vector.h:813:7: note:   no known conversion for argument 1 from ‘<unresolved overloaded function type>’ to ‘std::vector<int>::size_type {aka long unsigned int}’
+make: *** [src/Pirates.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Pirates.o' failed
+20:11:55 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+20:12:47 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+20:14:28 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+20:16:08 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:58 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:17:37 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:20:14 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:20:49 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:22:18 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:23:42 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+20:35:17 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+20:36:14 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:20:07 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+Building file: ../src/Pirates.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pirates.d" -MT"src/Pirates.o" -o "src/Pirates.o" "../src/Pirates.cpp"
+Finished building: ../src/Pirates.cpp
+ 
+Building target: Pirates
+Invoking: GCC C++ Linker
+g++  -o "Pirates"  ./src/Pirates.o   
+Finished building target: Pirates
+ 
+17:20:19 **** Incremental Build of configuration Debug for project Pirates ****
+make all 
+make: Nothing to be done for 'all'.
+17:20:24 **** Build of configuration Debug for project Audiophobia ****
+make all 
+Building file: ../src/Audiophobia.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Audiophobia.d" -MT"src/Audiophobia.o" -o "src/Audiophobia.o" "../src/Audiophobia.cpp"
+../src/Audiophobia.cpp: In function ‘int Krushal(int, std::vector<std::tuple<int, int, int> >, int, int)’:
+../src/Audiophobia.cpp:40:12: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(times == graph.size() - 1){
+      ~~~~~~^~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Audiophobia.cpp
+ 
+Building target: Audiophobia
+Invoking: GCC C++ Linker
+g++  -o "Audiophobia"  ./src/Audiophobia.o   
+Finished building target: Audiophobia
+ 
+17:22:04 **** Incremental Build of configuration Debug for project Audiophobia ****
+make all 
+Building file: ../src/Audiophobia.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Audiophobia.d" -MT"src/Audiophobia.o" -o "src/Audiophobia.o" "../src/Audiophobia.cpp"
+Finished building: ../src/Audiophobia.cpp
+ 
+Building target: Audiophobia
+Invoking: GCC C++ Linker
+g++  -o "Audiophobia"  ./src/Audiophobia.o   
+Finished building target: Audiophobia
+ 
+17:29:59 **** Incremental Build of configuration Debug for project Audiophobia ****
+make all 
+Building file: ../src/Audiophobia.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Audiophobia.d" -MT"src/Audiophobia.o" -o "src/Audiophobia.o" "../src/Audiophobia.cpp"
+Finished building: ../src/Audiophobia.cpp
+ 
+Building target: Audiophobia
+Invoking: GCC C++ Linker
+g++  -o "Audiophobia"  ./src/Audiophobia.o   
+Finished building target: Audiophobia
+ 
+17:30:54 **** Incremental Build of configuration Debug for project Audiophobia ****
+make all 
+make: Nothing to be done for 'all'.
+17:31:08 **** Build of configuration Debug for project Audiophobia2 ****
+make all 
+Building file: ../src/Audiophobia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Audiophobia2.d" -MT"src/Audiophobia2.o" -o "src/Audiophobia2.o" "../src/Audiophobia2.cpp"
+Finished building: ../src/Audiophobia2.cpp
+ 
+Building target: Audiophobia2
+Invoking: GCC C++ Linker
+g++  -o "Audiophobia2"  ./src/Audiophobia2.o   
+Finished building target: Audiophobia2
+ 
+17:31:43 **** Incremental Build of configuration Debug for project Audiophobia2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:21 **** Incremental Build of configuration Debug for project Audiophobia2 ****
+make all 
+Building file: ../src/Audiophobia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Audiophobia2.d" -MT"src/Audiophobia2.o" -o "src/Audiophobia2.o" "../src/Audiophobia2.cpp"
+Finished building: ../src/Audiophobia2.cpp
+ 
+Building target: Audiophobia2
+Invoking: GCC C++ Linker
+g++  -o "Audiophobia2"  ./src/Audiophobia2.o   
+Finished building target: Audiophobia2
+ 
+19:44:50 **** Incremental Build of configuration Debug for project Audiophobia2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:45:40 **** Incremental Build of configuration Debug for project Audiophobia2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:47:40 **** Incremental Build of configuration Debug for project Audiophobia2 ****
+make all 
+Building file: ../src/Audiophobia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Audiophobia2.d" -MT"src/Audiophobia2.o" -o "src/Audiophobia2.o" "../src/Audiophobia2.cpp"
+Finished building: ../src/Audiophobia2.cpp
+ 
+Building target: Audiophobia2
+Invoking: GCC C++ Linker
+g++  -o "Audiophobia2"  ./src/Audiophobia2.o   
+Finished building target: Audiophobia2
+ 
+19:47:52 **** Incremental Build of configuration Debug for project Audiophobia2 ****
+make all 
+Building file: ../src/Audiophobia2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Audiophobia2.d" -MT"src/Audiophobia2.o" -o "src/Audiophobia2.o" "../src/Audiophobia2.cpp"
+Finished building: ../src/Audiophobia2.cpp
+ 
+Building target: Audiophobia2
+Invoking: GCC C++ Linker
+g++  -o "Audiophobia2"  ./src/Audiophobia2.o   
+Finished building target: Audiophobia2
+ 
+20:42:19 **** Build of configuration Debug for project Wedding ****
+make all 
+Building file: ../src/Wedding.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Wedding.d" -MT"src/Wedding.o" -o "src/Wedding.o" "../src/Wedding.cpp"
+../src/Wedding.cpp: In function ‘int main()’:
+../src/Wedding.cpp:22:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i, j, TC, score;
+      ^
+../src/Wedding.cpp:22:9: warning: unused variable ‘j’ [-Wunused-variable]
+  int i, j, TC, score;
+         ^
+../src/Wedding.cpp:22:16: warning: unused variable ‘score’ [-Wunused-variable]
+  int i, j, TC, score;
+                ^~~~~
+Finished building: ../src/Wedding.cpp
+ 
+Building target: Wedding
+Invoking: GCC C++ Linker
+g++  -o "Wedding"  ./src/Wedding.o   
+Finished building target: Wedding
+ 
+20:42:53 **** Incremental Build of configuration Debug for project Wedding ****
+make all 
+Building file: ../src/Wedding.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Wedding.d" -MT"src/Wedding.o" -o "src/Wedding.o" "../src/Wedding.cpp"
+Finished building: ../src/Wedding.cpp
+ 
+Building target: Wedding
+Invoking: GCC C++ Linker
+g++  -o "Wedding"  ./src/Wedding.o   
+Finished building target: Wedding
+ 

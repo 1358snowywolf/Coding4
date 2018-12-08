@@ -10,7 +10,7 @@ map<int, set<pair<int, int>>> makeGraph(vector<vector<int>> labyrinth, int maxX,
 	map<int, set<pair<int, int>>> graph;
 
 	for(int i = 1; i < min(maxX, 401); i += 2){
-		for(int j = 1; j < min(maxX, 401); j += 2){
+		for(int j = 1; j < min(maxY, 401); j += 2){
 //			if(i != 7 || j != 5){
 //				continue;
 //			}
@@ -25,14 +25,14 @@ map<int, set<pair<int, int>>> makeGraph(vector<vector<int>> labyrinth, int maxX,
 				if(labyrinth[i + dx[k]][j + dy[k]] == 2){
 					continue;
 				}
-				if(((i + dx[k] + dx[k]) * maxX) + j + dy[k] + dy[k] < 0 || ((i + dx[k] + dx[k]) * maxX) + j + dy[k] + dy[k] >= 201){
+				if(((i + dx[k] + dx[k]) * maxY) + j + dy[k] + dy[k] < 0 || ((i + dx[k] + dx[k]) * maxY) + j + dy[k] + dy[k] >= 201){
 					continue;
 				}
 
 
 //				if(labyrinth[i + dx[k]][j + dy[k]] == 1){
-					graph[(i * maxX) + j].insert(make_pair(((i + dx[k] + dx[k]) * maxX) + j + dy[k] + dy[k], labyrinth[i + dx[k]][j + dy[k]]));
-					graph[((i + dx[k] + dx[k]) * maxX) + j + dy[k] + dy[k]].insert(make_pair((i * maxX) + j, labyrinth[i + dx[k]][j + dy[k]]));
+					graph[(i * maxY) + j].insert(make_pair(((i + dx[k] + dx[k]) * maxY) + j + dy[k] + dy[k], labyrinth[i + dx[k]][j + dy[k]]));
+					graph[((i + dx[k] + dx[k]) * maxY) + j + dy[k] + dy[k]].insert(make_pair((i * maxY) + j, labyrinth[i + dx[k]][j + dy[k]]));
 
 //					cout << ((i + dx[k] + dx[k]) * maxX) + j + dy[k] + dy[k] << endl;
 //				}
@@ -47,7 +47,38 @@ map<int, set<pair<int, int>>> makeGraph(vector<vector<int>> labyrinth, int maxX,
 	return graph;
 }
 
+vector<int> Dijkstra(map<int, set<pair<int, int>>> graph, int maxX, int maxY){
+	priority_queue<pair<int, int>> pq;
+//	map<int, int> distance;
+	vector<int> distance (maxX * maxY, 200000000);
+	pq.push(make_pair(0, maxY + 1));
+	distance[maxY + 1] = 0;
 
+//	cout << maxY + 1 << endl;
+
+	while(!pq.empty()){
+		pair<int, int> front = pq.top(); pq.pop();
+		int d = front.first; int u = front.second;
+
+		if(d * -1 > distance[front.second]){
+			continue;
+		}
+
+//		cout << u << ": ";
+
+		for(auto j : graph[u]){
+			if(distance[u] + j.second < distance[j.first]){
+				distance[j.first] = distance[u] + j.second;
+				pq.push(make_pair(distance[j.first] * -1, j.first));
+//				cout << j.first << ", ";
+			}
+		}
+
+//		cout << endl;
+	}
+
+	return distance;
+}
 
 int main(){
 	int N, M;
@@ -58,6 +89,12 @@ int main(){
 
 		cin >> N >> M;
 		if(N == -1 && M == -1) break;
+
+		if(N == 0 && M == 0){
+			cout << 0 << endl;
+			continue;
+		}
+
 		vector<vector<int>> labyrinth (401, vector<int> (401, 0));
 
 		for(int i = 0; i < N; i++){
@@ -102,8 +139,27 @@ int main(){
 			x *= 2; y *= 2;
 			maxX = max(maxX, x); maxY = max(maxY, y);
 
-			labyrinth[x + direction[d].first][y + direction[d].second] = 1;
+//			labyrinth[x + direction[d].first][y + direction[d].second] = 1;
+			labyrinth[x][y] = 1;
 		}
+
+
+		float nemoX, nemoY;
+		cin >> nemoX >> nemoY;
+		nemoX *= 2;
+		nemoY *= 2;
+		int nX = (int) nemoX;
+		int nY = (int) nemoY;
+		maxX = max(maxX, nX);
+		maxY = max(maxY, nY);
+
+		cout << nX << " " << nY << endl;
+		cout << (nX * maxY) + nY << endl;
+
+//		cout << distance[(nX * maxX) + nY] << endl;
+		auto graph = makeGraph(labyrinth, maxX, maxY);
+		auto distance = Dijkstra(graph, maxX, maxY);
+
 
 		for(int i = 0; i < maxX; i++){
 			for(int j = 0; j < maxY; j++){
@@ -115,7 +171,6 @@ int main(){
 
 		cout << endl << endl;
 
-		auto graph = makeGraph(labyrinth, maxX, maxY);
 
 		for(auto i : graph){
 			cout << i.first << ": ";
@@ -127,6 +182,17 @@ int main(){
 			cout << endl;
 		}
 
+
+		if(distance[(nX * maxY) + nY] == 200000000){
+			cout << "-1" << endl;
+		}
+		else{
+			cout << distance[(nX * maxY) + nY] << endl;
+		}
+
+//		for(int i = 0; i < (int) distance.size(); i++){
+//			cout << i << "; " << distance[i] << endl;
+//		}
 	}
 
 	return 0;
