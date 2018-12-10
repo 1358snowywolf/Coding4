@@ -49100,3 +49100,848 @@ Invoking: GCC C++ Linker
 g++  -o "Wedding"  ./src/Wedding.o   
 Finished building target: Wedding
  
+19:40:07 **** Build of configuration Debug for project QuadTree ****
+make all 
+Building file: ../src/QuadTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/QuadTree.d" -MT"src/QuadTree.o" -o "src/QuadTree.o" "../src/QuadTree.cpp"
+Finished building: ../src/QuadTree.cpp
+ 
+Building target: QuadTree
+Invoking: GCC C++ Linker
+g++  -o "QuadTree"  ./src/QuadTree.o   
+Finished building target: QuadTree
+ 
+19:50:07 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+Building file: ../src/QuadTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/QuadTree.d" -MT"src/QuadTree.o" -o "src/QuadTree.o" "../src/QuadTree.cpp"
+Finished building: ../src/QuadTree.cpp
+ 
+Building target: QuadTree
+Invoking: GCC C++ Linker
+g++  -o "QuadTree"  ./src/QuadTree.o   
+Finished building target: QuadTree
+ 
+19:50:27 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+make: Nothing to be done for 'all'.
+19:52:28 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+Building file: ../src/QuadTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/QuadTree.d" -MT"src/QuadTree.o" -o "src/QuadTree.o" "../src/QuadTree.cpp"
+Finished building: ../src/QuadTree.cpp
+ 
+Building target: QuadTree
+Invoking: GCC C++ Linker
+g++  -o "QuadTree"  ./src/QuadTree.o   
+Finished building target: QuadTree
+ 
+20:02:11 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+Building file: ../src/QuadTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/QuadTree.d" -MT"src/QuadTree.o" -o "src/QuadTree.o" "../src/QuadTree.cpp"
+Finished building: ../src/QuadTree.cpp
+ 
+Building target: QuadTree
+Invoking: GCC C++ Linker
+g++  -o "QuadTree"  ./src/QuadTree.o   
+Finished building target: QuadTree
+ 
+20:02:27 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+make: Nothing to be done for 'all'.
+20:02:35 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:00 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+Building file: ../src/QuadTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/QuadTree.d" -MT"src/QuadTree.o" -o "src/QuadTree.o" "../src/QuadTree.cpp"
+Finished building: ../src/QuadTree.cpp
+ 
+Building target: QuadTree
+Invoking: GCC C++ Linker
+g++  -o "QuadTree"  ./src/QuadTree.o   
+Finished building target: QuadTree
+ 
+20:05:56 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+Building file: ../src/QuadTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/QuadTree.d" -MT"src/QuadTree.o" -o "src/QuadTree.o" "../src/QuadTree.cpp"
+Finished building: ../src/QuadTree.cpp
+ 
+Building target: QuadTree
+Invoking: GCC C++ Linker
+g++  -o "QuadTree"  ./src/QuadTree.o   
+Finished building target: QuadTree
+ 
+20:08:12 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+Building file: ../src/QuadTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/QuadTree.d" -MT"src/QuadTree.o" -o "src/QuadTree.o" "../src/QuadTree.cpp"
+Finished building: ../src/QuadTree.cpp
+ 
+Building target: QuadTree
+Invoking: GCC C++ Linker
+g++  -o "QuadTree"  ./src/QuadTree.o   
+Finished building target: QuadTree
+ 
+20:09:36 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+Building file: ../src/QuadTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/QuadTree.d" -MT"src/QuadTree.o" -o "src/QuadTree.o" "../src/QuadTree.cpp"
+Finished building: ../src/QuadTree.cpp
+ 
+Building target: QuadTree
+Invoking: GCC C++ Linker
+g++  -o "QuadTree"  ./src/QuadTree.o   
+Finished building target: QuadTree
+ 
+20:09:51 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+make: Nothing to be done for 'all'.
+12:48:27 **** Incremental Build of configuration Debug for project QuadTree ****
+make all 
+make: Nothing to be done for 'all'.
+12:48:35 **** Build of configuration Debug for project 2D_SegmentTree ****
+make all 
+Building file: ../src/2D_SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2D_SegmentTree.d" -MT"src/2D_SegmentTree.o" -o "src/2D_SegmentTree.o" "../src/2D_SegmentTree.cpp"
+../src/2D_SegmentTree.cpp: In function ‘void segment(int, int, int, int)’:
+../src/2D_SegmentTree.cpp:27:26: error: reference to ‘map’ is ambiguous
+   initialSeg[strip][p] = map[strip][i];
+                          ^~~
+../src/2D_SegmentTree.cpp:14:21: note: candidates are: std::vector<std::vector<int> > map
+ vector<vector<int>> map;
+                     ^~~
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/2D_SegmentTree.cpp:9:
+/usr/include/c++/7/bits/stl_map.h:99:11: note:                 template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map
+     class map
+           ^~~
+../src/2D_SegmentTree.cpp: In function ‘void finalSegment(int, int, int)’:
+../src/2D_SegmentTree.cpp:43:35: error: no match for call to ‘(std::vector<std::vector<int> >) (int&, int, int)’
+   finalSeg(i, (i + j) / 2, left(p));
+                                   ^
+../src/2D_SegmentTree.cpp:44:42: error: no match for call to ‘(std::vector<std::vector<int> >) (int, int&, int)’
+   finalSeg(((i + j) / 2) + 1, j, right(p));
+                                          ^
+../src/2D_SegmentTree.cpp: In function ‘int main()’:
+../src/2D_SegmentTree.cpp:107:2: error: reference to ‘map’ is ambiguous
+  map.push_back({1, 2, 3, 4});
+  ^~~
+../src/2D_SegmentTree.cpp:14:21: note: candidates are: std::vector<std::vector<int> > map
+ vector<vector<int>> map;
+                     ^~~
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/2D_SegmentTree.cpp:9:
+/usr/include/c++/7/bits/stl_map.h:99:11: note:                 template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map
+     class map
+           ^~~
+../src/2D_SegmentTree.cpp:108:2: error: reference to ‘map’ is ambiguous
+  map.push_back({5, 6, 7, 8});
+  ^~~
+../src/2D_SegmentTree.cpp:14:21: note: candidates are: std::vector<std::vector<int> > map
+ vector<vector<int>> map;
+                     ^~~
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/2D_SegmentTree.cpp:9:
+/usr/include/c++/7/bits/stl_map.h:99:11: note:                 template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map
+     class map
+           ^~~
+../src/2D_SegmentTree.cpp:109:2: error: reference to ‘map’ is ambiguous
+  map.push_back({1, 7, 5, 9});
+  ^~~
+../src/2D_SegmentTree.cpp:14:21: note: candidates are: std::vector<std::vector<int> > map
+ vector<vector<int>> map;
+                     ^~~
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/2D_SegmentTree.cpp:9:
+/usr/include/c++/7/bits/stl_map.h:99:11: note:                 template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map
+     class map
+           ^~~
+../src/2D_SegmentTree.cpp:110:2: error: reference to ‘map’ is ambiguous
+  map.push_back({3, 0, 6, 2});
+  ^~~
+../src/2D_SegmentTree.cpp:14:21: note: candidates are: std::vector<std::vector<int> > map
+ vector<vector<int>> map;
+                     ^~~
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/2D_SegmentTree.cpp:9:
+/usr/include/c++/7/bits/stl_map.h:99:11: note:                 template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map
+     class map
+           ^~~
+src/subdir.mk:18: recipe for target 'src/2D_SegmentTree.o' failed
+make: *** [src/2D_SegmentTree.o] Error 1
+12:49:43 **** Incremental Build of configuration Debug for project 2D_SegmentTree ****
+make all 
+Building file: ../src/2D_SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2D_SegmentTree.d" -MT"src/2D_SegmentTree.o" -o "src/2D_SegmentTree.o" "../src/2D_SegmentTree.cpp"
+../src/2D_SegmentTree.cpp: In function ‘void segment(int, int, int, int)’:
+../src/2D_SegmentTree.cpp:27:26: error: reference to ‘map’ is ambiguous
+   initialSeg[strip][p] = map[strip][i];
+                          ^~~
+../src/2D_SegmentTree.cpp:14:21: note: candidates are: std::vector<std::vector<int> > map
+ vector<vector<int>> map;
+                     ^~~
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/2D_SegmentTree.cpp:9:
+/usr/include/c++/7/bits/stl_map.h:99:11: note:                 template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map
+     class map
+           ^~~
+../src/2D_SegmentTree.cpp: In function ‘void finalSegment(int, int, int)’:
+../src/2D_SegmentTree.cpp:43:35: error: no match for call to ‘(std::vector<std::vector<int> >) (int&, int, int)’
+   finalSeg(i, (i + j) / 2, left(p));
+                                   ^
+../src/2D_SegmentTree.cpp:44:42: error: no match for call to ‘(std::vector<std::vector<int> >) (int, int&, int)’
+   finalSeg(((i + j) / 2) + 1, j, right(p));
+                                          ^
+../src/2D_SegmentTree.cpp: In function ‘int main()’:
+../src/2D_SegmentTree.cpp:112:2: error: reference to ‘map’ is ambiguous
+  map.push_back(first);
+  ^~~
+../src/2D_SegmentTree.cpp:14:21: note: candidates are: std::vector<std::vector<int> > map
+ vector<vector<int>> map;
+                     ^~~
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/2D_SegmentTree.cpp:9:
+/usr/include/c++/7/bits/stl_map.h:99:11: note:                 template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map
+     class map
+           ^~~
+../src/2D_SegmentTree.cpp:113:2: error: reference to ‘map’ is ambiguous
+  map.push_back(second);
+  ^~~
+../src/2D_SegmentTree.cpp:14:21: note: candidates are: std::vector<std::vector<int> > map
+ vector<vector<int>> map;
+                     ^~~
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/2D_SegmentTree.cpp:9:
+/usr/include/c++/7/bits/stl_map.h:99:11: note:                 template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map
+     class map
+           ^~~
+../src/2D_SegmentTree.cpp:114:2: error: reference to ‘map’ is ambiguous
+  map.push_back(third);
+  ^~~
+../src/2D_SegmentTree.cpp:14:21: note: candidates are: std::vector<std::vector<int> > map
+ vector<vector<int>> map;
+                     ^~~
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/2D_SegmentTree.cpp:9:
+/usr/include/c++/7/bits/stl_map.h:99:11: note:                 template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map
+     class map
+           ^~~
+../src/2D_SegmentTree.cpp:115:2: error: reference to ‘map’ is ambiguous
+  map.push_back(four);
+  ^~~
+../src/2D_SegmentTree.cpp:14:21: note: candidates are: std::vector<std::vector<int> > map
+ vector<vector<int>> map;
+                     ^~~
+In file included from /usr/include/c++/7/map:61:0,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:81,
+                 from ../src/2D_SegmentTree.cpp:9:
+/usr/include/c++/7/bits/stl_map.h:99:11: note:                 template<class _Key, class _Tp, class _Compare, class _Alloc> class std::map
+     class map
+           ^~~
+src/subdir.mk:18: recipe for target 'src/2D_SegmentTree.o' failed
+make: *** [src/2D_SegmentTree.o] Error 1
+12:50:02 **** Incremental Build of configuration Debug for project 2D_SegmentTree ****
+make all 
+Building file: ../src/2D_SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2D_SegmentTree.d" -MT"src/2D_SegmentTree.o" -o "src/2D_SegmentTree.o" "../src/2D_SegmentTree.cpp"
+../src/2D_SegmentTree.cpp: In function ‘void segment(int, int, int, int)’:
+../src/2D_SegmentTree.cpp:27:29: error: missing template arguments before ‘[’ token
+   initialSeg[strip][p] = map[strip][i];
+                             ^
+../src/2D_SegmentTree.cpp: In function ‘void finalSegment(int, int, int)’:
+../src/2D_SegmentTree.cpp:43:35: error: no match for call to ‘(std::vector<std::vector<int> >) (int&, int, int)’
+   finalSeg(i, (i + j) / 2, left(p));
+                                   ^
+../src/2D_SegmentTree.cpp:44:42: error: no match for call to ‘(std::vector<std::vector<int> >) (int, int&, int)’
+   finalSeg(((i + j) / 2) + 1, j, right(p));
+                                          ^
+make: *** [src/2D_SegmentTree.o] Error 1
+src/subdir.mk:18: recipe for target 'src/2D_SegmentTree.o' failed
+12:50:41 **** Incremental Build of configuration Debug for project 2D_SegmentTree ****
+make all 
+Building file: ../src/2D_SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2D_SegmentTree.d" -MT"src/2D_SegmentTree.o" -o "src/2D_SegmentTree.o" "../src/2D_SegmentTree.cpp"
+Finished building: ../src/2D_SegmentTree.cpp
+ 
+Building target: 2D_SegmentTree
+Invoking: GCC C++ Linker
+g++  -o "2D_SegmentTree"  ./src/2D_SegmentTree.o   
+Finished building target: 2D_SegmentTree
+ 
+12:51:34 **** Incremental Build of configuration Debug for project 2D_SegmentTree ****
+make all 
+Building file: ../src/2D_SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2D_SegmentTree.d" -MT"src/2D_SegmentTree.o" -o "src/2D_SegmentTree.o" "../src/2D_SegmentTree.cpp"
+Finished building: ../src/2D_SegmentTree.cpp
+ 
+Building target: 2D_SegmentTree
+Invoking: GCC C++ Linker
+g++  -o "2D_SegmentTree"  ./src/2D_SegmentTree.o   
+Finished building target: 2D_SegmentTree
+ 
+12:52:53 **** Incremental Build of configuration Debug for project 2D_SegmentTree ****
+make all 
+Building file: ../src/2D_SegmentTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/2D_SegmentTree.d" -MT"src/2D_SegmentTree.o" -o "src/2D_SegmentTree.o" "../src/2D_SegmentTree.cpp"
+Finished building: ../src/2D_SegmentTree.cpp
+ 
+Building target: 2D_SegmentTree
+Invoking: GCC C++ Linker
+g++  -o "2D_SegmentTree"  ./src/2D_SegmentTree.o   
+Finished building target: 2D_SegmentTree
+ 
+13:22:10 **** Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+13:22:20 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+13:22:34 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+13:23:02 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+13:23:24 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+13:23:59 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:02:45 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+18:04:04 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:04:33 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+18:04:41 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+18:04:48 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+18:13:22 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:14:11 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:22:08 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+18:22:44 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:27:02 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:28:44 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:30:09 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:30:49 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:35:33 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:37:15 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:40:08 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:42:23 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:43:08 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:44:05 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:45:15 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:48:54 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:54:12 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:56:54 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:59:10 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:59:42 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+18:59:58 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+19:00:24 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+19:00:46 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+19:01:36 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+19:02:55 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+19:03:34 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:56 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+19:04:45 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+20:41:33 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+Building file: ../src/Cencus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cencus.d" -MT"src/Cencus.o" -o "src/Cencus.o" "../src/Cencus.cpp"
+Finished building: ../src/Cencus.cpp
+ 
+Building target: Cencus
+Invoking: GCC C++ Linker
+g++  -o "Cencus"  ./src/Cencus.o   
+Finished building target: Cencus
+ 
+21:03:24 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:35 **** Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+../src/MyOwn2d.cpp: In function ‘void update(int, int, int, int, int, int, std::vector<std::vector<int> >&, int)’:
+../src/MyOwn2d.cpp:121:19: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int k = 0; k < finalSeg[i].size(); k++){
+                 ~~^~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MyOwn2d.cpp
+ 
+Building target: MyOwn2d
+Invoking: GCC C++ Linker
+g++  -o "MyOwn2d"  ./src/MyOwn2d.o   
+Finished building target: MyOwn2d
+ 
+21:04:25 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+../src/MyOwn2d.cpp: In function ‘int main()’:
+../src/MyOwn2d.cpp:149:15: error: missing template arguments before ‘[’ token
+    cout << map[i][j] << " ";
+               ^
+make: *** [src/MyOwn2d.o] Error 1
+src/subdir.mk:18: recipe for target 'src/MyOwn2d.o' failed
+21:04:31 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+Finished building: ../src/MyOwn2d.cpp
+ 
+Building target: MyOwn2d
+Invoking: GCC C++ Linker
+g++  -o "MyOwn2d"  ./src/MyOwn2d.o   
+Finished building target: MyOwn2d
+ 
+21:05:13 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+Finished building: ../src/MyOwn2d.cpp
+ 
+Building target: MyOwn2d
+Invoking: GCC C++ Linker
+g++  -o "MyOwn2d"  ./src/MyOwn2d.o   
+Finished building target: MyOwn2d
+ 
+21:05:40 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+Finished building: ../src/MyOwn2d.cpp
+ 
+Building target: MyOwn2d
+Invoking: GCC C++ Linker
+g++  -o "MyOwn2d"  ./src/MyOwn2d.o   
+Finished building target: MyOwn2d
+ 
+21:09:33 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:54 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+Finished building: ../src/MyOwn2d.cpp
+ 
+Building target: MyOwn2d
+Invoking: GCC C++ Linker
+g++  -o "MyOwn2d"  ./src/MyOwn2d.o   
+Finished building target: MyOwn2d
+ 
+21:12:44 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+Finished building: ../src/MyOwn2d.cpp
+ 
+Building target: MyOwn2d
+Invoking: GCC C++ Linker
+g++  -o "MyOwn2d"  ./src/MyOwn2d.o   
+Finished building target: MyOwn2d
+ 
+21:12:54 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+make: Nothing to be done for 'all'.
+21:13:04 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+Finished building: ../src/MyOwn2d.cpp
+ 
+Building target: MyOwn2d
+Invoking: GCC C++ Linker
+g++  -o "MyOwn2d"  ./src/MyOwn2d.o   
+Finished building target: MyOwn2d
+ 
+21:13:14 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+Finished building: ../src/MyOwn2d.cpp
+ 
+Building target: MyOwn2d
+Invoking: GCC C++ Linker
+g++  -o "MyOwn2d"  ./src/MyOwn2d.o   
+Finished building target: MyOwn2d
+ 
+21:13:39 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+Finished building: ../src/MyOwn2d.cpp
+ 
+Building target: MyOwn2d
+Invoking: GCC C++ Linker
+g++  -o "MyOwn2d"  ./src/MyOwn2d.o   
+Finished building target: MyOwn2d
+ 
+21:13:59 **** Incremental Build of configuration Debug for project Cencus ****
+make all 
+make: Nothing to be done for 'all'.
+21:17:58 **** Incremental Build of configuration Debug for project MyOwn2d ****
+make all 
+Building file: ../src/MyOwn2d.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyOwn2d.d" -MT"src/MyOwn2d.o" -o "src/MyOwn2d.o" "../src/MyOwn2d.cpp"
+Finished building: ../src/MyOwn2d.cpp
+ 
+Building target: MyOwn2d
+Invoking: GCC C++ Linker
+g++  -o "MyOwn2d"  ./src/MyOwn2d.o   
+Finished building target: MyOwn2d
+ 
